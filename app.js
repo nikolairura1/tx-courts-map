@@ -1016,7 +1016,8 @@ function loadCoaData() {
 
             allCoa15Courts = coa15Features;
             coa15CourtCount = coa15Features.length;
-            document.getElementById('coa15CourtCount').textContent = coa15CourtCount;
+            const coa15CountElement = document.getElementById('coa15CourtCount');
+            if (coa15CountElement) coa15CountElement.textContent = coa15CourtCount;
 
             console.log('Loaded Courts of Appeals districts:', coaFeatures.length);
             console.log('Loaded 15th Court (Business):', coa15Features.length);
