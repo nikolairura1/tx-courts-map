@@ -1,0 +1,2835 @@
+{
+  "generated_at": "2026-02-27T05:56:24.465915Z",
+  "source": "Tex. Gov't Code \u00a7 22.201 (effective Sept. 1, 2023)",
+  "notes": {
+    "district_15_statewide": "District 15 includes all counties.",
+    "local_overlap_definition": "A county is marked as a local overlap if it belongs to more than one district other than District 15."
+  },
+  "counties": [
+    {
+      "county": "Anderson",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Andrews",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Angelina",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Aransas",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Archer",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Armstrong",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Atascosa",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Austin",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Bailey",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bandera",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bastrop",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Baylor",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bee",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bell",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bexar",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Blanco",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Borden",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bosque",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Bowie",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Brazoria",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Brazos",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Brewster",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Briscoe",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Brooks",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Brown",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Burleson",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Burnet",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Caldwell",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Calhoun",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Callahan",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Cameron",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Camp",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Carson",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Cass",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Castro",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Chambers",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Cherokee",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Childress",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Clay",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Cochran",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Coke",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Coleman",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Collin",
+      "districts": [
+        5,
+        15
+      ],
+      "local_districts": [
+        5
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Collingsworth",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Colorado",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Comal",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Comanche",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Concho",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Cooke",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Coryell",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Cottle",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Crane",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Crockett",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Crosby",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Culberson",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dallam",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dallas",
+      "districts": [
+        5,
+        15
+      ],
+      "local_districts": [
+        5
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dawson",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Deaf Smith",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Delta",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Denton",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dewitt",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dickens",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Dimmit",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Donley",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Duval",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Eastland",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Ector",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Edwards",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "El Paso",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Ellis",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Erath",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Falls",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Fannin",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Fayette",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Fisher",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Floyd",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Foard",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Fort Bend",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Franklin",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Freestone",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Frio",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Gaines",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Galveston",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Garza",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Gillespie",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Glasscock",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Goliad",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Gonzales",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Gray",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Grayson",
+      "districts": [
+        5,
+        15
+      ],
+      "local_districts": [
+        5
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Gregg",
+      "districts": [
+        6,
+        12,
+        15
+      ],
+      "local_districts": [
+        6,
+        12
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Grimes",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Guadalupe",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hale",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hall",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hamilton",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hansford",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hardeman",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hardin",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Harris",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Harrison",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hartley",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Haskell",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hays",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hemphill",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Henderson",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hidalgo",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hill",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hockley",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hood",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hopkins",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Houston",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Howard",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hudspeth",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Hunt",
+      "districts": [
+        5,
+        6,
+        15
+      ],
+      "local_districts": [
+        5,
+        6
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Hutchinson",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Irion",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jack",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jackson",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jasper",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jeff Davis",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jefferson",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jim Hogg",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jim Wells",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Johnson",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Jones",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Karnes",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kaufman",
+      "districts": [
+        5,
+        15
+      ],
+      "local_districts": [
+        5
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kendall",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kenedy",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kent",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kerr",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kimble",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "King",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kinney",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Kleberg",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Knox",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "La Salle",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lamar",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lamb",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lampasas",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lavaca",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lee",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Leon",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Liberty",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Limestone",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lipscomb",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Live Oak",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Llano",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Loving",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lubbock",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Lynn",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Madison",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Marion",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Martin",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mason",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Matagorda",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Maverick",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mcculloch",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mclennan",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mcmullen",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Medina",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Menard",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Midland",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Milam",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mills",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Mitchell",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Montague",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Montgomery",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Moore",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Morris",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Motley",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Nacogdoches",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Navarro",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Newton",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Nolan",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Nueces",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Ochiltree",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Oldham",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Orange",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Palo Pinto",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Panola",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Parker",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Parmer",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Pecos",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Polk",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Potter",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Presidio",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Rains",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Randall",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Reagan",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Real",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Red River",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Reeves",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Refugio",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Roberts",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Robertson",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Rockwall",
+      "districts": [
+        5,
+        15
+      ],
+      "local_districts": [
+        5
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Runnels",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Rusk",
+      "districts": [
+        6,
+        12,
+        15
+      ],
+      "local_districts": [
+        6,
+        12
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Sabine",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "San Augustine",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "San Jacinto",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "San Patricio",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "San Saba",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Schleicher",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Scurry",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Shackelford",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Shelby",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Sherman",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Smith",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Somervell",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Starr",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Stephens",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Sterling",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Stonewall",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Sutton",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Swisher",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Tarrant",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Taylor",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Terrell",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Terry",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Throckmorton",
+      "districts": [
+        11,
+        15
+      ],
+      "local_districts": [
+        11
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Titus",
+      "districts": [
+        6,
+        15
+      ],
+      "local_districts": [
+        6
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Tom Green",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Travis",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Trinity",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Tyler",
+      "districts": [
+        9,
+        15
+      ],
+      "local_districts": [
+        9
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Upshur",
+      "districts": [
+        6,
+        12,
+        15
+      ],
+      "local_districts": [
+        6,
+        12
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Upton",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Uvalde",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Val Verde",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Van Zandt",
+      "districts": [
+        12,
+        15
+      ],
+      "local_districts": [
+        12
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Victoria",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Walker",
+      "districts": [
+        10,
+        15
+      ],
+      "local_districts": [
+        10
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Waller",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Ward",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Washington",
+      "districts": [
+        1,
+        14,
+        15
+      ],
+      "local_districts": [
+        1,
+        14
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Webb",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wharton",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wheeler",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wichita",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wilbarger",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Willacy",
+      "districts": [
+        13,
+        15
+      ],
+      "local_districts": [
+        13
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Williamson",
+      "districts": [
+        3,
+        15
+      ],
+      "local_districts": [
+        3
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wilson",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Winkler",
+      "districts": [
+        8,
+        15
+      ],
+      "local_districts": [
+        8
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wise",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Wood",
+      "districts": [
+        6,
+        12,
+        15
+      ],
+      "local_districts": [
+        6,
+        12
+      ],
+      "has_local_overlap": true
+    },
+    {
+      "county": "Yoakum",
+      "districts": [
+        7,
+        15
+      ],
+      "local_districts": [
+        7
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Young",
+      "districts": [
+        2,
+        15
+      ],
+      "local_districts": [
+        2
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Zapata",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    },
+    {
+      "county": "Zavala",
+      "districts": [
+        4,
+        15
+      ],
+      "local_districts": [
+        4
+      ],
+      "has_local_overlap": false
+    }
+  ],
+  "unmatched_county_names": {}
+}

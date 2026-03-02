@@ -1,0 +1,2034 @@
+[
+  {
+    "court_id": "tx_ccc_48421",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Sherman County County",
+    "county": "Sherman County",
+    "fips": "48421",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48195",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hansford County County",
+    "county": "Hansford County",
+    "fips": "48195",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48111",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dallam County County",
+    "county": "Dallam County",
+    "fips": "48111",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48357",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Ochiltree County County",
+    "county": "Ochiltree County",
+    "fips": "48357",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48295",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lipscomb County County",
+    "county": "Lipscomb County",
+    "fips": "48295",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48393",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Roberts County County",
+    "county": "Roberts County",
+    "fips": "48393",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48211",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hemphill County County",
+    "county": "Hemphill County",
+    "fips": "48211",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48233",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hutchinson County County",
+    "county": "Hutchinson County",
+    "fips": "48233",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48205",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hartley County County",
+    "county": "Hartley County",
+    "fips": "48205",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48341",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Moore County County",
+    "county": "Moore County",
+    "fips": "48341",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48359",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Oldham County County",
+    "county": "Oldham County",
+    "fips": "48359",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48065",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Carson County County",
+    "county": "Carson County",
+    "fips": "48065",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48179",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Gray County County",
+    "county": "Gray County",
+    "fips": "48179",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48483",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wheeler County County",
+    "county": "Wheeler County",
+    "fips": "48483",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48375",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Potter County County",
+    "county": "Potter County",
+    "fips": "48375",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48117",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Deaf Smith County County",
+    "county": "Deaf Smith County",
+    "fips": "48117",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48129",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Donley County County",
+    "county": "Donley County",
+    "fips": "48129",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48087",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Collingsworth County County",
+    "county": "Collingsworth County",
+    "fips": "48087",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48381",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Randall County County",
+    "county": "Randall County",
+    "fips": "48381",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48011",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Armstrong County County",
+    "county": "Armstrong County",
+    "fips": "48011",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48437",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Swisher County County",
+    "county": "Swisher County",
+    "fips": "48437",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48045",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Briscoe County County",
+    "county": "Briscoe County",
+    "fips": "48045",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48069",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Castro County County",
+    "county": "Castro County",
+    "fips": "48069",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48191",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hall County County",
+    "county": "Hall County",
+    "fips": "48191",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48075",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Childress County County",
+    "county": "Childress County",
+    "fips": "48075",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48369",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Parmer County County",
+    "county": "Parmer County",
+    "fips": "48369",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48197",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hardeman County County",
+    "county": "Hardeman County",
+    "fips": "48197",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48487",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wilbarger County County",
+    "county": "Wilbarger County",
+    "fips": "48487",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48345",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Motley County County",
+    "county": "Motley County",
+    "fips": "48345",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48101",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cottle County County",
+    "county": "Cottle County",
+    "fips": "48101",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48153",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Floyd County County",
+    "county": "Floyd County",
+    "fips": "48153",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48189",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hale County County",
+    "county": "Hale County",
+    "fips": "48189",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48279",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lamb County County",
+    "county": "Lamb County",
+    "fips": "48279",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48017",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bailey County County",
+    "county": "Bailey County",
+    "fips": "48017",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48155",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Foard County County",
+    "county": "Foard County",
+    "fips": "48155",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48485",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wichita County County",
+    "county": "Wichita County",
+    "fips": "48485",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48077",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Clay County County",
+    "county": "Clay County",
+    "fips": "48077",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48337",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Montague County County",
+    "county": "Montague County",
+    "fips": "48337",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48387",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Red River County County",
+    "county": "Red River County",
+    "fips": "48387",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48181",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Grayson County County",
+    "county": "Grayson County",
+    "fips": "48181",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48097",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cooke County County",
+    "county": "Cooke County",
+    "fips": "48097",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48277",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lamar County County",
+    "county": "Lamar County",
+    "fips": "48277",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48147",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Fannin County County",
+    "county": "Fannin County",
+    "fips": "48147",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48269",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of King County County",
+    "county": "King County",
+    "fips": "48269",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48275",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Knox County County",
+    "county": "Knox County",
+    "fips": "48275",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48009",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Archer County County",
+    "county": "Archer County",
+    "fips": "48009",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48125",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dickens County County",
+    "county": "Dickens County",
+    "fips": "48125",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48107",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Crosby County County",
+    "county": "Crosby County",
+    "fips": "48107",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48023",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Baylor County County",
+    "county": "Baylor County",
+    "fips": "48023",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48303",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lubbock County County",
+    "county": "Lubbock County",
+    "fips": "48303",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48079",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cochran County County",
+    "county": "Cochran County",
+    "fips": "48079",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48219",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hockley County County",
+    "county": "Hockley County",
+    "fips": "48219",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48037",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bowie County County",
+    "county": "Bowie County",
+    "fips": "48037",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48119",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Delta County County",
+    "county": "Delta County",
+    "fips": "48119",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48237",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jack County County",
+    "county": "Jack County",
+    "fips": "48237",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48497",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wise County County",
+    "county": "Wise County",
+    "fips": "48497",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48121",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Denton County County",
+    "county": "Denton County",
+    "fips": "48121",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48231",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hunt County County",
+    "county": "Hunt County",
+    "fips": "48231",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48085",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Collin County County",
+    "county": "Collin County",
+    "fips": "48085",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48263",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kent County County",
+    "county": "Kent County",
+    "fips": "48263",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48433",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Stonewall County County",
+    "county": "Stonewall County",
+    "fips": "48433",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48449",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Titus County County",
+    "county": "Titus County",
+    "fips": "48449",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48169",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Garza County County",
+    "county": "Garza County",
+    "fips": "48169",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48447",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Throckmorton County County",
+    "county": "Throckmorton County",
+    "fips": "48447",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48503",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Young County County",
+    "county": "Young County",
+    "fips": "48503",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48207",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Haskell County County",
+    "county": "Haskell County",
+    "fips": "48207",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48305",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lynn County County",
+    "county": "Lynn County",
+    "fips": "48305",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48501",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Yoakum County County",
+    "county": "Yoakum County",
+    "fips": "48501",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48445",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Terry County County",
+    "county": "Terry County",
+    "fips": "48445",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48159",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Franklin County County",
+    "county": "Franklin County",
+    "fips": "48159",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48223",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hopkins County County",
+    "county": "Hopkins County",
+    "fips": "48223",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48343",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Morris County County",
+    "county": "Morris County",
+    "fips": "48343",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48067",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cass County County",
+    "county": "Cass County",
+    "fips": "48067",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48063",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Camp County County",
+    "county": "Camp County",
+    "fips": "48063",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48499",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wood County County",
+    "county": "Wood County",
+    "fips": "48499",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48363",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Palo Pinto County County",
+    "county": "Palo Pinto County",
+    "fips": "48363",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48367",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Parker County County",
+    "county": "Parker County",
+    "fips": "48367",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48439",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Tarrant County County",
+    "county": "Tarrant County",
+    "fips": "48439",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48113",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dallas County County",
+    "county": "Dallas County",
+    "fips": "48113",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48397",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Rockwall County County",
+    "county": "Rockwall County",
+    "fips": "48397",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48379",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Rains County County",
+    "county": "Rains County",
+    "fips": "48379",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48415",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Scurry County County",
+    "county": "Scurry County",
+    "fips": "48415",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48151",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Fisher County County",
+    "county": "Fisher County",
+    "fips": "48151",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48033",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Borden County County",
+    "county": "Borden County",
+    "fips": "48033",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48115",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dawson County County",
+    "county": "Dawson County",
+    "fips": "48115",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48165",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Gaines County County",
+    "county": "Gaines County",
+    "fips": "48165",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48253",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jones County County",
+    "county": "Jones County",
+    "fips": "48253",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48417",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Shackelford County County",
+    "county": "Shackelford County",
+    "fips": "48417",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48429",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Stephens County County",
+    "county": "Stephens County",
+    "fips": "48429",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48459",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Upshur County County",
+    "county": "Upshur County",
+    "fips": "48459",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48315",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Marion County County",
+    "county": "Marion County",
+    "fips": "48315",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48257",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kaufman County County",
+    "county": "Kaufman County",
+    "fips": "48257",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48467",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Van Zandt County County",
+    "county": "Van Zandt County",
+    "fips": "48467",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48203",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Harrison County County",
+    "county": "Harrison County",
+    "fips": "48203",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48423",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Smith County County",
+    "county": "Smith County",
+    "fips": "48423",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48183",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Gregg County County",
+    "county": "Gregg County",
+    "fips": "48183",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48221",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hood County County",
+    "county": "Hood County",
+    "fips": "48221",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48251",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Johnson County County",
+    "county": "Johnson County",
+    "fips": "48251",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48139",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Ellis County County",
+    "county": "Ellis County",
+    "fips": "48139",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48227",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Howard County County",
+    "county": "Howard County",
+    "fips": "48227",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48335",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mitchell County County",
+    "county": "Mitchell County",
+    "fips": "48335",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48353",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Nolan County County",
+    "county": "Nolan County",
+    "fips": "48353",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48317",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Martin County County",
+    "county": "Martin County",
+    "fips": "48317",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48003",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Andrews County County",
+    "county": "Andrews County",
+    "fips": "48003",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48441",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Taylor County County",
+    "county": "Taylor County",
+    "fips": "48441",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48133",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Eastland County County",
+    "county": "Eastland County",
+    "fips": "48133",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48143",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Erath County County",
+    "county": "Erath County",
+    "fips": "48143",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48059",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Callahan County County",
+    "county": "Callahan County",
+    "fips": "48059",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48401",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Rusk County County",
+    "county": "Rusk County",
+    "fips": "48401",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48365",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Panola County County",
+    "county": "Panola County",
+    "fips": "48365",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48213",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Henderson County County",
+    "county": "Henderson County",
+    "fips": "48213",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48349",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Navarro County County",
+    "county": "Navarro County",
+    "fips": "48349",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48425",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Somervell County County",
+    "county": "Somervell County",
+    "fips": "48425",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48217",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hill County County",
+    "county": "Hill County",
+    "fips": "48217",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48093",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Comanche County County",
+    "county": "Comanche County",
+    "fips": "48093",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48035",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bosque County County",
+    "county": "Bosque County",
+    "fips": "48035",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48073",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cherokee County County",
+    "county": "Cherokee County",
+    "fips": "48073",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48431",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Sterling County County",
+    "county": "Sterling County",
+    "fips": "48431",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48173",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Glasscock County County",
+    "county": "Glasscock County",
+    "fips": "48173",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48329",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Midland County County",
+    "county": "Midland County",
+    "fips": "48329",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48135",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Ector County County",
+    "county": "Ector County",
+    "fips": "48135",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48495",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Winkler County County",
+    "county": "Winkler County",
+    "fips": "48495",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48081",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Coke County County",
+    "county": "Coke County",
+    "fips": "48081",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48001",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Anderson County County",
+    "county": "Anderson County",
+    "fips": "48001",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48083",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Coleman County County",
+    "county": "Coleman County",
+    "fips": "48083",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48399",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Runnels County County",
+    "county": "Runnels County",
+    "fips": "48399",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48049",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Brown County County",
+    "county": "Brown County",
+    "fips": "48049",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48193",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hamilton County County",
+    "county": "Hamilton County",
+    "fips": "48193",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48161",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Freestone County",
+    "county": "Freestone County",
+    "fips": "48161",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48109",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Culberson County County",
+    "county": "Culberson County",
+    "fips": "48109",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48229",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hudspeth County County",
+    "county": "Hudspeth County",
+    "fips": "48229",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48141",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of El Paso County County",
+    "county": "El Paso County",
+    "fips": "48141",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48301",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Loving County County",
+    "county": "Loving County",
+    "fips": "48301",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48389",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Reeves County County",
+    "county": "Reeves County",
+    "fips": "48389",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48419",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Shelby County County",
+    "county": "Shelby County",
+    "fips": "48419",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48309",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mclennan County County",
+    "county": "Mclennan County",
+    "fips": "48309",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48347",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Nacogdoches County County",
+    "county": "Nacogdoches County",
+    "fips": "48347",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48293",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Limestone County County",
+    "county": "Limestone County",
+    "fips": "48293",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48333",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mills County County",
+    "county": "Mills County",
+    "fips": "48333",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48099",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Coryell County County",
+    "county": "Coryell County",
+    "fips": "48099",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48451",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Tom Green County County",
+    "county": "Tom Green County",
+    "fips": "48451",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48289",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Leon County County",
+    "county": "Leon County",
+    "fips": "48289",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48461",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Upton County County",
+    "county": "Upton County",
+    "fips": "48461",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48103",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Crane County County",
+    "county": "Crane County",
+    "fips": "48103",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48405",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of San Augustine County County",
+    "county": "San Augustine County",
+    "fips": "48405",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48383",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Reagan County County",
+    "county": "Reagan County",
+    "fips": "48383",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48475",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Ward County County",
+    "county": "Ward County",
+    "fips": "48475",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48403",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Sabine County County",
+    "county": "Sabine County",
+    "fips": "48403",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48225",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Houston County County",
+    "county": "Houston County",
+    "fips": "48225",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48095",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Concho County County",
+    "county": "Concho County",
+    "fips": "48095",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48235",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Irion County County",
+    "county": "Irion County",
+    "fips": "48235",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48005",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Angelina County County",
+    "county": "Angelina County",
+    "fips": "48005",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48145",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Falls County County",
+    "county": "Falls County",
+    "fips": "48145",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48307",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mcculloch County County",
+    "county": "Mcculloch County",
+    "fips": "48307",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48411",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of San Saba County County",
+    "county": "San Saba County",
+    "fips": "48411",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48281",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lampasas County County",
+    "county": "Lampasas County",
+    "fips": "48281",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48455",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Trinity County County",
+    "county": "Trinity County",
+    "fips": "48455",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48371",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Pecos County County",
+    "county": "Pecos County",
+    "fips": "48371",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48395",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Robertson County County",
+    "county": "Robertson County",
+    "fips": "48395",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48027",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bell County County",
+    "county": "Bell County",
+    "fips": "48027",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48351",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Newton County County",
+    "county": "Newton County",
+    "fips": "48351",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48241",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jasper County County",
+    "county": "Jasper County",
+    "fips": "48241",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48373",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Polk County County",
+    "county": "Polk County",
+    "fips": "48373",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48331",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Milam County County",
+    "county": "Milam County",
+    "fips": "48331",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48243",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jeff Davis County County",
+    "county": "Jeff Davis County",
+    "fips": "48243",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48313",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Madison County County",
+    "county": "Madison County",
+    "fips": "48313",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48327",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Menard County County",
+    "county": "Menard County",
+    "fips": "48327",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48413",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Schleicher County County",
+    "county": "Schleicher County",
+    "fips": "48413",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48105",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Crockett County County",
+    "county": "Crockett County",
+    "fips": "48105",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48457",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Tyler County County",
+    "county": "Tyler County",
+    "fips": "48457",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48471",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Walker County County",
+    "county": "Walker County",
+    "fips": "48471",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48053",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Burnet County County",
+    "county": "Burnet County",
+    "fips": "48053",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48041",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Brazos County County",
+    "county": "Brazos County",
+    "fips": "48041",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48319",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mason County County",
+    "county": "Mason County",
+    "fips": "48319",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48299",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Llano County County",
+    "county": "Llano County",
+    "fips": "48299",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48491",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Williamson County County",
+    "county": "Williamson County",
+    "fips": "48491",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48407",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of San Jacinto County County",
+    "county": "San Jacinto County",
+    "fips": "48407",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48185",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Grimes County County",
+    "county": "Grimes County",
+    "fips": "48185",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48051",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Burleson County County",
+    "county": "Burleson County",
+    "fips": "48051",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48267",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kimble County County",
+    "county": "Kimble County",
+    "fips": "48267",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48435",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Sutton County County",
+    "county": "Sutton County",
+    "fips": "48435",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48043",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Brewster County County",
+    "county": "Brewster County",
+    "fips": "48043",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48443",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Terrell County County",
+    "county": "Terrell County",
+    "fips": "48443",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48377",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Presidio County County",
+    "county": "Presidio County",
+    "fips": "48377",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48339",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Montgomery County County",
+    "county": "Montgomery County",
+    "fips": "48339",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48453",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Travis County County",
+    "county": "Travis County",
+    "fips": "48453",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48287",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lee County County",
+    "county": "Lee County",
+    "fips": "48287",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48199",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hardin County County",
+    "county": "Hardin County",
+    "fips": "48199",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48171",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Gillespie County County",
+    "county": "Gillespie County",
+    "fips": "48171",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48031",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Blanco County County",
+    "county": "Blanco County",
+    "fips": "48031",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48291",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Liberty County County",
+    "county": "Liberty County",
+    "fips": "48291",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48021",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bastrop County County",
+    "county": "Bastrop County",
+    "fips": "48021",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48477",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Washington County County",
+    "county": "Washington County",
+    "fips": "48477",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48209",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hays County County",
+    "county": "Hays County",
+    "fips": "48209",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48465",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Val Verde County County",
+    "county": "Val Verde County",
+    "fips": "48465",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48137",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Edwards County County",
+    "county": "Edwards County",
+    "fips": "48137",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48265",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kerr County County",
+    "county": "Kerr County",
+    "fips": "48265",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48361",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Orange County County",
+    "county": "Orange County",
+    "fips": "48361",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48473",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Waller County County",
+    "county": "Waller County",
+    "fips": "48473",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48245",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jefferson County County",
+    "county": "Jefferson County",
+    "fips": "48245",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48201",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Harris County County",
+    "county": "Harris County",
+    "fips": "48201",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48149",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Fayette County County",
+    "county": "Fayette County",
+    "fips": "48149",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48259",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kendall County County",
+    "county": "Kendall County",
+    "fips": "48259",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48015",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Austin County County",
+    "county": "Austin County",
+    "fips": "48015",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48385",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Real County County",
+    "county": "Real County",
+    "fips": "48385",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48055",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Caldwell County County",
+    "county": "Caldwell County",
+    "fips": "48055",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48091",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Comal County County",
+    "county": "Comal County",
+    "fips": "48091",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48089",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Colorado County County",
+    "county": "Colorado County",
+    "fips": "48089",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48019",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bandera County County",
+    "county": "Bandera County",
+    "fips": "48019",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48071",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Chambers County County",
+    "county": "Chambers County",
+    "fips": "48071",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48187",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Guadalupe County County",
+    "county": "Guadalupe County",
+    "fips": "48187",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48157",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Fort Bend County County",
+    "county": "Fort Bend County",
+    "fips": "48157",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48177",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Gonzales County County",
+    "county": "Gonzales County",
+    "fips": "48177",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48029",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bexar County County",
+    "county": "Bexar County",
+    "fips": "48029",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48325",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Medina County County",
+    "county": "Medina County",
+    "fips": "48325",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48481",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wharton County County",
+    "county": "Wharton County",
+    "fips": "48481",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48285",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Lavaca County County",
+    "county": "Lavaca County",
+    "fips": "48285",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48463",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Uvalde County County",
+    "county": "Uvalde County",
+    "fips": "48463",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48271",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kinney County County",
+    "county": "Kinney County",
+    "fips": "48271",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48167",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Galveston County County",
+    "county": "Galveston County",
+    "fips": "48167",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48039",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Brazoria County County",
+    "county": "Brazoria County",
+    "fips": "48039",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48493",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Wilson County County",
+    "county": "Wilson County",
+    "fips": "48493",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48123",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dewitt County County",
+    "county": "Dewitt County",
+    "fips": "48123",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48239",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jackson County County",
+    "county": "Jackson County",
+    "fips": "48239",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48013",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Atascosa County County",
+    "county": "Atascosa County",
+    "fips": "48013",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48321",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Matagorda County County",
+    "county": "Matagorda County",
+    "fips": "48321",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48255",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Karnes County County",
+    "county": "Karnes County",
+    "fips": "48255",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48469",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Victoria County County",
+    "county": "Victoria County",
+    "fips": "48469",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48163",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Frio County County",
+    "county": "Frio County",
+    "fips": "48163",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48507",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Zavala County County",
+    "county": "Zavala County",
+    "fips": "48507",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48323",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Maverick County County",
+    "county": "Maverick County",
+    "fips": "48323",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48175",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Goliad County County",
+    "county": "Goliad County",
+    "fips": "48175",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48297",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Live Oak County County",
+    "county": "Live Oak County",
+    "fips": "48297",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48057",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Calhoun County County",
+    "county": "Calhoun County",
+    "fips": "48057",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48025",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Bee County County",
+    "county": "Bee County",
+    "fips": "48025",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48283",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of La Salle County County",
+    "county": "La Salle County",
+    "fips": "48283",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48311",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Mcmullen County County",
+    "county": "Mcmullen County",
+    "fips": "48311",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48127",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Dimmit County County",
+    "county": "Dimmit County",
+    "fips": "48127",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48391",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Refugio County County",
+    "county": "Refugio County",
+    "fips": "48391",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48007",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Aransas County County",
+    "county": "Aransas County",
+    "fips": "48007",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48479",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Webb County County",
+    "county": "Webb County",
+    "fips": "48479",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48409",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of San Patricio County County",
+    "county": "San Patricio County",
+    "fips": "48409",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48131",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Duval County County",
+    "county": "Duval County",
+    "fips": "48131",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48249",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jim Wells County County",
+    "county": "Jim Wells County",
+    "fips": "48249",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48355",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Nueces County County",
+    "county": "Nueces County",
+    "fips": "48355",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48273",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kleberg County County",
+    "county": "Kleberg County",
+    "fips": "48273",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48247",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Jim Hogg County County",
+    "county": "Jim Hogg County",
+    "fips": "48247",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48505",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Zapata County County",
+    "county": "Zapata County",
+    "fips": "48505",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48261",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Kenedy County County",
+    "county": "Kenedy County",
+    "fips": "48261",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48047",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Brooks County County",
+    "county": "Brooks County",
+    "fips": "48047",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48427",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Starr County County",
+    "county": "Starr County",
+    "fips": "48427",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48215",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Hidalgo County County",
+    "county": "Hidalgo County",
+    "fips": "48215",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48489",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Willacy County County",
+    "county": "Willacy County",
+    "fips": "48489",
+    "geometry_type": "county_polygon"
+  },
+  {
+    "court_id": "tx_ccc_48061",
+    "type": "constitutional_county_court",
+    "name": "Constitutional County Court of Cameron County County",
+    "county": "Cameron County",
+    "fips": "48061",
+    "geometry_type": "county_polygon"
+  }
+]

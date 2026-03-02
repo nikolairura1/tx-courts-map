@@ -1,0 +1,3750 @@
+{
+  "generated_at": "2026-02-27T08:11:23.230553Z",
+  "source": "district-court-map-sept-2018.pdf",
+  "as_of": "2018-09",
+  "counties_parsed": 254,
+  "districts_total": 449,
+  "districts": [
+    {
+      "district_id": "1",
+      "counties": [
+        "Jasper County",
+        "Newton County",
+        "Sabine County",
+        "San Augustine County"
+      ],
+      "multicounty_counties": [
+        "Jasper County",
+        "Newton County",
+        "Sabine County",
+        "San Augustine County"
+      ]
+    },
+    {
+      "district_id": "1-A",
+      "counties": [
+        "Jasper County",
+        "Newton County",
+        "Tyler County"
+      ],
+      "multicounty_counties": [
+        "Jasper County",
+        "Newton County",
+        "Tyler County"
+      ]
+    },
+    {
+      "district_id": "2",
+      "counties": [
+        "Cherokee County",
+        "Colorado County",
+        "Gonzales County",
+        "Lavaca County"
+      ],
+      "multicounty_counties": [
+        "Colorado County",
+        "Gonzales County",
+        "Lavaca County"
+      ]
+    },
+    {
+      "district_id": "3",
+      "counties": [
+        "Anderson County",
+        "Henderson County",
+        "Houston County"
+      ],
+      "multicounty_counties": [
+        "Anderson County",
+        "Henderson County",
+        "Houston County"
+      ]
+    },
+    {
+      "district_id": "4",
+      "counties": [
+        "Rusk County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "5",
+      "counties": [
+        "Bowie County",
+        "Cass County"
+      ],
+      "multicounty_counties": [
+        "Bowie County",
+        "Cass County"
+      ]
+    },
+    {
+      "district_id": "6",
+      "counties": [
+        "Lamar County",
+        "Red River County"
+      ],
+      "multicounty_counties": [
+        "Lamar County",
+        "Red River County"
+      ]
+    },
+    {
+      "district_id": "7",
+      "counties": [
+        "Smith County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "8",
+      "counties": [
+        "Delta County",
+        "Franklin County",
+        "Hopkins County",
+        "Rains County"
+      ],
+      "multicounty_counties": [
+        "Delta County",
+        "Franklin County",
+        "Hopkins County",
+        "Rains County"
+      ]
+    },
+    {
+      "district_id": "9",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "10",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "11",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "12",
+      "counties": [
+        "Grimes County",
+        "Walker County"
+      ],
+      "multicounty_counties": [
+        "Grimes County",
+        "Walker County"
+      ]
+    },
+    {
+      "district_id": "13",
+      "counties": [
+        "Navarro County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "14",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "15",
+      "counties": [
+        "Grayson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "16",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "17",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "18",
+      "counties": [
+        "Johnson County",
+        "Somervell County"
+      ],
+      "multicounty_counties": [
+        "Johnson County",
+        "Somervell County"
+      ]
+    },
+    {
+      "district_id": "19",
+      "counties": [
+        "Mclennan County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "20",
+      "counties": [
+        "Milam County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "21",
+      "counties": [
+        "Bastrop County",
+        "Burleson County",
+        "Lee County",
+        "Washington County"
+      ],
+      "multicounty_counties": [
+        "Bastrop County",
+        "Burleson County",
+        "Lee County",
+        "Washington County"
+      ]
+    },
+    {
+      "district_id": "22",
+      "counties": [
+        "Caldwell County",
+        "Comal County",
+        "Hays County"
+      ],
+      "multicounty_counties": [
+        "Caldwell County",
+        "Comal County",
+        "Hays County"
+      ]
+    },
+    {
+      "district_id": "23",
+      "counties": [
+        "Brazoria County",
+        "Matagorda County",
+        "Wharton County"
+      ],
+      "multicounty_counties": [
+        "Brazoria County",
+        "Matagorda County",
+        "Wharton County"
+      ]
+    },
+    {
+      "district_id": "24",
+      "counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ],
+      "multicounty_counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ]
+    },
+    {
+      "district_id": "25",
+      "counties": [
+        "Colorado County",
+        "Colorado County",
+        "Gonzales County",
+        "Gonzales County",
+        "Lavaca County",
+        "Lavaca County"
+      ],
+      "multicounty_counties": [
+        "Colorado County",
+        "Gonzales County",
+        "Lavaca County"
+      ]
+    },
+    {
+      "district_id": "26",
+      "counties": [
+        "Williamson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "27",
+      "counties": [
+        "Bell County",
+        "Lampasas County"
+      ],
+      "multicounty_counties": [
+        "Bell County",
+        "Lampasas County"
+      ]
+    },
+    {
+      "district_id": "28",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "29",
+      "counties": [
+        "Palo Pinto County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "30",
+      "counties": [
+        "Wichita County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "31",
+      "counties": [
+        "Gray County",
+        "Hemphill County",
+        "Lipscomb County",
+        "Roberts County",
+        "Wheeler County"
+      ],
+      "multicounty_counties": [
+        "Gray County",
+        "Hemphill County",
+        "Lipscomb County",
+        "Roberts County",
+        "Wheeler County"
+      ]
+    },
+    {
+      "district_id": "32",
+      "counties": [
+        "Fisher County",
+        "Mitchell County",
+        "Nolan County"
+      ],
+      "multicounty_counties": [
+        "Fisher County",
+        "Mitchell County",
+        "Nolan County"
+      ]
+    },
+    {
+      "district_id": "33",
+      "counties": [
+        "Blanco County",
+        "Burnet County",
+        "Llano County",
+        "San Saba County"
+      ],
+      "multicounty_counties": [
+        "Blanco County",
+        "Burnet County",
+        "Llano County",
+        "San Saba County"
+      ]
+    },
+    {
+      "district_id": "34",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "35",
+      "counties": [
+        "Brown County",
+        "Mills County"
+      ],
+      "multicounty_counties": [
+        "Brown County",
+        "Mills County"
+      ]
+    },
+    {
+      "district_id": "36",
+      "counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ],
+      "multicounty_counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ]
+    },
+    {
+      "district_id": "37",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "38",
+      "counties": [
+        "Medina County",
+        "Real County",
+        "Uvalde County"
+      ],
+      "multicounty_counties": [
+        "Medina County",
+        "Real County",
+        "Uvalde County"
+      ]
+    },
+    {
+      "district_id": "39",
+      "counties": [
+        "Haskell County",
+        "Kent County",
+        "Stonewall County",
+        "Throckmorton County"
+      ],
+      "multicounty_counties": [
+        "Haskell County",
+        "Kent County",
+        "Stonewall County",
+        "Throckmorton County"
+      ]
+    },
+    {
+      "district_id": "40",
+      "counties": [
+        "Ellis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "41",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "42",
+      "counties": [
+        "Callahan County",
+        "Coleman County",
+        "Taylor County"
+      ],
+      "multicounty_counties": [
+        "Callahan County",
+        "Coleman County",
+        "Taylor County"
+      ]
+    },
+    {
+      "district_id": "43",
+      "counties": [
+        "Parker County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "44",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "45",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "46",
+      "counties": [
+        "Foard County",
+        "Hardeman County",
+        "Wilbarger County"
+      ],
+      "multicounty_counties": [
+        "Foard County",
+        "Hardeman County",
+        "Wilbarger County"
+      ]
+    },
+    {
+      "district_id": "47",
+      "counties": [
+        "Armstrong County",
+        "Potter County",
+        "Randall County"
+      ],
+      "multicounty_counties": [
+        "Armstrong County",
+        "Potter County",
+        "Randall County"
+      ]
+    },
+    {
+      "district_id": "48",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "49",
+      "counties": [
+        "Webb County",
+        "Zapata County"
+      ],
+      "multicounty_counties": [
+        "Webb County",
+        "Zapata County"
+      ]
+    },
+    {
+      "district_id": "50",
+      "counties": [
+        "Baylor County",
+        "Cottle County",
+        "King County",
+        "Knox County"
+      ],
+      "multicounty_counties": [
+        "Baylor County",
+        "Cottle County",
+        "King County",
+        "Knox County"
+      ]
+    },
+    {
+      "district_id": "51",
+      "counties": [
+        "Coke County",
+        "Irion County",
+        "Schleicher County",
+        "Sterling County",
+        "Tom Green County"
+      ],
+      "multicounty_counties": [
+        "Coke County",
+        "Irion County",
+        "Schleicher County",
+        "Sterling County",
+        "Tom Green County"
+      ]
+    },
+    {
+      "district_id": "52",
+      "counties": [
+        "Coryell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "53",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "54",
+      "counties": [
+        "Mclennan County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "55",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "56",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "57",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "59",
+      "counties": [
+        "Grayson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "61",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "62",
+      "counties": [
+        "Delta County",
+        "Franklin County",
+        "Hopkins County",
+        "Lamar County"
+      ],
+      "multicounty_counties": [
+        "Delta County",
+        "Franklin County",
+        "Hopkins County",
+        "Lamar County"
+      ]
+    },
+    {
+      "district_id": "63",
+      "counties": [
+        "Kinney County",
+        "Terrell County",
+        "Val Verde County"
+      ],
+      "multicounty_counties": [
+        "Kinney County",
+        "Terrell County",
+        "Val Verde County"
+      ]
+    },
+    {
+      "district_id": "64",
+      "counties": [
+        "Castro County",
+        "Hale County",
+        "Swisher County"
+      ],
+      "multicounty_counties": [
+        "Castro County",
+        "Hale County",
+        "Swisher County"
+      ]
+    },
+    {
+      "district_id": "65",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "66",
+      "counties": [
+        "Hill County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "67",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "68",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "69",
+      "counties": [
+        "Dallam County",
+        "Hartley County",
+        "Moore County",
+        "Sherman County"
+      ],
+      "multicounty_counties": [
+        "Dallam County",
+        "Hartley County",
+        "Moore County",
+        "Sherman County"
+      ]
+    },
+    {
+      "district_id": "70",
+      "counties": [
+        "Ector County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "71",
+      "counties": [
+        "Harrison County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "72",
+      "counties": [
+        "Crosby County",
+        "Lubbock County"
+      ],
+      "multicounty_counties": [
+        "Crosby County",
+        "Lubbock County"
+      ]
+    },
+    {
+      "district_id": "73",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "74",
+      "counties": [
+        "Mclennan County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "75",
+      "counties": [
+        "Liberty County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "76",
+      "counties": [
+        "Camp County",
+        "Morris County",
+        "Titus County"
+      ],
+      "multicounty_counties": [
+        "Camp County",
+        "Morris County",
+        "Titus County"
+      ]
+    },
+    {
+      "district_id": "77",
+      "counties": [
+        "Freestone County",
+        "Limestone County"
+      ],
+      "multicounty_counties": [
+        "Freestone County",
+        "Limestone County"
+      ]
+    },
+    {
+      "district_id": "78",
+      "counties": [
+        "Wichita County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "79",
+      "counties": [
+        "Brooks County",
+        "Jim Wells County"
+      ],
+      "multicounty_counties": [
+        "Brooks County",
+        "Jim Wells County"
+      ]
+    },
+    {
+      "district_id": "80",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "81",
+      "counties": [
+        "Atascosa County",
+        "Frio County",
+        "Karnes County",
+        "La Salle County",
+        "Wilson County"
+      ],
+      "multicounty_counties": [
+        "Atascosa County",
+        "Frio County",
+        "Karnes County",
+        "La Salle County",
+        "Wilson County"
+      ]
+    },
+    {
+      "district_id": "82",
+      "counties": [
+        "Ellis County",
+        "Robertson County",
+        "Falls County"
+      ],
+      "multicounty_counties": [
+        "Ellis County",
+        "Robertson County",
+        "Falls County"
+      ]
+    },
+    {
+      "district_id": "83",
+      "counties": [
+        "Pecos County",
+        "Terrell County",
+        "Val Verde County"
+      ],
+      "multicounty_counties": [
+        "Pecos County",
+        "Terrell County",
+        "Val Verde County"
+      ]
+    },
+    {
+      "district_id": "84",
+      "counties": [
+        "Hansford County",
+        "Hutchinson County",
+        "Ochiltree County"
+      ],
+      "multicounty_counties": [
+        "Hansford County",
+        "Hutchinson County",
+        "Ochiltree County"
+      ]
+    },
+    {
+      "district_id": "85",
+      "counties": [
+        "Brazos County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "86",
+      "counties": [
+        "Kaufman County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "87",
+      "counties": [
+        "Anderson County",
+        "Freestone County",
+        "Leon County",
+        "Limestone County"
+      ],
+      "multicounty_counties": [
+        "Anderson County",
+        "Freestone County",
+        "Leon County",
+        "Limestone County"
+      ]
+    },
+    {
+      "district_id": "88",
+      "counties": [
+        "Hardin County",
+        "Tyler County"
+      ],
+      "multicounty_counties": [
+        "Hardin County",
+        "Tyler County"
+      ]
+    },
+    {
+      "district_id": "89",
+      "counties": [
+        "Wichita County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "90",
+      "counties": [
+        "Stephens County",
+        "Young County"
+      ],
+      "multicounty_counties": [
+        "Stephens County",
+        "Young County"
+      ]
+    },
+    {
+      "district_id": "91",
+      "counties": [
+        "Eastland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "92",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "93",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "94",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "95",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "96",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "97",
+      "counties": [
+        "Archer County",
+        "Clay County",
+        "Montague County"
+      ],
+      "multicounty_counties": [
+        "Archer County",
+        "Clay County",
+        "Montague County"
+      ]
+    },
+    {
+      "district_id": "98",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "99",
+      "counties": [
+        "Lubbock County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "100",
+      "counties": [
+        "Carson County",
+        "Childress County",
+        "Collingsworth County",
+        "Donley County",
+        "Hall County"
+      ],
+      "multicounty_counties": [
+        "Carson County",
+        "Childress County",
+        "Collingsworth County",
+        "Donley County",
+        "Hall County"
+      ]
+    },
+    {
+      "district_id": "101",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "102",
+      "counties": [
+        "Bowie County",
+        "Red River County"
+      ],
+      "multicounty_counties": [
+        "Bowie County",
+        "Red River County"
+      ]
+    },
+    {
+      "district_id": "103",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "104",
+      "counties": [
+        "Taylor County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "105",
+      "counties": [
+        "Kenedy County",
+        "Kleberg County",
+        "Nueces County"
+      ],
+      "multicounty_counties": [
+        "Kenedy County",
+        "Kleberg County",
+        "Nueces County"
+      ]
+    },
+    {
+      "district_id": "106",
+      "counties": [
+        "Dawson County",
+        "Gaines County",
+        "Garza County",
+        "Lynn County"
+      ],
+      "multicounty_counties": [
+        "Dawson County",
+        "Gaines County",
+        "Garza County",
+        "Lynn County"
+      ]
+    },
+    {
+      "district_id": "107",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "108",
+      "counties": [
+        "Potter County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "109",
+      "counties": [
+        "Andrews County",
+        "Crane County",
+        "Winkler County"
+      ],
+      "multicounty_counties": [
+        "Andrews County",
+        "Crane County",
+        "Winkler County"
+      ]
+    },
+    {
+      "district_id": "110",
+      "counties": [
+        "Briscoe County",
+        "Dickens County",
+        "Floyd County",
+        "Motley County"
+      ],
+      "multicounty_counties": [
+        "Briscoe County",
+        "Dickens County",
+        "Floyd County",
+        "Motley County"
+      ]
+    },
+    {
+      "district_id": "111",
+      "counties": [
+        "Webb County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "112",
+      "counties": [
+        "Crockett County",
+        "Pecos County",
+        "Reagan County",
+        "Sutton County",
+        "Upton County"
+      ],
+      "multicounty_counties": [
+        "Crockett County",
+        "Pecos County",
+        "Reagan County",
+        "Sutton County",
+        "Upton County"
+      ]
+    },
+    {
+      "district_id": "113",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "114",
+      "counties": [
+        "Smith County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "115",
+      "counties": [
+        "Marion County",
+        "Upshur County"
+      ],
+      "multicounty_counties": [
+        "Marion County",
+        "Upshur County"
+      ]
+    },
+    {
+      "district_id": "116",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "117",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "118",
+      "counties": [
+        "Glasscock County",
+        "Howard County",
+        "Martin County"
+      ],
+      "multicounty_counties": [
+        "Glasscock County",
+        "Howard County",
+        "Martin County"
+      ]
+    },
+    {
+      "district_id": "119",
+      "counties": [
+        "Concho County",
+        "Runnels County",
+        "Tom Green County"
+      ],
+      "multicounty_counties": [
+        "Concho County",
+        "Runnels County",
+        "Tom Green County"
+      ]
+    },
+    {
+      "district_id": "120",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "121",
+      "counties": [
+        "Yoakum County"
+      ],
+      "multicounty_counties": [
+        "Yoakum County"
+      ]
+    },
+    {
+      "district_id": "122",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "123",
+      "counties": [
+        "Panola County",
+        "Shelby County"
+      ],
+      "multicounty_counties": [
+        "Panola County",
+        "Shelby County"
+      ]
+    },
+    {
+      "district_id": "124",
+      "counties": [
+        "Gregg County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "125",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "126",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "127",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "128",
+      "counties": [
+        "Orange County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "129",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "130",
+      "counties": [
+        "Matagorda County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "131",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "132",
+      "counties": [
+        "Borden County",
+        "Scurry County"
+      ],
+      "multicounty_counties": [
+        "Borden County",
+        "Scurry County"
+      ]
+    },
+    {
+      "district_id": "133",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "134",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "135",
+      "counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ],
+      "multicounty_counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ]
+    },
+    {
+      "district_id": "137",
+      "counties": [
+        "Lubbock County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "138",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "139",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "140",
+      "counties": [
+        "Lubbock County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "141",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "142",
+      "counties": [
+        "Midland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "143",
+      "counties": [
+        "Loving County",
+        "Reeves County",
+        "Ward County"
+      ],
+      "multicounty_counties": [
+        "Loving County",
+        "Reeves County",
+        "Ward County"
+      ]
+    },
+    {
+      "district_id": "144",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "145",
+      "counties": [
+        "Nacogdoches County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "146",
+      "counties": [
+        "Bell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "147",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "148",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "149",
+      "counties": [
+        "Brazoria County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "150",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "151",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "152",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "153",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "154",
+      "counties": [
+        "Lamb County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "155",
+      "counties": [
+        "Austin County",
+        "Fayette County"
+      ],
+      "multicounty_counties": [
+        "Austin County",
+        "Fayette County"
+      ]
+    },
+    {
+      "district_id": "156",
+      "counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ],
+      "multicounty_counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ]
+    },
+    {
+      "district_id": "157",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "158",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "159",
+      "counties": [
+        "Angelina County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "160",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "161",
+      "counties": [
+        "Ector County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "162",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "163",
+      "counties": [
+        "Orange County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "164",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "165",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "166",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "167",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "168",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "169",
+      "counties": [
+        "Bell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "170",
+      "counties": [
+        "Mclennan County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "171",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "173",
+      "counties": [
+        "Henderson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "174",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "175",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "176",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "177",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "178",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "179",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "180",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "181",
+      "counties": [
+        "Potter County",
+        "Randall County"
+      ],
+      "multicounty_counties": [
+        "Potter County",
+        "Randall County"
+      ]
+    },
+    {
+      "district_id": "182",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "183",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "184",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "185",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "186",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "187",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "188",
+      "counties": [
+        "Gregg County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "189",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "190",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "191",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "192",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "193",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "194",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "195",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "196",
+      "counties": [
+        "Hunt County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "197",
+      "counties": [
+        "Cameron County",
+        "Willacy County"
+      ],
+      "multicounty_counties": [
+        "Cameron County",
+        "Willacy County"
+      ]
+    },
+    {
+      "district_id": "198",
+      "counties": [
+        "Bandera County",
+        "Kerr County"
+      ],
+      "multicounty_counties": [
+        "Bandera County",
+        "Kerr County"
+      ]
+    },
+    {
+      "district_id": "199",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "200",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "201",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "202",
+      "counties": [
+        "Bowie County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "203",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "204",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "205",
+      "counties": [
+        "Culberson County",
+        "El Paso County",
+        "Hudspeth County"
+      ],
+      "multicounty_counties": [
+        "Culberson County",
+        "El Paso County",
+        "Hudspeth County"
+      ]
+    },
+    {
+      "district_id": "206",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "207",
+      "counties": [
+        "Caldwell County",
+        "Comal County",
+        "Hays County"
+      ],
+      "multicounty_counties": [
+        "Caldwell County",
+        "Comal County",
+        "Hays County"
+      ]
+    },
+    {
+      "district_id": "208",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "209",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "210",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "211",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "212",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "213",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "214",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "215",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "216",
+      "counties": [
+        "Gillespie County",
+        "Kerr County"
+      ],
+      "multicounty_counties": [
+        "Gillespie County",
+        "Kerr County"
+      ]
+    },
+    {
+      "district_id": "217",
+      "counties": [
+        "Angelina County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "218",
+      "counties": [
+        "Atascosa County",
+        "Frio County",
+        "Karnes County",
+        "La Salle County",
+        "Wilson County"
+      ],
+      "multicounty_counties": [
+        "Atascosa County",
+        "Frio County",
+        "Karnes County",
+        "La Salle County",
+        "Wilson County"
+      ]
+    },
+    {
+      "district_id": "219",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "220",
+      "counties": [
+        "Bosque County",
+        "Comanche County",
+        "Hamilton County"
+      ],
+      "multicounty_counties": [
+        "Bosque County",
+        "Comanche County",
+        "Hamilton County"
+      ]
+    },
+    {
+      "district_id": "221",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "222",
+      "counties": [
+        "Deaf Smith County",
+        "Oldham County"
+      ],
+      "multicounty_counties": [
+        "Deaf Smith County",
+        "Oldham County"
+      ]
+    },
+    {
+      "district_id": "223",
+      "counties": [
+        "Gray County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "224",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "225",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "226",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "227",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "228",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "229",
+      "counties": [
+        "Duval County",
+        "Jim Hogg County",
+        "Starr County"
+      ],
+      "multicounty_counties": [
+        "Duval County",
+        "Jim Hogg County",
+        "Starr County"
+      ]
+    },
+    {
+      "district_id": "230",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "231",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "232",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "233",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "234",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "235",
+      "counties": [
+        "Cooke County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "236",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "237",
+      "counties": [
+        "Lubbock County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "238",
+      "counties": [
+        "Midland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "239",
+      "counties": [
+        "Brazoria County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "240",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "241",
+      "counties": [
+        "Smith County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "242",
+      "counties": [
+        "Castro County",
+        "Hale County",
+        "Swisher County"
+      ],
+      "multicounty_counties": [
+        "Castro County",
+        "Hale County",
+        "Swisher County"
+      ]
+    },
+    {
+      "district_id": "243",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "244",
+      "counties": [
+        "Ector County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "245",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "246",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "247",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "248",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "249",
+      "counties": [
+        "Johnson County",
+        "Somervell County"
+      ],
+      "multicounty_counties": [
+        "Johnson County",
+        "Somervell County"
+      ]
+    },
+    {
+      "district_id": "250",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "251",
+      "counties": [
+        "Potter County",
+        "Randall County"
+      ],
+      "multicounty_counties": [
+        "Potter County",
+        "Randall County"
+      ]
+    },
+    {
+      "district_id": "253",
+      "counties": [
+        "Chambers County",
+        "Liberty County"
+      ],
+      "multicounty_counties": [
+        "Chambers County",
+        "Liberty County"
+      ]
+    },
+    {
+      "district_id": "254",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "255",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "256",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "257",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "258",
+      "counties": [
+        "Polk County",
+        "San Jacinto County",
+        "Trinity County"
+      ],
+      "multicounty_counties": [
+        "Polk County",
+        "San Jacinto County",
+        "Trinity County"
+      ]
+    },
+    {
+      "district_id": "259",
+      "counties": [
+        "Jones County",
+        "Shackelford County"
+      ],
+      "multicounty_counties": [
+        "Jones County",
+        "Shackelford County"
+      ]
+    },
+    {
+      "district_id": "260",
+      "counties": [
+        "Orange County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "261",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "262",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "263",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "264",
+      "counties": [
+        "Bell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "265",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "266",
+      "counties": [
+        "Erath County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "267",
+      "counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ],
+      "multicounty_counties": [
+        "Calhoun County",
+        "Goliad County",
+        "Jackson County",
+        "Refugio County",
+        "Victoria County"
+      ]
+    },
+    {
+      "district_id": "268",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "269",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "270",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "271",
+      "counties": [
+        "Jack County",
+        "Wise County"
+      ],
+      "multicounty_counties": [
+        "Jack County",
+        "Wise County"
+      ]
+    },
+    {
+      "district_id": "272",
+      "counties": [
+        "Brazos County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "273",
+      "counties": [
+        "Sabine County",
+        "San Augustine County",
+        "Shelby County"
+      ],
+      "multicounty_counties": [
+        "Sabine County",
+        "San Augustine County",
+        "Shelby County"
+      ]
+    },
+    {
+      "district_id": "274",
+      "counties": [
+        "Comal County",
+        "Hays County"
+      ],
+      "multicounty_counties": [
+        "Comal County",
+        "Hays County"
+      ]
+    },
+    {
+      "district_id": "275",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "276",
+      "counties": [
+        "Camp County",
+        "Marion County",
+        "Morris County",
+        "Titus County"
+      ],
+      "multicounty_counties": [
+        "Camp County",
+        "Marion County",
+        "Morris County",
+        "Titus County"
+      ]
+    },
+    {
+      "district_id": "277",
+      "counties": [
+        "Williamson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "278",
+      "counties": [
+        "Leon County",
+        "Walker County"
+      ],
+      "multicounty_counties": [
+        "Leon County",
+        "Walker County"
+      ]
+    },
+    {
+      "district_id": "280",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "281",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "282",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "283",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "284",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "285",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "286",
+      "counties": [
+        "Cochran County",
+        "Hockley County"
+      ],
+      "multicounty_counties": [
+        "Cochran County",
+        "Hockley County"
+      ]
+    },
+    {
+      "district_id": "287",
+      "counties": [
+        "Bailey County",
+        "Parmer County"
+      ],
+      "multicounty_counties": [
+        "Bailey County",
+        "Parmer County"
+      ]
+    },
+    {
+      "district_id": "288",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "289",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "290",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "291",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "292",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "293",
+      "counties": [
+        "Dimmit County",
+        "Maverick County",
+        "Zavala County"
+      ],
+      "multicounty_counties": [
+        "Dimmit County",
+        "Maverick County",
+        "Zavala County"
+      ]
+    },
+    {
+      "district_id": "294",
+      "counties": [
+        "Van Zandt County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "295",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "296",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "297",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "298",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "299",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "300",
+      "counties": [
+        "Brazoria County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "301",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "302",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "303",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "304",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "305",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "306",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "307",
+      "counties": [
+        "Gregg County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "308",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "309",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "310",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "311",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "312",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "313",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "314",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "315",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "316",
+      "counties": [
+        "Hutchinson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "318",
+      "counties": [
+        "Midland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "319",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "320",
+      "counties": [
+        "Potter County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "321",
+      "counties": [
+        "Smith County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "322",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "323",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "324",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "325",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "326",
+      "counties": [
+        "Taylor County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "327",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "328",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "329",
+      "counties": [
+        "Wharton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "330",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "331",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "332",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "333",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "334",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "335",
+      "counties": [
+        "Bastrop County",
+        "Burleson County",
+        "Lee County",
+        "Washington County"
+      ],
+      "multicounty_counties": [
+        "Bastrop County",
+        "Burleson County",
+        "Lee County",
+        "Washington County"
+      ]
+    },
+    {
+      "district_id": "336",
+      "counties": [
+        "Fannin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "337",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "338",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "339",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "340",
+      "counties": [
+        "Tom Green County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "341",
+      "counties": [
+        "Webb County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "342",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "343",
+      "counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ],
+      "multicounty_counties": [
+        "Aransas County",
+        "Bee County",
+        "Live Oak County",
+        "Mcmullen County",
+        "San Patricio County"
+      ]
+    },
+    {
+      "district_id": "344",
+      "counties": [
+        "Chambers County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "345",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "346",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "347",
+      "counties": [
+        "Nueces County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "348",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "349",
+      "counties": [
+        "Anderson County",
+        "Houston County"
+      ],
+      "multicounty_counties": [
+        "Anderson County",
+        "Houston County"
+      ]
+    },
+    {
+      "district_id": "350",
+      "counties": [
+        "Taylor County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "351",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "352",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "353",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "354",
+      "counties": [
+        "Hunt County",
+        "Rains County"
+      ],
+      "multicounty_counties": [
+        "Hunt County",
+        "Rains County"
+      ]
+    },
+    {
+      "district_id": "355",
+      "counties": [
+        "Hood County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "356",
+      "counties": [
+        "Hardin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "357",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "358",
+      "counties": [
+        "Ector County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "359",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "360",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "361",
+      "counties": [
+        "Brazos County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "362",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "363",
+      "counties": [
+        "Dallas County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "364",
+      "counties": [
+        "Lubbock County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "365",
+      "counties": [
+        "Dimmit County",
+        "Maverick County",
+        "Zavala County"
+      ],
+      "multicounty_counties": [
+        "Dimmit County",
+        "Maverick County",
+        "Zavala County"
+      ]
+    },
+    {
+      "district_id": "366",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "367",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "368",
+      "counties": [
+        "Williamson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "369",
+      "counties": [
+        "Anderson County",
+        "Cherokee County",
+        "Leon County"
+      ],
+      "multicounty_counties": [
+        "Anderson County",
+        "Cherokee County",
+        "Leon County"
+      ]
+    },
+    {
+      "district_id": "370",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "371",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "372",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "377",
+      "counties": [
+        "Victoria County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "378",
+      "counties": [
+        "Ellis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "379",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "380",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "381",
+      "counties": [
+        "Starr County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "382",
+      "counties": [
+        "Rockwall County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "383",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "384",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "385",
+      "counties": [
+        "Midland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "386",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "387",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "388",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "389",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "390",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "391",
+      "counties": [
+        "Tom Green County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "392",
+      "counties": [
+        "Henderson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "393",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "394",
+      "counties": [
+        "Brewster County",
+        "Culberson County",
+        "Hudspeth County",
+        "Jeff Davis County",
+        "Presidio County"
+      ],
+      "multicounty_counties": [
+        "Brewster County",
+        "Culberson County",
+        "Hudspeth County",
+        "Jeff Davis County",
+        "Presidio County"
+      ]
+    },
+    {
+      "district_id": "395",
+      "counties": [
+        "Williamson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "396",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "397",
+      "counties": [
+        "Grayson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "398",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "399",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "400",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "401",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "402",
+      "counties": [
+        "Wood County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "403",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "404",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "405",
+      "counties": [
+        "Galveston County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "406",
+      "counties": [
+        "Webb County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "407",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "408",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "409",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "410",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "411",
+      "counties": [
+        "Polk County",
+        "San Jacinto County",
+        "Trinity County"
+      ],
+      "multicounty_counties": [
+        "Polk County",
+        "San Jacinto County",
+        "Trinity County"
+      ]
+    },
+    {
+      "district_id": "412",
+      "counties": [
+        "Brazoria County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "413",
+      "counties": [
+        "Johnson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "414",
+      "counties": [
+        "Mclennan County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "415",
+      "counties": [
+        "Parker County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "416",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "417",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "418",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "419",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "420",
+      "counties": [
+        "Nacogdoches County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "421",
+      "counties": [
+        "Caldwell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "422",
+      "counties": [
+        "Kaufman County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "423",
+      "counties": [
+        "Bastrop County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "424",
+      "counties": [
+        "Blanco County",
+        "Burnet County",
+        "Llano County",
+        "San Saba County"
+      ],
+      "multicounty_counties": [
+        "Blanco County",
+        "Burnet County",
+        "Llano County",
+        "San Saba County"
+      ]
+    },
+    {
+      "district_id": "425",
+      "counties": [
+        "Williamson County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "426",
+      "counties": [
+        "Bell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "427",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "428",
+      "counties": [
+        "Hays County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "429",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "430",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "431",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "432",
+      "counties": [
+        "Tarrant County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "433",
+      "counties": [
+        "Comal County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "434",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "435",
+      "counties": [
+        "Montgomery County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "436",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "437",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "438",
+      "counties": [
+        "Bexar County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "439",
+      "counties": [
+        "Rockwall County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "440",
+      "counties": [
+        "Coryell County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "441",
+      "counties": [
+        "Midland County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "442",
+      "counties": [
+        "Denton County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "443",
+      "counties": [
+        "Ellis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "444",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "445",
+      "counties": [
+        "Cameron County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "446",
+      "counties": [
+        "Ector County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "448",
+      "counties": [
+        "El Paso County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "449",
+      "counties": [
+        "Hidalgo County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "450",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "451",
+      "counties": [
+        "Kendall County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "452",
+      "counties": [
+        "Edwards County",
+        "Kimble County",
+        "Mcculloch County",
+        "Mason County",
+        "Menard County"
+      ],
+      "multicounty_counties": [
+        "Edwards County",
+        "Kimble County",
+        "Mcculloch County",
+        "Mason County",
+        "Menard County"
+      ]
+    },
+    {
+      "district_id": "453",
+      "counties": [
+        "Hays County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "458",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "459",
+      "counties": [
+        "Travis County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "469",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "470",
+      "counties": [
+        "Collin County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "505",
+      "counties": [
+        "Fort Bend County"
+      ],
+      "multicounty_counties": []
+    },
+    {
+      "district_id": "506",
+      "counties": [
+        "Grimes County",
+        "Waller County"
+      ],
+      "multicounty_counties": [
+        "Grimes County",
+        "Waller County"
+      ]
+    },
+    {
+      "district_id": "507",
+      "counties": [
+        "Harris County"
+      ],
+      "multicounty_counties": []
+    }
+  ]
+}

@@ -1,0 +1,1174 @@
+// Global variables
+let courtMap;
+let countyCourtsLayer, districtCourtsLayer, coaCourtsLayer, coa15CourtsLayer, ccaCourtsLayer, scotxCourtsLayer, municipalCourtsLayer;
+let allCountyCourts = [];
+let allDistrictCourts = [];
+let allCoaCourts = [];
+let allCoa15Courts = [];
+let allCcaCourts = [];
+let allScotxCourts = [];
+let allMunicipalCourts = [];
+let statewideBoundaries = null; // Store the 15th COA boundaries for CCA/SCOTX
+let countyCourtCount = 0;
+let districtCourtCount = 0;
+let coaCourtCount = 0;
+let coa15CourtCount = 0;
+let ccaCourtCount = 0;
+let scotxCourtCount = 0;
+let municipalCourtCount = 0;
+let coaJudgesData = {};
+let countyJudgesData = {};
+let municipalJudgesData = {};
+let districtJudgesData = {};
+let countyToCoaMapping = {};
+let activeCourtType = 'coa';
+
+// Color generation and assignment
+const colorPalette = generateColorPalette(300); // Generate 300 distinct colors
+let countyColorMap = {};
+let coaColorMap = {
+    1: '#FF6B35',   // First Court - Orange
+    2: '#F7931E',   // Second Court - Dark Orange
+    3: '#FFD23F',   // Third Court - Yellow
+    4: '#06FFA5',   // Fourth Court - Mint
+    5: '#4ECDC4',   // Fifth Court - Teal
+    6: '#45B7D1',   // Sixth Court - Sky Blue
+    7: '#96CEB4',   // Seventh Court - Sage
+    8: '#FFEAA7',   // Eighth Court - Cream
+    9: '#DDA0DD',   // Ninth Court - Plum
+    10: '#98D8C8',  // Tenth Court - Seafoam
+    11: '#F7DC6F',  // Eleventh Court - Pale Yellow
+    12: '#BB8FCE',  // Twelfth Court - Lavender
+    13: '#85C1E9',  // Thirteenth Court - Light Blue
+    14: '#F8C471',  // Fourteenth Court - Sand
+    15: '#FF4500'   // Fifteenth Court - Red Orange (Business Court)
+};
+let districtColorMap = {};
+
+// Generate a diverse color palette
+function generateColorPalette(count) {
+    const colors = [];
+    for (let i = 0; i < count; i++) {
+        // Use golden angle approximation for good color distribution
+        const hue = (i * 137.508) % 360; // Golden angle
+        const saturation = 65 + (i % 3) * 15; // Vary saturation
+        const lightness = 45 + (i % 4) * 10; // Vary lightness
+        colors.push(`hsl(${hue}, ${saturation}%, ${lightness}%)`);
+    }
+    return colors;
+}
+
+// Assign colors to counties to avoid adjacent counties having similar colors
+function assignCountyColors() {
+    // Simple assignment based on FIPS code for now
+    // In a real implementation, you'd use geographic adjacency data
+    allCountyCourts.forEach((court, index) => {
+        const fips = parseInt(court.properties.fips);
+        countyColorMap[court.properties.court_id] = colorPalette[fips % colorPalette.length];
+    });
+}
+
+function assignDistrictColors() {
+    // Assign colors based on district number for judicial districts
+    allDistrictCourts.forEach((district, index) => {
+        const districtNum = parseInt(district.properties.district_id) || 1;
+        districtColorMap[districtNum] = colorPalette[districtNum % colorPalette.length];
+    });
+}
+
+// Create striped pattern for overlapping areas
+function createStripedPattern(color1, color2, width = 4) {
+    const canvas = document.createElement('canvas');
+    canvas.width = width * 2;
+    canvas.height = width * 2;
+    const ctx = canvas.getContext('2d');
+
+    // Create diagonal stripes
+    ctx.fillStyle = color1;
+    ctx.fillRect(0, 0, width * 2, width * 2);
+
+    ctx.fillStyle = color2;
+    // Diagonal stripes
+    for (let i = -width * 2; i < width * 4; i += width) {
+        ctx.beginPath();
+        ctx.moveTo(i, 0);
+        ctx.lineTo(i + width * 2, width * 2);
+        ctx.lineTo(i + width, width * 2);
+        ctx.lineTo(i - width, 0);
+        ctx.closePath();
+        ctx.fill();
+    }
+
+    return ctx.createPattern(canvas, 'repeat');
+}
+
+// Style definitions
+const courtStyle = {
+    color: '#3388ff',
+    weight: 2,
+    opacity: 0.8,
+    fillColor: '#3388ff',
+    fillOpacity: 0.1
+};
+
+const highlightStyle = {
+    color: '#0066cc',
+    weight: 3,
+    opacity: 1,
+    fillColor: '#3388ff',
+    fillOpacity: 0.3
+};
+
+const districtStyle = {
+    color: '#ff0000',
+    weight: 2,
+    opacity: 0.8,
+    fillColor: '#ff0000',
+    fillOpacity: 0.1
+};
+
+const districtHighlightStyle = {
+    color: '#cc0000',
+    weight: 3,
+    opacity: 1,
+    fillColor: '#ff0000',
+    fillOpacity: 0.3
+};
+
+// Initialize the single map
+function initializeMaps() {
+    console.log('Initializing map...');
+    console.log('Leaflet available:', typeof L);
+    console.log('Map container exists:', !!document.getElementById('court-map'));
+    
+    // Single Court Map
+    courtMap = L.map('court-map', {maxZoom: 15}).setView([31.9686, -99.9018], 6);
+    console.log('Map created:', !!courtMap);
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(courtMap);
+    console.log('Map tiles added');
+
+    // Add scale control
+    L.control.scale().addTo(courtMap);
+
+    // Invalidate size
+    setTimeout(() => {
+        console.log('Invalidating map size');
+        courtMap.invalidateSize();
+    }, 500);
+}
+
+// Add legends for each map type
+function addCountyLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">County Courts</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #3388ff; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                Constitutional County Courts
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addDistrictLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">District Courts</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #ff0000; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                District Courts
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addCoaLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">Courts of Appeals</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #ff6b35; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                Geographic Districts (1-14)
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addCoa15Legend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">15th Court of Appeals</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #ff4500; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                Statewide Business Court
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addCcaLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">Court of Criminal Appeals</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #8b0000; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                Statewide Criminal Appeals
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addScotxLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">Supreme Court of Texas</h6>
+            <div class="d-flex align-items-center">
+                <div style="background: #000080; width: 20px; height: 20px; display: inline-block; margin-right: 5px; border: 1px solid #ccc;"></div>
+                Statewide Civil Appeals
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+function addMunicipalLegend() {
+    const legend = L.control({position: 'bottomright'});
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'info legend card p-2');
+        div.innerHTML = `
+            <h6 class="mb-2">Municipal Courts</h6>
+            <div class="d-flex align-items-center">
+                <span style="font-size: 16px; margin-right: 5px;">🏛️</span>
+                City and Town Courts
+            </div>
+        `;
+        return div;
+    };
+    legend.addTo(courtMap);
+}
+
+
+// Initialize maps when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOMContentLoaded fired');
+    console.log('Leaflet loaded:', typeof L);
+    // Delay initialization slightly to ensure Bootstrap is ready
+    setTimeout(() => {
+        initializeMaps();
+        loadAllData().then(() => {
+            setupTabListeners();
+            // Set initial description for Courts of Appeals
+            document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Courts of Appeals:</strong> Intermediate appellate courts that review decisions from trial courts, covering 14 geographic districts across Texas.</p>';
+        }).catch(error => {
+            console.error('Error loading data:', error);
+            // Set up listeners anyway
+            setupTabListeners();
+        });
+    }, 100);
+});
+
+function setupTabListeners() {
+    // Add event listeners for button clicks to switch court types
+    document.querySelectorAll('button[id^="btn-"]').forEach(btn => {
+        btn.addEventListener('click', function (event) {
+            const courtType = event.target.id.replace('btn-', '');
+            console.log('Button clicked:', courtType);
+            
+            // Hide all stats
+            document.querySelectorAll('.court-stats').forEach(stat => {
+                stat.style.display = 'none';
+            });
+            
+            // Show relevant description
+            switch(courtType) {
+                case 'municipal':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Municipal Courts:</strong> City and town courts that handle local violations, traffic tickets, and misdemeanor offenses within their municipal boundaries.</p>';
+                    switchToCourtType('municipal');
+                    break;
+                case 'county':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Constitutional County Courts:</strong> County-level trial courts that handle felony cases, civil matters over $20,000, probate, and juvenile cases within their county.</p>';
+                    switchToCourtType('county');
+                    break;
+                case 'district':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>District Courts:</strong> The primary trial courts in Texas that handle felony criminal cases, civil lawsuits over $20,000, and major civil disputes across multiple counties.</p>';
+                    switchToCourtType('district');
+                    break;
+                case 'coa':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Courts of Appeals:</strong> Intermediate appellate courts that review decisions from trial courts, covering 14 geographic districts across Texas.</p>';
+                    switchToCourtType('coa');
+                    break;
+                case 'coa15':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>15th Court of Appeals:</strong> Statewide business court that handles complex commercial and business litigation appeals from across Texas.</p>';
+                    switchToCourtType('coa15');
+                    break;
+                case 'cca':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Court of Criminal Appeals:</strong> Texas\' highest criminal court that reviews criminal cases and sets criminal law precedent statewide.</p>';
+                    switchToCourtType('cca');
+                    break;
+                case 'scotx':
+                    document.getElementById('courtDescription').innerHTML = '<p class="mb-0"><strong>Supreme Court of Texas:</strong> Texas\' highest civil court that reviews civil cases and sets civil law precedent statewide.</p>';
+                    switchToCourtType('scotx');
+                    break;
+            }
+        });
+    });
+}
+
+function switchToCourtType(courtType) {
+    // Clear existing layers
+    if (municipalCourtsLayer) courtMap.removeLayer(municipalCourtsLayer);
+    if (countyCourtsLayer) courtMap.removeLayer(countyCourtsLayer);
+    if (districtCourtsLayer) courtMap.removeLayer(districtCourtsLayer);
+    if (coaCourtsLayer) courtMap.removeLayer(coaCourtsLayer);
+    if (coa15CourtsLayer) courtMap.removeLayer(coa15CourtsLayer);
+    if (ccaCourtsLayer) courtMap.removeLayer(ccaCourtsLayer);
+    if (scotxCourtsLayer) courtMap.removeLayer(scotxCourtsLayer);
+    
+
+    // Add new layer and legend
+    switch(courtType) {
+        case 'municipal':
+            if (municipalCourtsLayer) {
+                courtMap.addLayer(municipalCourtsLayer);
+            } else {
+                loadMunicipalCourts();
+            }
+            break;
+        case 'county':
+            if (countyCourtsLayer) {
+                courtMap.addLayer(countyCourtsLayer);
+            } else {
+                loadCountyCourts();
+            }
+            break;
+        case 'district':
+            if (districtCourtsLayer) {
+                courtMap.addLayer(districtCourtsLayer);
+            } else {
+                loadDistrictCourts();
+            }
+            break;
+        case 'coa':
+            if (coaCourtsLayer) {
+                courtMap.addLayer(coaCourtsLayer);
+            } else {
+                loadCoaData();
+            }
+            break;
+        case 'coa15':
+            if (coa15CourtsLayer) {
+                courtMap.addLayer(coa15CourtsLayer);
+            } else {
+                loadCoaData();
+            }
+            break;
+        case 'cca':
+            if (ccaCourtsLayer) {
+                courtMap.addLayer(ccaCourtsLayer);
+            } else {
+                loadCcaData();
+            }
+            break;
+        case 'scotx':
+            if (scotxCourtsLayer) {
+                courtMap.addLayer(scotxCourtsLayer);
+            } else {
+                loadScotxData();
+            }
+            break;
+    }
+    
+    activeCourtType = courtType;
+}
+
+function loadAllData() {
+    // Load statewide boundaries first for fast CCA/SCOTX loading
+    const promises = [
+        loadStatewideBoundaries(),
+        loadCountyJudges(),
+        loadDistrictJudges(),
+        // Load COA judges data for popups
+        loadCoaJudges(),
+        // Load COA mapping data for popups
+        loadCoaMapping()
+    ];
+
+    // Load municipal data (judges first, then courts)
+    promises.push(
+        loadMunicipalJudges().then(() => {
+            return loadMunicipalCourts();
+        })
+    );
+
+    return Promise.all(promises).then(() => {
+        console.log('All initial data loaded successfully');
+    });
+}
+
+// Load County Judges data
+function loadCountyJudges() {
+    return fetch('county_judges_updated.json')
+        .then(response => response.json())
+        .then(data => {
+            // Store judge data by court_id
+            data.records.forEach(record => {
+                countyJudgesData[record.court_id] = record;
+            });
+            console.log('Loaded county judge data for', data.records.length, 'courts');
+        })
+        .catch(error => {
+            console.error('Error loading county judge data:', error);
+        });
+}
+
+// Load Municipal Judges data
+function loadMunicipalJudges() {
+    return fetch('judges_unified_2025.json')
+        .then(response => response.json())
+        .then(data => {
+            // Store judge data by court_id
+            data.judges.forEach(judge => {
+                if (judge.court_type === 'municipal_court') {
+                    if (!municipalJudgesData[judge.court_id]) {
+                        municipalJudgesData[judge.court_id] = [];
+                    }
+                    municipalJudgesData[judge.court_id].push(judge);
+                }
+            });
+            console.log('Loaded municipal judge data for', Object.keys(municipalJudgesData).length, 'courts');
+        })
+        .catch(error => {
+            console.error('Error loading municipal judge data:', error);
+        });
+}
+
+// Load District Judges data
+// Load District Judges data
+function loadDistrictJudges() {
+    return fetch('judges_unified_2025.json')
+        .then(response => response.json())
+        .then(data => {
+            // Store judge data by district_id
+            data.judges.forEach(judge => {
+                if (judge.court_type === 'district_court') {
+                    // Extract district number from court_id (e.g., 'tx_dc_045' -> 45)
+                    const districtMatch = judge.court_id.match(/tx_dc_(\d+)/);
+                    if (districtMatch) {
+                        const districtId = parseInt(districtMatch[1]);
+                        if (!districtJudgesData[districtId]) {
+                            districtJudgesData[districtId] = [];
+                        }
+                        districtJudgesData[districtId].push(judge);
+                    }
+                }
+            });
+            console.log('Loaded district judge data for', Object.keys(districtJudgesData).length, 'districts');
+        })
+        .catch(error => {
+            console.error('Error loading district judge data:', error);
+        });
+}
+
+// Load Constitutional County Courts data
+function loadCountyCourts() {
+    fetch('constitutional_county_courts.geojson')
+        .then(response => response.json())
+        .then(data => {
+            allCountyCourts = data.features;
+            assignCountyColors(); // Assign colors after loading data
+
+            countyCourtsLayer = L.geoJSON(data, {
+                style: function(feature) {
+                    return {
+                        color: countyColorMap[feature.properties.court_id] || '#3388ff',
+                        weight: 1,
+                        opacity: 0.8,
+                        fillColor: countyColorMap[feature.properties.court_id] || '#3388ff',
+                        fillOpacity: 0.7
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const courtId = feature.properties.court_id;
+                    const judgeData = countyJudgesData[courtId];
+
+                    // Add popup with court information
+                    let popupContent = `
+                        <div class="court-info">
+                            <h6>${feature.properties.name}</h6>
+                            <p><strong>County:</strong> ${feature.properties.county}</p>
+                    `;
+
+                    if (judgeData && judgeData.judge_name) {
+                        popupContent += `<p><strong>County Judge:</strong> ${judgeData.judge_name}</p>`;
+                        if (judgeData.address) {
+                            popupContent += `<p><strong>Address:</strong> ${judgeData.address}</p>`;
+                        }
+                    } else {
+                        popupContent += `<p><em>Judge information not available</em></p>`;
+                    }
+
+                    popupContent += `</div>`;
+                    layer.bindPopup(popupContent);
+
+                    // Add hover effects
+                    layer.on('mouseover', function() {
+                        layer.setStyle({
+                            color: countyColorMap[feature.properties.court_id] || '#3388ff',
+                            weight: 3,
+                            opacity: 1,
+                            fillColor: countyColorMap[feature.properties.court_id] || '#3388ff',
+                            fillOpacity: 0.9
+                        });
+                    });
+                    layer.on('mouseout', function() {
+                        layer.setStyle({
+                            color: countyColorMap[feature.properties.court_id] || '#3388ff',
+                            weight: 1,
+                            opacity: 0.8,
+                            fillColor: countyColorMap[feature.properties.court_id] || '#3388ff',
+                            fillOpacity: 0.7
+                        });
+                    });
+                }
+            });
+
+            // Add to map and legend if this is the active court type
+            if (activeCourtType === 'county') {
+                countyCourtsLayer.addTo(courtMap);
+            }
+
+            countyCourtCount = data.features.length;
+            document.getElementById('countyCourtCount').textContent = countyCourtCount;
+
+            console.log('Loaded constitutional county courts:', data.features.length);
+        })
+        .catch(error => {
+            console.error('Error loading constitutional county courts:', error);
+        });
+}
+
+// Load District Courts data
+function loadDistrictCourts() {
+    fetch('district_courts_sept2018.geojson')
+        .then(response => response.json())
+        .then(data => {
+            districtCourtsLayer = L.geoJSON(data, {
+                style: function(feature) {
+                    const districtNum = parseInt(feature.properties.district_id) || 1;
+                    const districtColor = colorPalette[districtNum % colorPalette.length];
+                    return {
+                        color: districtColor,
+                        weight: 2,
+                        opacity: 0.8,
+                        fillColor: districtColor,
+                        fillOpacity: 0.6
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const districtId = feature.properties.district_id;
+                    const counties = feature.properties.counties || [];
+                    const countyCount = feature.properties.county_count || counties.length;
+
+                    // Create popup content
+                    let popupContent = `
+                        <div class="court-info">
+                            <h6>Judicial District ${districtId}</h6>
+                            <p><strong>Type:</strong> District Court</p>
+                            <p><strong>Counties:</strong> ${countyCount}</p>
+                    `;
+
+                    // Add county list if not too many
+                    if (counties.length > 0 && counties.length <= 10) {
+                        popupContent += `<p><strong>Serves:</strong> ${counties.join(', ')}</p>`;
+                    } else if (counties.length > 10) {
+                        popupContent += `<p><strong>Serves:</strong> ${counties.slice(0, 5).join(', ')} and ${counties.length - 5} more counties</p>`;
+                    }
+
+                    // Add judge information
+                    const districtJudges = districtJudgesData[districtId] || [];
+
+                    if (districtJudges.length > 0) {
+                        popupContent += `<p><strong>Judges (${districtJudges.length}):</strong></p>`;
+                        popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0"><tbody>';
+                        districtJudges.forEach(judge => {
+                            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.court_label || 'Judge'}</td></tr>`;
+                        });
+                        popupContent += '</tbody></table></div>';
+                    } else {
+                        popupContent += '<p><em>Judge information not available</em></p>';
+                    }
+
+                    popupContent += '</div>';
+                    layer.bindPopup(popupContent);
+
+                    // Add hover effects
+                    layer.on('mouseover', function() {
+                        const districtNum = parseInt(feature.properties.district_id) || 1;
+                        const districtColor = colorPalette[districtNum % colorPalette.length];
+                        layer.setStyle({
+                            color: districtColor,
+                            weight: 4,
+                            opacity: 1,
+                            fillColor: districtColor,
+                            fillOpacity: 0.8
+                        });
+                    });
+                    layer.on('mouseout', function() {
+                        const districtNum = parseInt(feature.properties.district_id) || 1;
+                        const districtColor = colorPalette[districtNum % colorPalette.length];
+                        layer.setStyle({
+                            color: districtColor,
+                            weight: 2,
+                            opacity: 0.8,
+                            fillColor: districtColor,
+                            fillOpacity: 0.6
+                        });
+                    });
+                }
+            });
+
+            // Add to map and legend if this is the active court type
+            if (activeCourtType === 'district') {
+                districtCourtsLayer.addTo(courtMap);
+            }
+
+            allDistrictCourts = data.features;
+            districtCourtCount = data.features.length;
+            document.getElementById('districtCourtCount').textContent = districtCourtCount;
+
+            console.log('Loaded judicial districts:', data.features.length);
+        })
+        .catch(error => {
+            console.error('Error loading district courts:', error);
+        });
+}
+
+// Load Courts of Appeals data
+function loadCoaData() {
+    // Load the districts (judges and mapping already loaded at startup)
+    return fetch('courts_of_appeals_districts.geojson')
+        .then(response => response.json())
+        .then(data => {
+            // Separate 15th Court from other COA districts
+            const coaFeatures = data.features.filter(feature => feature.properties.district_number !== 15);
+            const coa15Features = data.features.filter(feature => feature.properties.district_number == 15);
+            
+            // Store statewide boundaries for CCA/SCOTX
+            statewideBoundaries = coa15Features;
+
+            // Load geographic COA districts (1-14)
+            coaCourtsLayer = L.geoJSON(coaFeatures, {
+                style: function(feature) {
+                    const districtNum = feature.properties.district_number;
+                    return {
+                        color: coaColorMap[districtNum] || '#ff6b35',
+                        weight: 2,
+                        opacity: 0.8,
+                        fillColor: coaColorMap[districtNum] || '#ff6b35',
+                        fillOpacity: 0.6
+                    };
+                },
+                onEachFeature: function (feature, layer) {
+                    const courtId = feature.properties.court_id;
+                    const judgeData = coaJudgesData[courtId];
+
+                    // Create popup content
+                    let popupContent = `
+                        <div class="court-info">
+                            <h6>${feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`}</h6>
+                            <p><strong>Type:</strong> Court of Appeals</p>
+                            <p><strong>District:</strong> ${feature.properties.district_number}</p>
+                            <p><strong>Counties:</strong> ${feature.properties.counties ? feature.properties.counties.length : 'N/A'}</p>
+                    `;
+
+                    if (judgeData && judgeData.judges) {
+                        popupContent += `<p><strong>Judges (${judgeData.judges.length}):</strong></p>`;
+                        popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0"><tbody>';
+                        judgeData.judges.forEach(judge => {
+                            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                        });
+                        popupContent += '</tbody></table></div>';
+                    } else {
+                        popupContent += '<p><em>Judge information not available</em></p>';
+                    }
+
+                    popupContent += '</div>';
+                    layer.bindPopup(popupContent);
+
+                    // Add hover effects
+                    layer.on('mouseover', function() {
+                        const districtNum = feature.properties.district_number;
+                        layer.setStyle({
+                            color: coaColorMap[districtNum] || '#ff6b35',
+                            weight: 4,
+                            opacity: 1,
+                            fillColor: coaColorMap[districtNum] || '#ff6b35',
+                            fillOpacity: 0.8
+                        });
+                    });
+                    layer.on('mouseout', function() {
+                        const districtNum = feature.properties.district_number;
+                        layer.setStyle({
+                            color: coaColorMap[districtNum] || '#ff6b35',
+                            weight: 2,
+                            opacity: 0.8,
+                            fillColor: coaColorMap[districtNum] || '#ff6b35',
+                            fillOpacity: 0.6
+                        });
+                    });
+                }
+            });
+
+            // Add to map and legend if this is the active court type
+            if (activeCourtType === 'coa') {
+                coaCourtsLayer.addTo(courtMap);
+            }
+
+            allCoaCourts = coaFeatures;
+            coaCourtCount = coaFeatures.length;
+            document.getElementById('coaCourtCount').textContent = coaCourtCount;
+
+            // Load 15th Court (Business Court)
+            coa15CourtsLayer = L.geoJSON({type: 'FeatureCollection', features: coa15Features}, {
+                style: {
+                    color: '#FF4500',
+                    weight: 3,
+                    opacity: 0.9,
+                    fillColor: '#FF4500',
+                    fillOpacity: 0.6
+                },
+                onEachFeature: function (feature, layer) {
+                    const courtId = feature.properties.court_id;
+                    const judgeData = coaJudgesData[courtId];
+
+                    // Create popup content
+                    let popupContent = `
+                        <div class="court-info">
+                            <h6>${feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`}</h6>
+                            <p><strong>Type:</strong> Court of Appeals (Business Court)</p>
+                            <p><strong>District:</strong> ${feature.properties.district_number} - Statewide</p>
+                            <p><strong>Jurisdiction:</strong> Business and commercial cases statewide</p>
+                    `;
+
+                    if (judgeData && judgeData.judges) {
+                        popupContent += `<p><strong>Judges (${judgeData.judges.length}):</strong></p>`;
+                        popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0"><tbody>';
+                        judgeData.judges.forEach(judge => {
+                            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                        });
+                        popupContent += '</tbody></table></div>';
+                    } else {
+                        popupContent += '<p><em>Judge information not available</em></p>';
+                    }
+
+                    popupContent += '</div>';
+                    layer.bindPopup(popupContent);
+
+                    // Add hover effects
+                    layer.on('mouseover', function() {
+                        layer.setStyle({
+                            color: '#cc3300',
+                            weight: 5,
+                            opacity: 1,
+                            fillColor: '#FF4500',
+                            fillOpacity: 0.8
+                        });
+                    });
+                    layer.on('mouseout', function() {
+                        layer.setStyle({
+                            color: '#FF4500',
+                            weight: 3,
+                            opacity: 0.9,
+                            fillColor: '#FF4500',
+                            fillOpacity: 0.6
+                        });
+                    });
+                }
+            });
+
+            // Add to map and legend if this is the active court type
+            if (activeCourtType === 'coa15') {
+                coa15CourtsLayer.addTo(courtMap);
+            }
+
+            allCoa15Courts = coa15Features;
+            coa15CourtCount = coa15Features.length;
+            document.getElementById('coa15CourtCount').textContent = coa15CourtCount;
+
+            // Create CCA layer using statewide boundaries
+            ccaCourtsLayer = L.geoJSON({type: 'FeatureCollection', features: statewideBoundaries}, {
+                style: {
+                    color: '#8b0000',
+                    weight: 3,
+                    opacity: 0.8,
+                    fillColor: '#8b0000',
+                    fillOpacity: 0.3
+                },
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(
+                        '<div class="court-info">' +
+                        '<h5>Court of Criminal Appeals</h5>' +
+                        '<p><strong>Jurisdiction:</strong> Statewide</p>' +
+                        '<p><strong>Type:</strong> Criminal Appeals</p>' +
+                        '<p>The Court of Criminal Appeals of Texas is the court of last resort for criminal cases in Texas.</p>' +
+                        '</div>'
+                    );
+                }
+            });
+
+            allCcaCourts = [{
+                properties: {
+                    name: 'Court of Criminal Appeals',
+                    type: 'statewide_court'
+                }
+            }];
+
+            ccaCourtCount = 1;
+            document.getElementById('ccaCourtCount').textContent = ccaCourtCount;
+
+            // Create SCOTX layer using statewide boundaries
+            scotxCourtsLayer = L.geoJSON({type: 'FeatureCollection', features: statewideBoundaries}, {
+                style: {
+                    color: '#000080',
+                    weight: 3,
+                    opacity: 0.8,
+                    fillColor: '#000080',
+                    fillOpacity: 0.3
+                },
+                onEachFeature: function (feature, layer) {
+                    layer.bindPopup(
+                        '<div class="court-info">' +
+                        '<h5>Supreme Court of Texas</h5>' +
+                        '<p><strong>Jurisdiction:</strong> Statewide</p>' +
+                        '<p><strong>Type:</strong> Civil Appeals</p>' +
+                        '<p>The Supreme Court of Texas is the court of last resort for civil cases in Texas.</p>' +
+                        '</div>'
+                    );
+                }
+            });
+
+            allScotxCourts = [{
+                properties: {
+                    name: 'Supreme Court of Texas',
+                    type: 'statewide_court'
+                }
+            }];
+
+            scotxCourtCount = 1;
+            document.getElementById('scotxCourtCount').textContent = scotxCourtCount;
+
+            console.log('Loaded Courts of Appeals districts:', coaFeatures.length);
+            console.log('Loaded 15th Court (Business):', coa15Features.length);
+            console.log('Preloaded CCA and SCOTX layers');
+        })
+        .catch(error => {
+            console.error('Error loading Courts of Appeals data:', error);
+        });
+}
+
+// Load Municipal Courts data
+function loadMunicipalCourts() {
+    console.log('Loading municipal courts...');
+    return fetch('courts_unified_2025_with_cities_fuzzy.json')
+        .then(response => {
+            console.log('Fetch response:', response.status);
+            return response.json();
+        })
+        .then(data => {
+            console.log('Municipal courts data loaded:', data.count, 'total courts');
+            // Filter for municipal courts
+            const municipalCourts = data.courts.filter(court => court.type === 'municipal_court');
+            console.log('Filtered municipal courts:', municipalCourts.length);
+            allMunicipalCourts = municipalCourts; // Store for search functionality
+            
+            // Create markers for municipal courts
+            municipalCourtsLayer = L.layerGroup();
+            const markerBounds = [];
+            console.log('Created municipalCourtsLayer:', municipalCourtsLayer);
+            
+            municipalCourts.forEach(court => {
+                if (court.point && court.point.coordinates) {
+                    const [lng, lat] = court.point.coordinates;
+                    
+                    const marker = L.marker([lat, lng], {
+                        icon: L.divIcon({
+                            html: '🏛️',
+                            className: 'municipal-court-icon',
+                            iconSize: [24, 24],
+                            iconAnchor: [12, 24]
+                        })
+                    });
+            console.log('Municipal courts data loaded:', data.count, 'total courts');
+            // Filter for municipal courts
+            const municipalCourts = data.courts.filter(court => court.type === 'municipal_court');
+            console.log('Filtered municipal courts:', municipalCourts.length);
+            allMunicipalCourts = municipalCourts; // Store for search functionality
+            
+            // Create markers for municipal courts
+            municipalCourtsLayer = L.layerGroup();
+            const markerBounds = [];
+            console.log('Created municipalCourtsLayer:', municipalCourtsLayer);
+            
+            municipalCourts.forEach(court => {
+                if (court.point && court.point.coordinates) {
+                    const [lng, lat] = court.point.coordinates;
+                    
+                    const marker = L.marker([lat, lng], {
+                        icon: L.divIcon({
+                            html: '🏛️',
+                            className: 'municipal-court-icon',
+                            iconSize: [24, 24],
+                            iconAnchor: [12, 24]
+                        })
+                    });
+                    
+                    // Store court reference on marker for search functionality
+                    marker.court = court;
+                    
+                    // Create popup content
+                    let popupContent = `
+                        <div class="court-info">
+                            <h6>Municipal Court - ${court.municipality}</h6>
+                            <p><strong>Type:</strong> Municipal Court</p>
+                            <p><strong>Municipality:</strong> ${court.municipality}</p>
+                            <p><strong>Population:</strong> ${court.population_2022 ? court.population_2022.toLocaleString() : 'N/A'}</p>
+                            <p><strong>County Seat:</strong> ${court.county_seat_flag === 'Y' ? 'Yes' : 'No'}</p>
+                    `;
+                    
+                    // Add judge information
+                    const judges = municipalJudgesData[court.court_id];
+                    if (judges && judges.length > 0) {
+                        popupContent += `<p><strong>Judges (${judges.length}):</strong></p>`;
+                        popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0"><tbody>';
+                        judges.forEach(judge => {
+                            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>Municipal Judge</td></tr>`;
+                            if (judge.phone) {
+                                popupContent += `<tr><td colspan="2"><small>Phone: ${judge.phone}</small></td></tr>`;
+                            }
+                        });
+                        popupContent += '</tbody></table></div>';
+                    } else {
+                        popupContent += `<p><em>Judge information not available</em></p>`;
+                    }
+                    
+                    popupContent += '</div>';
+                    marker.bindPopup(popupContent);
+                    
+                    // Add hover effects
+                    marker.on('mouseover', function() {
+                        marker.setIcon(L.divIcon({
+                            html: '🏛️',
+                            className: 'municipal-court-icon municipal-court-icon-hover',
+                            iconSize: [28, 28],
+                            iconAnchor: [14, 28]
+                        }));
+                    });
+                    marker.on('mouseout', function() {
+                        marker.setIcon(L.divIcon({
+                            html: '🏛️',
+                            className: 'municipal-court-icon',
+                            iconSize: [24, 24],
+                            iconAnchor: [12, 24]
+                        }));
+                    });
+                    
+                    municipalCourtsLayer.addLayer(marker);
+                    markerBounds.push([lat, lng]);
+                }
+            });
+            
+            // Add to map if this is the active court type
+            if (activeCourtType === 'municipal') {
+                municipalCourtsLayer.addTo(courtMap);
+            }
+            console.log('Created municipalCourtsLayer with', municipalCourtsLayer.getLayers().length, 'markers');
+            
+            municipalCourtCount = municipalCourts.length;
+            document.getElementById('municipalCourtCount').textContent = municipalCourtCount;
+            
+            console.log('Loaded municipal courts:', municipalCourts.length);
+        })
+        .catch(error => {
+            console.error('Error loading municipal courts:', error);
+        });
+}
+
+// Load statewide boundaries (15th COA district) for CCA/SCOTX
+function loadStatewideBoundaries() {
+    if (statewideBoundaries) {
+        return Promise.resolve(); // Already loaded
+    }
+    
+    return fetch('statewide_boundaries.geojson')
+        .then(response => response.json())
+        .then(data => {
+            statewideBoundaries = data.features;
+            console.log('Loaded statewide boundaries');
+        });
+}
+
+// Load COA judges data
+function loadCoaJudges() {
+    if (Object.keys(coaJudgesData).length > 0) {
+        return Promise.resolve(); // Already loaded
+    }
+    
+    return fetch('courts_of_appeals_2025.json')
+        .then(response => response.json())
+        .then(data => {
+            // Store judge data by court_id
+            data.courts.forEach(court => {
+                coaJudgesData[court.court_id] = court;
+            });
+            console.log('Loaded Courts of Appeals judge data for', data.courts.length, 'courts');
+        });
+}
+
+// Load COA mapping data
+function loadCoaMapping() {
+    if (Object.keys(countyToCoaMapping).length > 0) {
+        return Promise.resolve(); // Already loaded
+    }
+    
+    return fetch('county_to_coa_districts.json')
+        .then(response => response.json())
+        .then(mappingData => {
+            // Store mapping data by county
+            mappingData.counties.forEach(county => {
+                countyToCoaMapping[county.county] = county;
+            });
+            console.log('Loaded COA mapping data for', mappingData.counties.length, 'counties');
+        });
+}
+
+// Load Court of Criminal Appeals data
+function loadCcaData() {
+    // CCA is a statewide court - use the stored statewide boundaries
+    if (statewideBoundaries && !ccaCourtsLayer) {
+        createCcaLayer();
+    } else if (!statewideBoundaries) {
+        // Load statewide boundaries if not already loaded
+        loadStatewideBoundaries().then(() => {
+            createCcaLayer();
+        }).catch(error => {
+            console.error('Error loading statewide boundaries for CCA:', error);
+        });
+    }
+
+    // Add to map if this is the active court type
+    if (activeCourtType === 'cca' && ccaCourtsLayer) {
+        ccaCourtsLayer.addTo(courtMap);
+    }
+}
+
+function createCcaLayer() {
+    ccaCourtsLayer = L.geoJSON(statewideBoundaries, {
+        style: {
+            color: '#8b0000',
+            weight: 3,
+            opacity: 0.8,
+            fillColor: '#8b0000',
+            fillOpacity: 0.3
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(
+                '<div class="court-info">' +
+                '<h5>Court of Criminal Appeals</h5>' +
+                '<p><strong>Jurisdiction:</strong> Statewide</p>' +
+                '<p><strong>Type:</strong> Criminal Appeals</p>' +
+                '<p>The Court of Criminal Appeals of Texas is the court of last resort for criminal cases in Texas.</p>' +
+                '</div>'
+            );
+        }
+    });
+
+    allCcaCourts = [{
+        properties: {
+            name: 'Court of Criminal Appeals',
+            type: 'statewide_court'
+        }
+    }];
+
+    ccaCourtCount = 1;
+    document.getElementById('ccaCourtCount').textContent = ccaCourtCount;
+
+    console.log('Loaded Court of Criminal Appeals');
+}
+// Load Supreme Court of Texas data
+function loadScotxData() {
+    // SCOTX is a statewide court - use the stored statewide boundaries
+    if (statewideBoundaries && !scotxCourtsLayer) {
+        createScotxLayer();
+    } else if (!statewideBoundaries) {
+        // Load statewide boundaries if not already loaded
+        loadStatewideBoundaries().then(() => {
+            createScotxLayer();
+        }).catch(error => {
+            console.error('Error loading statewide boundaries for SCOTX:', error);
+        });
+    }
+
+    // Add to map if this is the active court type
+    if (activeCourtType === 'scotx' && scotxCourtsLayer) {
+        scotxCourtsLayer.addTo(courtMap);
+    }
+}
+
+function createScotxLayer() {
+    scotxCourtsLayer = L.geoJSON({type: 'FeatureCollection', features: statewideBoundaries}, {
+        style: {
+            color: '#000080',
+            weight: 3,
+            opacity: 0.8,
+            fillColor: '#000080',
+            fillOpacity: 0.3
+        },
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(
+                '<div class="court-info">' +
+                '<h5>Supreme Court of Texas</h5>' +
+                '<p><strong>Jurisdiction:</strong> Statewide</p>' +
+                '<p><strong>Type:</strong> Civil Appeals</p>' +
+                '<p>The Supreme Court of Texas is the court of last resort for civil cases in Texas.</p>' +
+                '</div>'
+            );
+        }
+    });
+
+    allScotxCourts = [{
+        properties: {
+            name: 'Supreme Court of Texas',
+            type: 'statewide_court'
+        }
+    }];
+
+    scotxCourtCount = 1;
+    document.getElementById('scotxCourtCount').textContent = scotxCourtCount;
+
+    console.log('Loaded Supreme Court of Texas');
+}

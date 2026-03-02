@@ -1,0 +1,570 @@
+{
+  "generated_at": "2026-02-27T05:41:26.880587Z",
+  "source": "coa-directory-2025.pdf",
+  "courts": [
+    {
+      "court_id": "tx_coa_01",
+      "type": "court_of_appeals",
+      "district_name": "First Court of Appeals",
+      "judges": [
+        {
+          "name": "Terry Adams",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Veronica Rivas-Molloy",
+          "role": "Justice"
+        },
+        {
+          "name": "Amparo",
+          "role": "Justice"
+        },
+        {
+          "name": "David M. Gunn",
+          "role": "Justice"
+        },
+        {
+          "name": "Jennifer Caughey",
+          "role": "Justice"
+        },
+        {
+          "name": "Kristin Guiney",
+          "role": "Justice"
+        },
+        {
+          "name": "Clint Morgan",
+          "role": "Justice"
+        },
+        {
+          "name": "Andrew Johnson",
+          "role": "Justice"
+        },
+        {
+          "name": "Susanna Dokupil",
+          "role": "Justice"
+        },
+        {
+          "name": "Sarah Beth Landau",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_02",
+      "type": "court_of_appeals",
+      "district_name": "Second Court of Appeals",
+      "judges": [
+        {
+          "name": "Bonnie Sudderth",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Elizabeth S. Kerr",
+          "role": "Justice"
+        },
+        {
+          "name": "J. Wade Birdwell",
+          "role": "Justice"
+        },
+        {
+          "name": "Dabney D. Bassel",
+          "role": "Justice"
+        },
+        {
+          "name": "Dana M. Womack",
+          "role": "Justice"
+        },
+        {
+          "name": "David (Mike) Wallach",
+          "role": "Justice"
+        },
+        {
+          "name": "Brian K. Walker",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_03",
+      "type": "court_of_appeals",
+      "district_name": "Third Court of Appeals",
+      "judges": [
+        {
+          "name": "Darlene Byrne",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Gisela D. Triana",
+          "role": "Justice"
+        },
+        {
+          "name": "Chari L. Kelly",
+          "role": "Justice"
+        },
+        {
+          "name": "Rosa Lopez Theofanis",
+          "role": "Justice"
+        },
+        {
+          "name": "Karin Crump",
+          "role": "Justice"
+        },
+        {
+          "name": "Maggie Ellis",
+          "role": "Justice"
+        },
+        {
+          "name": "Cadena-Reeves Justice Center",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_04",
+      "type": "court_of_appeals",
+      "district_name": "Fourth Court of Appeals",
+      "judges": [
+        {
+          "name": "Rebeca C. Martinez",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Irene Rios",
+          "role": "Justice"
+        },
+        {
+          "name": "Lori I. Valenzuela",
+          "role": "Justice"
+        },
+        {
+          "name": "Lori Massey Brissette",
+          "role": "Justice"
+        },
+        {
+          "name": "Adrian Anthony Spears II",
+          "role": "Justice"
+        },
+        {
+          "name": "Hubert (Todd) McCray",
+          "role": "Justice"
+        },
+        {
+          "name": "Velia J. Meza",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_05",
+      "type": "court_of_appeals",
+      "district_name": "Fifth Court of Appeals",
+      "judges": [
+        {
+          "name": "Justin (JJ) Jay Koch",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Bonnie Lee Goldstein",
+          "role": "Justice"
+        },
+        {
+          "name": "Craig Smith",
+          "role": "Justice"
+        },
+        {
+          "name": "Dennise Garcia",
+          "role": "Justice"
+        },
+        {
+          "name": "Emily Miskel",
+          "role": "Justice"
+        },
+        {
+          "name": "Maricela Breedlove",
+          "role": "Justice"
+        },
+        {
+          "name": "Nancy Kennedy",
+          "role": "Justice"
+        },
+        {
+          "name": "Tina Clinton",
+          "role": "Justice"
+        },
+        {
+          "name": "Jessica Leigh Voyce Lewis",
+          "role": "Justice"
+        },
+        {
+          "name": "Gino Rossini",
+          "role": "Justice"
+        },
+        {
+          "name": "Cynthia Barbare",
+          "role": "Justice"
+        },
+        {
+          "name": "Earl Jackson",
+          "role": "Justice"
+        },
+        {
+          "name": "Michael (Mike) Glynn Lee",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_06",
+      "type": "court_of_appeals",
+      "district_name": "Sixth Court of Appeals",
+      "judges": [
+        {
+          "name": "Scott English Stevens",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Louis Charles van Cleef",
+          "role": "Justice"
+        },
+        {
+          "name": "Daymon (Jeff) Jeffrey Rambin",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_07",
+      "type": "court_of_appeals",
+      "district_name": "Seventh Court of Appeals",
+      "judges": [
+        {
+          "name": "Brian Quinn",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Judy C. Parker",
+          "role": "Justice"
+        },
+        {
+          "name": "Lawrence M. Doss",
+          "role": "Justice"
+        },
+        {
+          "name": "Alex L. Yarbrough",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_08",
+      "type": "court_of_appeals",
+      "district_name": "Eighth Court of Appeals",
+      "judges": [
+        {
+          "name": "Maria A. Salas-Mendoza",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Gina M. Palafox",
+          "role": "Justice"
+        },
+        {
+          "name": "Lisa J. Soto",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_09",
+      "type": "court_of_appeals",
+      "district_name": "Ninth Court of Appeals",
+      "judges": [
+        {
+          "name": "W. Scott Golemon",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Leanne Johnson",
+          "role": "Justice"
+        },
+        {
+          "name": "Jay Wright",
+          "role": "Justice"
+        },
+        {
+          "name": "Kent Chambers",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_10",
+      "type": "court_of_appeals",
+      "district_name": "Tenth Court of Appeals",
+      "judges": [
+        {
+          "name": "Matt Johnson",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Steven Lee Smith",
+          "role": "Justice"
+        },
+        {
+          "name": "Lee Harris",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_11",
+      "type": "court_of_appeals",
+      "district_name": "Eleventh Court of Appeals",
+      "judges": [
+        {
+          "name": "John M. Bailey",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "W. Stacy Trotter",
+          "role": "Justice"
+        },
+        {
+          "name": "W. Bruce Williams",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_12",
+      "type": "court_of_appeals",
+      "district_name": "Twelfth Court of Appeals",
+      "judges": [
+        {
+          "name": "James T. Worthen",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Brian Hoyle",
+          "role": "Justice"
+        },
+        {
+          "name": "Greg Neeley",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_13",
+      "type": "court_of_appeals",
+      "district_name": "Thirteenth Court of Appeals",
+      "judges": [
+        {
+          "name": "Jaime E. Tijerina",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Clarissa Silva",
+          "role": "Justice"
+        },
+        {
+          "name": "Lionel Aron Pena",
+          "role": "Justice"
+        },
+        {
+          "name": "Jenny Cron",
+          "role": "Justice"
+        },
+        {
+          "name": "Ysmael D. Fonseca",
+          "role": "Justice"
+        },
+        {
+          "name": "Jon William West",
+          "role": "Justice"
+        },
+        {
+          "name": "Tracy Christopher",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Ken Wise",
+          "role": "Justice"
+        },
+        {
+          "name": "Kevin Jewell",
+          "role": "Justice"
+        },
+        {
+          "name": "Randy Wilson",
+          "role": "Justice"
+        },
+        {
+          "name": "Bradley (Brad) S. Hart",
+          "role": "Justice"
+        },
+        {
+          "name": "Tonya McLaughlin",
+          "role": "Justice"
+        },
+        {
+          "name": "Chad Bridges",
+          "role": "Justice"
+        },
+        {
+          "name": "Katy Boatman",
+          "role": "Justice"
+        },
+        {
+          "name": "Maritza M. Antu",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_14",
+      "type": "court_of_appeals",
+      "district_name": "Fourteenth Court of Appeals",
+      "judges": [
+        {
+          "name": "Jerry Zimmerer",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Meagan Hassan",
+          "role": "Justice"
+        },
+        {
+          "name": "Ken Wise",
+          "role": "Justice"
+        },
+        {
+          "name": "Randy Wilson",
+          "role": "Justice"
+        },
+        {
+          "name": "Frances Bourliot",
+          "role": "Justice"
+        },
+        {
+          "name": "Debra Lehrmann",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_coa_15",
+      "type": "court_of_appeals",
+      "district_name": "Fifteenth Court of Appeals",
+      "judges": [
+        {
+          "name": "Scott Brister",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Scott Field",
+          "role": "Justice"
+        },
+        {
+          "name": "April Farris",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_cca",
+      "type": "court_of_criminal_appeals",
+      "district_name": "Court of Criminal Appeals",
+      "judges": [
+        {
+          "name": "Sharon Keller",
+          "role": "Chief Justice"
+        },
+        {
+          "name": "Barbara Hervey",
+          "role": "Justice"
+        },
+        {
+          "name": "Michael Keasler",
+          "role": "Justice"
+        },
+        {
+          "name": "Gideon Strauss",
+          "role": "Justice"
+        },
+        {
+          "name": "Scott Walker",
+          "role": "Justice"
+        },
+        {
+          "name": "Michelle Slaughter",
+          "role": "Justice"
+        },
+        {
+          "name": "Ramona Franklin",
+          "role": "Justice"
+        },
+        {
+          "name": "Kevin Yeary",
+          "role": "Justice"
+        },
+        {
+          "name": "David Newell",
+          "role": "Justice"
+        }
+      ]
+    },
+    {
+      "court_id": "tx_scotx",
+      "type": "supreme_court",
+      "district_name": "Supreme Court of Texas",
+      "judges": [
+        {
+          "name": "Jimmy Blacklock",
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1460030/chief-justice-jimmy-blacklock-web.jpg"
+        },
+        {
+          "name": "Debra Lehrmann",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452363/justice-debra-lehrmann-web.jpg"
+        },
+        {
+          "name": "John Phillip Devine",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460028/justice-john-p-devine-web.jpg"
+        },
+        {
+          "name": "Brett Busby",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1461169/brett-busby.png"
+        },
+        {
+          "name": "Jane Bland",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460006/justice-jane-bland-2025-web.jpg"
+        },
+        {
+          "name": "Rebeca Aizpuru Huddle",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1450011/rah042921.jpg"
+        },
+        {
+          "name": "Evan A. Young",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460005/justice-evan-a-young.jpg"
+        },
+        {
+          "name": "James P. Sullivan",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460010/justice-james-p-sullivan-2025-web.jpg"
+        },
+        {
+          "name": "Kyle D. Hawkins",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1461570/justice-kyle-hawkins.jpg"
+        }
+      ]
+    }
+  ]
+}

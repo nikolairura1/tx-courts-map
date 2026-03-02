@@ -1,0 +1,4358 @@
+{
+  "generated_at": "2026-02-27T06:14:36.477109Z",
+  "source": "County Judges.pdf",
+  "records": [
+    {
+      "county": "Anderson",
+      "fips": "48001",
+      "court_id": "tx_ccc_48001",
+      "office": "County Judge",
+      "judge_name": "Carey G. McKinney",
+      "address": "703 N. Mallard, Ste 101, Palestine 75801",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Andrews",
+      "fips": "48003",
+      "court_id": "tx_ccc_48003",
+      "office": "County Judge",
+      "judge_name": "Charlie Falcon",
+      "address": "201 N. Main, Andrews 79714",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Angelina",
+      "fips": "48005",
+      "court_id": "tx_ccc_48005",
+      "office": "County Judge",
+      "judge_name": "Keith Wright",
+      "address": "P.O. Box 908, Lufkin 75902",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Aransas",
+      "fips": "48007",
+      "court_id": "tx_ccc_48007",
+      "office": "County Judge",
+      "judge_name": "\ue0b7",
+      "address": "Ray Garza 301 N. Live Oak Street, Rockport 78382",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Archer",
+      "fips": "48009",
+      "court_id": "tx_ccc_48009",
+      "office": "County Judge",
+      "judge_name": "Randall C. Jackson",
+      "address": "P.O. Box 458, Archer City 76351",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Armstrong",
+      "fips": "48011",
+      "court_id": "tx_ccc_48011",
+      "office": "County Judge",
+      "judge_name": "Adam Ensey",
+      "address": "P.O. Box 189, Claude 79019",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Atascosa",
+      "fips": "48013",
+      "court_id": "tx_ccc_48013",
+      "office": "County Judge",
+      "judge_name": "Weldon P. Cude",
+      "address": "#1 Courthouse Circle, Ste. 101, Jourdanton 78026",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Austin",
+      "fips": "48015",
+      "court_id": "tx_ccc_48015",
+      "office": "County Judge",
+      "judge_name": "Timothy Lapham",
+      "address": "One East Main, Bellville 77418",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bailey",
+      "fips": "48017",
+      "court_id": "tx_ccc_48017",
+      "office": "County Judge",
+      "judge_name": "Basil Nash",
+      "address": "300 South First St., Ste. 100, Muleshoe 79347",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bandera",
+      "fips": "48019",
+      "court_id": "tx_ccc_48019",
+      "office": "County Judge",
+      "judge_name": "Richard A. Evans",
+      "address": "P.O. Box 877, Bandera 78003",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bastrop",
+      "fips": "48021",
+      "court_id": "tx_ccc_48021",
+      "office": "County Judge",
+      "judge_name": "Gregory Klaus",
+      "address": "804 Pecan, Bastrop 78602",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Baylor",
+      "fips": "48023",
+      "court_id": "tx_ccc_48023",
+      "office": "County Judge",
+      "judge_name": "Rusty Stafford",
+      "address": "119 E. McLain, Seymour 76380",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bee",
+      "fips": "48025",
+      "court_id": "tx_ccc_48025",
+      "office": "County Judge",
+      "judge_name": "George Morrill",
+      "address": "105 W. Corpus Christi St., Rm. #109, Beeville 78102",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bell",
+      "fips": "48027",
+      "court_id": "tx_ccc_48027",
+      "office": "County Judge",
+      "judge_name": "David Blackburn",
+      "address": "P.O. Box 768, Belton 76513",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bexar",
+      "fips": "48029",
+      "court_id": "tx_ccc_48029",
+      "office": "County Judge",
+      "judge_name": "Peter Sakai",
+      "address": "101 W Nueva St, 10th Fl, San Antonio 78205",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Blanco",
+      "fips": "48031",
+      "court_id": "tx_ccc_48031",
+      "office": "County Judge",
+      "judge_name": "Brett Bray",
+      "address": "P.O. Box 471, Johnson City 78636",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Borden",
+      "fips": "48033",
+      "court_id": "tx_ccc_48033",
+      "office": "County Judge",
+      "judge_name": "Shane Walker",
+      "address": "P.O. Box 156, Gail 79738",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bosque",
+      "fips": "48035",
+      "court_id": "tx_ccc_48035",
+      "office": "County Judge",
+      "judge_name": "Cindy Vanlandingham",
+      "address": "P.O. Box 647, Meridian 76665",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Bowie",
+      "fips": "48037",
+      "court_id": "tx_ccc_48037",
+      "office": "County Judge",
+      "judge_name": "Bobby Howell",
+      "address": "710 James Bowie Drive, New Boston 75570",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Brazoria",
+      "fips": "48039",
+      "court_id": "tx_ccc_48039",
+      "office": "County Judge",
+      "judge_name": "Matt Sebesta",
+      "address": "111 E. Locust, Ste 102A, Angleton 77515",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Brazos",
+      "fips": "48041",
+      "court_id": "tx_ccc_48041",
+      "office": "County Judge",
+      "judge_name": "Duane Peters",
+      "address": "200 South Texas Ave., Suite 332, Bryan 77803",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Brewster",
+      "fips": "48043",
+      "court_id": "tx_ccc_48043",
+      "office": "County Judge",
+      "judge_name": "Greg Henington",
+      "address": "P.O. Box 1630, Alpine 79831",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Briscoe",
+      "fips": "48045",
+      "court_id": "tx_ccc_48045",
+      "office": "County Judge",
+      "judge_name": "Rank Cogdell",
+      "address": "P.O. Box 153, Silverton 79257",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Brooks",
+      "fips": "48047",
+      "court_id": "tx_ccc_48047",
+      "office": "County Judge",
+      "judge_name": "Eric Ramos",
+      "address": "100 E. Miller St., Falfurrias 78355",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Brown",
+      "fips": "48049",
+      "court_id": "tx_ccc_48049",
+      "office": "County Judge",
+      "judge_name": "Shane Britton",
+      "address": "200 South Broadway, Brownwood 76801",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Burleson",
+      "fips": "48051",
+      "court_id": "tx_ccc_48051",
+      "office": "County Judge",
+      "judge_name": "Keith Schroeder",
+      "address": "100 West Buck Street, Suite 306, Caldwell 77836",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Burnet",
+      "fips": "48053",
+      "court_id": "tx_ccc_48053",
+      "office": "County Judge",
+      "judge_name": "Bryan Wilson",
+      "address": "220 South Pierce St., Burnet 78611",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Caldwell",
+      "fips": "48055",
+      "court_id": "tx_ccc_48055",
+      "office": "County Judge",
+      "judge_name": "Hoppy Haden",
+      "address": "110 S. Main, Rm. 201, Lockhart 78644",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Calhoun",
+      "fips": "48057",
+      "court_id": "tx_ccc_48057",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Richard Meyer 211 S. Ann St., Rm 301, Port Lavaca 77979",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Callahan",
+      "fips": "48059",
+      "court_id": "tx_ccc_48059",
+      "office": "County Judge",
+      "judge_name": "Nicki Harle",
+      "address": "100 W. 4th St., Suite 200, Baird 79504",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cameron",
+      "fips": "48061",
+      "court_id": "tx_ccc_48061",
+      "office": "County Judge",
+      "judge_name": "Eddie Trevino, Jr.",
+      "address": "1100 East Monroe, Brownsville 78520",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Camp",
+      "fips": "48063",
+      "court_id": "tx_ccc_48063",
+      "office": "County Judge",
+      "judge_name": "James (AJ) Mason",
+      "address": "126 Church Street, Pittsburg 75686",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Carson",
+      "fips": "48065",
+      "court_id": "tx_ccc_48065",
+      "office": "County Judge",
+      "judge_name": "Daniel Looten",
+      "address": "P.O. Box 369, Panhandle 79068",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cass",
+      "fips": "48067",
+      "court_id": "tx_ccc_48067",
+      "office": "County Judge",
+      "judge_name": "Travis Ransom",
+      "address": "P.O. Box 825, Linden 75563",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Castro",
+      "fips": "48069",
+      "court_id": "tx_ccc_48069",
+      "office": "County Judge",
+      "judge_name": "Mandy Gfeller",
+      "address": "100 East Bedford, Room 111, Dimmitt 79027",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Chambers",
+      "fips": "48071",
+      "court_id": "tx_ccc_48071",
+      "office": "County Judge",
+      "judge_name": "Jimmy Sylvia",
+      "address": "P.O. Box 939, Anahuac 77514",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cherokee",
+      "fips": "48073",
+      "court_id": "tx_ccc_48073",
+      "office": "County Judge",
+      "judge_name": "Chris Davis",
+      "address": "135 South Main St., Rusk 75785",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Childress",
+      "fips": "48075",
+      "court_id": "tx_ccc_48075",
+      "office": "County Judge",
+      "judge_name": "Kimberly R. Jones",
+      "address": "Courthouse, Box 1, Childress 79201",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Clay",
+      "fips": "48077",
+      "court_id": "tx_ccc_48077",
+      "office": "County Judge",
+      "judge_name": "Mike Campbell",
+      "address": "214 N. Main, Henrietta 76365",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cochran",
+      "fips": "48079",
+      "court_id": "tx_ccc_48079",
+      "office": "County Judge",
+      "judge_name": "Pat Sabala Henry",
+      "address": "100 N. Main, Room 105, Morton 79346",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Coke",
+      "fips": "48081",
+      "court_id": "tx_ccc_48081",
+      "office": "County Judge",
+      "judge_name": "Hal Spain",
+      "address": "13 E. 7th Street, Robert Lee 76945",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Coleman",
+      "fips": "48083",
+      "court_id": "tx_ccc_48083",
+      "office": "County Judge",
+      "judge_name": "Bill Bledsoe",
+      "address": "100 West Live Oak St., Ste 102, Coleman 76834",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Collin",
+      "fips": "48085",
+      "court_id": "tx_ccc_48085",
+      "office": "County Judge",
+      "judge_name": "Chris Hill",
+      "address": "2300 Bloomdale Rd., #4192, McKinney 75071",
+      "coa_districts": [
+        5,
+        15
+      ],
+      "coa_local_districts": [
+        5
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Collingsworth",
+      "fips": "48087",
+      "court_id": "tx_ccc_48087",
+      "office": "County Judge",
+      "judge_name": "Scot Martindale",
+      "address": "800 W. Ave., Box 13, Wellington 79095",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Colorado",
+      "fips": "48089",
+      "court_id": "tx_ccc_48089",
+      "office": "County Judge",
+      "judge_name": "Daniel Tyran Prause",
+      "address": "400 Spring Street, Room 113, Columbus 78934",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Comal",
+      "fips": "48091",
+      "court_id": "tx_ccc_48091",
+      "office": "County Judge",
+      "judge_name": "Sherman Krause",
+      "address": "100 Main Plaza, New Braunfels 78130",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Comanche",
+      "fips": "48093",
+      "court_id": "tx_ccc_48093",
+      "office": "County Judge",
+      "judge_name": "Stephanie L. Davis",
+      "address": "101 West Central, Comanche 76442",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Concho",
+      "fips": "48095",
+      "court_id": "tx_ccc_48095",
+      "office": "County Judge",
+      "judge_name": "David Dillard",
+      "address": "P.O. Box 158, Paint Rock 76866",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cooke",
+      "fips": "48097",
+      "court_id": "tx_ccc_48097",
+      "office": "County Judge",
+      "judge_name": "John O. Roane",
+      "address": "101 S. Dixon, Gainesville 76240",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Coryell",
+      "fips": "48099",
+      "court_id": "tx_ccc_48099",
+      "office": "County Judge",
+      "judge_name": "Roger Miller",
+      "address": "800 East Main St., Ste. A, Gatesville 76528",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Cottle",
+      "fips": "48101",
+      "court_id": "tx_ccc_48101",
+      "office": "County Judge",
+      "judge_name": "Karl Holloway",
+      "address": "P.O. Box 729, Paducah 79248",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Crane",
+      "fips": "48103",
+      "court_id": "tx_ccc_48103",
+      "office": "County Judge",
+      "judge_name": "Roy Hodges",
+      "address": "201 W. 6th St., Rm. 100, Crane 79731",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Crockett",
+      "fips": "48105",
+      "court_id": "tx_ccc_48105",
+      "office": "County Judge",
+      "judge_name": "Frank Tambunga",
+      "address": "P.O. Box 1857, Ozona 76943",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Crosby",
+      "fips": "48107",
+      "court_id": "tx_ccc_48107",
+      "office": "County Judge",
+      "judge_name": "Rusty Forbes",
+      "address": "201 West Aspen, Suite #208, Crosbyton 79322",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Culberson",
+      "fips": "48109",
+      "court_id": "tx_ccc_48109",
+      "office": "County Judge",
+      "judge_name": "Carlos G. Urias",
+      "address": "Box 927, Van Horn 79855",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dallam",
+      "fips": "48111",
+      "court_id": "tx_ccc_48111",
+      "office": "County Judge",
+      "judge_name": "Wesley Ritchey",
+      "address": "414 Denver, Suite 301, Dalhart 79022",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dallas",
+      "fips": "48113",
+      "court_id": "tx_ccc_48113",
+      "office": "County Judge",
+      "judge_name": "Clay Jenkins",
+      "address": "411 Elm St., 2nd Floor, Dallas 75202",
+      "coa_districts": [
+        5,
+        15
+      ],
+      "coa_local_districts": [
+        5
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dawson",
+      "fips": "48115",
+      "court_id": "tx_ccc_48115",
+      "office": "County Judge",
+      "judge_name": "Foy O\u2019Brien",
+      "address": "P.O. Box 1268, Lamesa 79331",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Deaf Smith",
+      "fips": "48117",
+      "court_id": "tx_ccc_48117",
+      "office": "County Judge",
+      "judge_name": "David Lynn Wagner, Jr.",
+      "address": "235 E. 3rd, Rm. 204, Hereford 79045-5542",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Delta",
+      "fips": "48119",
+      "court_id": "tx_ccc_48119",
+      "office": "County Judge",
+      "judge_name": "Tanner Crutcher",
+      "address": "200 W. Dallas Avenue, Cooper 75432",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Denton",
+      "fips": "48121",
+      "court_id": "tx_ccc_48121",
+      "office": "County Judge",
+      "judge_name": "Andy Eads",
+      "address": "110 West Hickory St., Denton 76201",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dewitt",
+      "fips": "48123",
+      "court_id": "tx_ccc_48123",
+      "office": "County Judge",
+      "judge_name": "Daryl L. Fowler",
+      "address": "307 N. Gonzales St., Cuero 77954",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dickens",
+      "fips": "48125",
+      "court_id": "tx_ccc_48125",
+      "office": "County Judge",
+      "judge_name": "Kevin L. Brendle",
+      "address": "P.O. Box 179, Dickens 79229",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Dimmit",
+      "fips": "48127",
+      "court_id": "tx_ccc_48127",
+      "office": "County Judge",
+      "judge_name": "Martha Alicia Gomez Ponce",
+      "address": "Courthouse, 103 N. 5th St., Carrizo Springs 78834",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Donley",
+      "fips": "48129",
+      "court_id": "tx_ccc_48129",
+      "office": "County Judge",
+      "judge_name": "John Cooper Howard",
+      "address": "P.O. Box 909, Clarendon 79226",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Duval",
+      "fips": "48131",
+      "court_id": "tx_ccc_48131",
+      "office": "County Judge",
+      "judge_name": "Arnoldo \"Guero\" Cantu",
+      "address": "P.O. Box 189, San Diego 78384",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Eastland",
+      "fips": "48133",
+      "court_id": "tx_ccc_48133",
+      "office": "County Judge",
+      "judge_name": "David Hullum",
+      "address": "100 W. Main, #203, Eastland 76448",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Ector",
+      "fips": "48135",
+      "court_id": "tx_ccc_48135",
+      "office": "County Judge",
+      "judge_name": "Dustin Fawcett",
+      "address": "300 N. Grant, Rm. 227, Odessa 79761",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Edwards",
+      "fips": "48137",
+      "court_id": "tx_ccc_48137",
+      "office": "County Judge",
+      "judge_name": "Souli Asa Shanklin",
+      "address": "P.O. Box 348, Rocksprings 78880",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "El Paso",
+      "fips": "48141",
+      "court_id": "tx_ccc_48141",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Ricardo Samaniego 500 E. San Antonio, Rm 301, El Paso 79901",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Ellis",
+      "fips": "48139",
+      "court_id": "tx_ccc_48139",
+      "office": "County Judge",
+      "judge_name": "John Wray",
+      "address": "101 W. Main, Waxahachie 75165",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Erath",
+      "fips": "48143",
+      "court_id": "tx_ccc_48143",
+      "office": "County Judge",
+      "judge_name": "Brandon J. Huckabee",
+      "address": "100 W. Washington, Stephenville 76401",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Falls",
+      "fips": "48145",
+      "court_id": "tx_ccc_48145",
+      "office": "County Judge",
+      "judge_name": "Jay Elliott",
+      "address": "P.O. Box 458, Marlin 76661",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Fannin",
+      "fips": "48147",
+      "court_id": "tx_ccc_48147",
+      "office": "County Judge",
+      "judge_name": "Newt Cunningham",
+      "address": "101 E. Sam Rayburn, #101, Bonham 75418",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Fayette",
+      "fips": "48149",
+      "court_id": "tx_ccc_48149",
+      "office": "County Judge",
+      "judge_name": "Dan Mueller",
+      "address": "151 N. Washington St., La Grange 78945",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Fisher",
+      "fips": "48151",
+      "court_id": "tx_ccc_48151",
+      "office": "County Judge",
+      "judge_name": "Ken Holt",
+      "address": "P.O. Box 306, Roby 79543",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Floyd",
+      "fips": "48153",
+      "court_id": "tx_ccc_48153",
+      "office": "County Judge",
+      "judge_name": "Marty Lucke",
+      "address": "100 Main, Room 105, Floydada 79235",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Foard",
+      "fips": "48155",
+      "court_id": "tx_ccc_48155",
+      "office": "County Judge",
+      "judge_name": "Mark Christopher",
+      "address": "P.O. Box 660, Crowell 79227",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Fort Bend",
+      "fips": "48157",
+      "court_id": "tx_ccc_48157",
+      "office": "County Judge",
+      "judge_name": "KP George",
+      "address": "401 Jackson St., Richmond 77469",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Franklin",
+      "fips": "48159",
+      "court_id": "tx_ccc_48159",
+      "office": "County Judge",
+      "judge_name": "Scott Lee",
+      "address": "200 Kaufman St. N., Mt. Vernon 75457",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Freestone",
+      "fips": "48161",
+      "court_id": "tx_ccc_48161",
+      "office": "County Judge",
+      "judge_name": "Linda K. Grant",
+      "address": "Courthouse, 118 E. Commerce, Rm 205, Fairfield 75840",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Frio",
+      "fips": "48163",
+      "court_id": "tx_ccc_48163",
+      "office": "County Judge",
+      "judge_name": "Rochelle Lozano Camacho",
+      "address": "500 E. San Antonio St., #7, Pearsall 78061",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Gaines",
+      "fips": "48165",
+      "court_id": "tx_ccc_48165",
+      "office": "County Judge",
+      "judge_name": "Cindy Therwhanger",
+      "address": "P.O. Box 847, Seminole 79360",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Galveston",
+      "fips": "48167",
+      "court_id": "tx_ccc_48167",
+      "office": "County Judge",
+      "judge_name": "Mark Henry",
+      "address": "722 Moody, Ste. 200, Galveston 77550",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Garza",
+      "fips": "48169",
+      "court_id": "tx_ccc_48169",
+      "office": "County Judge",
+      "judge_name": "Lee Norman",
+      "address": "300 West Main Street, Post 79356",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Gillespie",
+      "fips": "48171",
+      "court_id": "tx_ccc_48171",
+      "office": "County Judge",
+      "judge_name": "Daniel Jones",
+      "address": "101 W. Main, #9, Fredericksburg 78624",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Glasscock",
+      "fips": "48173",
+      "court_id": "tx_ccc_48173",
+      "office": "County Judge",
+      "judge_name": "Billy Reynolds",
+      "address": "P.O. Box 67, Garden City 79739",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Goliad",
+      "fips": "48175",
+      "court_id": "tx_ccc_48175",
+      "office": "County Judge",
+      "judge_name": "Mike Bennett",
+      "address": "P.O. Box 677, Goliad 77963",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Gonzales",
+      "fips": "48177",
+      "court_id": "tx_ccc_48177",
+      "office": "County Judge",
+      "judge_name": "Patrick Davis",
+      "address": "414 St. Joseph St., Suite 200, Gonzales 78629",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Gray",
+      "fips": "48179",
+      "court_id": "tx_ccc_48179",
+      "office": "County Judge",
+      "judge_name": "Chris Porter",
+      "address": "205 N. Russell St., Rm. 205, Pampa 79065",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Grayson",
+      "fips": "48181",
+      "court_id": "tx_ccc_48181",
+      "office": "County Judge",
+      "judge_name": "Bruce Dawsey",
+      "address": "100 W. Houston, Suite 15, Sherman 75090",
+      "coa_districts": [
+        5,
+        15
+      ],
+      "coa_local_districts": [
+        5
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Gregg",
+      "fips": "48183",
+      "court_id": "tx_ccc_48183",
+      "office": "County Judge",
+      "judge_name": "Bill Stoudt",
+      "address": "101 E. Methvin, Ste. 300, Longview 75601",
+      "coa_districts": [
+        6,
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        6,
+        12
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Grimes",
+      "fips": "48185",
+      "court_id": "tx_ccc_48185",
+      "office": "County Judge",
+      "judge_name": "Joe Fauth III",
+      "address": "P.O. Box 160, Anderson 77830",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Guadalupe",
+      "fips": "48187",
+      "court_id": "tx_ccc_48187",
+      "office": "County Judge",
+      "judge_name": "Kyle Kutscher",
+      "address": "211 West Court Street, Seguin 78155",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hale",
+      "fips": "48189",
+      "court_id": "tx_ccc_48189",
+      "office": "County Judge",
+      "judge_name": "David B. Mull",
+      "address": "500 Broadway #240, Plainview 79072",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hall",
+      "fips": "48191",
+      "court_id": "tx_ccc_48191",
+      "office": "County Judge",
+      "judge_name": "Ray Powell",
+      "address": "512 Main Street, Ste. 4, Memphis 79245",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hamilton",
+      "fips": "48193",
+      "court_id": "tx_ccc_48193",
+      "office": "County Judge",
+      "judge_name": "James Yates",
+      "address": "102 North Rice, Hamilton 76531",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hansford",
+      "fips": "48195",
+      "court_id": "tx_ccc_48195",
+      "office": "County Judge",
+      "judge_name": "Tim Glass",
+      "address": "16 N.W. Court St., Spearman 79081",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hardeman",
+      "fips": "48197",
+      "court_id": "tx_ccc_48197",
+      "office": "County Judge",
+      "judge_name": "Ronald Ingram",
+      "address": "P.O. Box 30, Quanah 79252",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hardin",
+      "fips": "48199",
+      "court_id": "tx_ccc_48199",
+      "office": "County Judge",
+      "judge_name": "Wayne McDaniel",
+      "address": "300 Monroe St., Kountze 77625",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Harris",
+      "fips": "48201",
+      "court_id": "tx_ccc_48201",
+      "office": "County Judge",
+      "judge_name": "Lina Hidalgo",
+      "address": "1001 Preston, Ste. 911, Houston 77002",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Harrison",
+      "fips": "48203",
+      "court_id": "tx_ccc_48203",
+      "office": "County Judge",
+      "judge_name": "Chad Sims",
+      "address": "1 Peter Whetstone Square, Marshall 75670",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hartley",
+      "fips": "48205",
+      "court_id": "tx_ccc_48205",
+      "office": "County Judge",
+      "judge_name": "Ronnie Gordon",
+      "address": "P.O. Box G, Channing 79018",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Haskell",
+      "fips": "48207",
+      "court_id": "tx_ccc_48207",
+      "office": "County Judge",
+      "judge_name": "Kenny Thompson",
+      "address": "1 Ave D, Haskell 79521",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hays",
+      "fips": "48209",
+      "court_id": "tx_ccc_48209",
+      "office": "County Judge",
+      "judge_name": "Ruben Becerra",
+      "address": "111 E. San Antonio, Ste. 300, San Marcos 78666",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hemphill",
+      "fips": "48211",
+      "court_id": "tx_ccc_48211",
+      "office": "County Judge",
+      "judge_name": "Lisa Johnson",
+      "address": "400 Main Street, Rm. 200, Canadian 79014",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Henderson",
+      "fips": "48213",
+      "court_id": "tx_ccc_48213",
+      "office": "County Judge",
+      "judge_name": "Wade McKinney",
+      "address": "125 N. Prairieville St. Ste. 100, Courthouse, Athens 75751",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hidalgo",
+      "fips": "48215",
+      "court_id": "tx_ccc_48215",
+      "office": "County Judge",
+      "judge_name": "Richard Cortez",
+      "address": "302 W. University Dr., Edinburg 78539",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hill",
+      "fips": "48217",
+      "court_id": "tx_ccc_48217",
+      "office": "County Judge",
+      "judge_name": "Justin W. Lewis",
+      "address": "P.O. Box 457, Hillsboro 76645",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hockley",
+      "fips": "48219",
+      "court_id": "tx_ccc_48219",
+      "office": "County Judge",
+      "judge_name": "Sharla Baldridge",
+      "address": "802 Houston, Ste. 101, Levelland 79336",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hood",
+      "fips": "48221",
+      "court_id": "tx_ccc_48221",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Ron Massingill 100 E. Pearl, Granbury 76048",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hopkins",
+      "fips": "48223",
+      "court_id": "tx_ccc_48223",
+      "office": "County Judge",
+      "judge_name": "Robert Newsom",
+      "address": "118 Church St., Sulphur Springs 75482",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Houston",
+      "fips": "48225",
+      "court_id": "tx_ccc_48225",
+      "office": "County Judge",
+      "judge_name": "Jim L. Lovell",
+      "address": "401 East Goliad Ave, Crockett 75835",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Howard",
+      "fips": "48227",
+      "court_id": "tx_ccc_48227",
+      "office": "County Judge",
+      "judge_name": "Randy S. Johnson",
+      "address": "300 Main St., Rm. 207, Big Spring 79720",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hudspeth",
+      "fips": "48229",
+      "court_id": "tx_ccc_48229",
+      "office": "County Judge",
+      "judge_name": "Joanna \"JoJo\" Mackenzie",
+      "address": "P.O. Box 68, Sierra Blanca 79851",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hunt",
+      "fips": "48231",
+      "court_id": "tx_ccc_48231",
+      "office": "County Judge",
+      "judge_name": "Bobby W. Stovall",
+      "address": "2507 Lee St, 2nd Floor Greenville 75401",
+      "coa_districts": [
+        5,
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        5,
+        6
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Hutchinson",
+      "fips": "48233",
+      "court_id": "tx_ccc_48233",
+      "office": "County Judge",
+      "judge_name": "Cindy Irwin",
+      "address": "P.O. Box 790, Stinnett 79083",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Irion",
+      "fips": "48235",
+      "court_id": "tx_ccc_48235",
+      "office": "County Judge",
+      "judge_name": "Molly Criner",
+      "address": "P.O. Box 770, Mertzon 76941",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jack",
+      "fips": "48237",
+      "court_id": "tx_ccc_48237",
+      "office": "County Judge",
+      "judge_name": "Keith Umphress",
+      "address": "100 Main, Ste 206, Jacksboro 76458",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jackson",
+      "fips": "48239",
+      "court_id": "tx_ccc_48239",
+      "office": "County Judge",
+      "judge_name": "Jill S. Sklar",
+      "address": "115 W. Main, Room 207, Edna 77957",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jasper",
+      "fips": "48241",
+      "court_id": "tx_ccc_48241",
+      "office": "County Judge",
+      "judge_name": "Mark Allen",
+      "address": "121 N. Austin, Room 106, Jasper 75951",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jeff Davis",
+      "fips": "48243",
+      "court_id": "tx_ccc_48243",
+      "office": "County Judge",
+      "judge_name": "Curtis Evans",
+      "address": "P.O. Box 836, Fort Davis 79734",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jefferson",
+      "fips": "48245",
+      "court_id": "tx_ccc_48245",
+      "office": "County Judge",
+      "judge_name": "Jeff Branick",
+      "address": "1149 Pearl, Beaumont 77701",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jim Hogg",
+      "fips": "48247",
+      "court_id": "tx_ccc_48247",
+      "office": "County Judge",
+      "judge_name": "Juan Carlos Guerra",
+      "address": "P.O. Box 729, Hebbronville 78361",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jim Wells",
+      "fips": "48249",
+      "court_id": "tx_ccc_48249",
+      "office": "County Judge",
+      "judge_name": "Pedro \"Pete\" Trevino, Jr.",
+      "address": "200 N. Almond, Alice 78332",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Johnson",
+      "fips": "48251",
+      "court_id": "tx_ccc_48251",
+      "office": "County Judge",
+      "judge_name": "Christopher Boedeker",
+      "address": "2 N. Main St., #120, Cleburne 76033",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Jones",
+      "fips": "48253",
+      "court_id": "tx_ccc_48253",
+      "office": "County Judge",
+      "judge_name": "Dale Spurgin",
+      "address": "P.O. Box 148, Anson 79501",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Karnes",
+      "fips": "48255",
+      "court_id": "tx_ccc_48255",
+      "office": "County Judge",
+      "judge_name": "Wade Hedtke",
+      "address": "210 W. Calvert, Karnes City 78118",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kaufman",
+      "fips": "48257",
+      "court_id": "tx_ccc_48257",
+      "office": "County Judge",
+      "judge_name": "Jakie Allen",
+      "address": "100 W. Mulberry St., Kaufman 75142",
+      "coa_districts": [
+        5,
+        15
+      ],
+      "coa_local_districts": [
+        5
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kendall",
+      "fips": "48259",
+      "court_id": "tx_ccc_48259",
+      "office": "County Judge",
+      "judge_name": "Shane Stolarczyk",
+      "address": "201 E. San Antonio St., Ste. 122, Boerne 78006",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kenedy",
+      "fips": "48261",
+      "court_id": "tx_ccc_48261",
+      "office": "County Judge",
+      "judge_name": "Charles Burns",
+      "address": "P.O. Box 37, Sarita 78385",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kent",
+      "fips": "48263",
+      "court_id": "tx_ccc_48263",
+      "office": "County Judge",
+      "judge_name": "Layne Coulter",
+      "address": "P.O. Box 6, Jayton 79528",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kerr",
+      "fips": "48265",
+      "court_id": "tx_ccc_48265",
+      "office": "County Judge",
+      "judge_name": "Rob Kelly",
+      "address": "700 Main St., Suite 101, Kerrville 78028",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kimble",
+      "fips": "48267",
+      "court_id": "tx_ccc_48267",
+      "office": "County Judge",
+      "judge_name": "Hal A. Rose",
+      "address": "501 Main St., Junction 76849",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "King",
+      "fips": "48269",
+      "court_id": "tx_ccc_48269",
+      "office": "County Judge",
+      "judge_name": "Duane Daniel",
+      "address": "P.O. Box 127, Guthrie 79236",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kinney",
+      "fips": "48271",
+      "court_id": "tx_ccc_48271",
+      "office": "County Judge",
+      "judge_name": "John Paul Schuster",
+      "address": "P.O. Box 348, Brackettville 78832",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Kleberg",
+      "fips": "48273",
+      "court_id": "tx_ccc_48273",
+      "office": "County Judge",
+      "judge_name": "Randy Madrid",
+      "address": "P.O. Box 752, Kingsville 78364",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Knox",
+      "fips": "48275",
+      "court_id": "tx_ccc_48275",
+      "office": "County Judge",
+      "judge_name": "Stan Wojcik",
+      "address": "P.O. Box 77, Benjamin 79505",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "La Salle",
+      "fips": "48283",
+      "court_id": "tx_ccc_48283",
+      "office": "County Judge",
+      "judge_name": "Leodoro Martinez, III",
+      "address": "101 Courthouse Sq., Suite #315, Cotulla, TX 78014",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lamar",
+      "fips": "48277",
+      "court_id": "tx_ccc_48277",
+      "office": "County Judge",
+      "judge_name": "Brandon Young Bell",
+      "address": "119 N. Main, Paris 75460",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lamb",
+      "fips": "48279",
+      "court_id": "tx_ccc_48279",
+      "office": "County Judge",
+      "judge_name": "James Michael DeLoach",
+      "address": "100 6th Drive, Room 212, Littlefield 79339",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lampasas",
+      "fips": "48281",
+      "court_id": "tx_ccc_48281",
+      "office": "County Judge",
+      "judge_name": "Randall J. Hoyer",
+      "address": "P.O. Box 231, Lampasas 76550",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lavaca",
+      "fips": "48285",
+      "court_id": "tx_ccc_48285",
+      "office": "County Judge",
+      "judge_name": "Keith Mudd",
+      "address": "P.O. Box 243, Hallettsville 77964",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lee",
+      "fips": "48287",
+      "court_id": "tx_ccc_48287",
+      "office": "County Judge",
+      "judge_name": "Frank J. Malinak",
+      "address": "200 S. Main, Room 107, Giddings 78942",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Leon",
+      "fips": "48289",
+      "court_id": "tx_ccc_48289",
+      "office": "County Judge",
+      "judge_name": "Byron Ryder",
+      "address": "P.O. Box 429, Centerville 75833",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Liberty",
+      "fips": "48291",
+      "court_id": "tx_ccc_48291",
+      "office": "County Judge",
+      "judge_name": "Jay Knight",
+      "address": "1923 Sam Houston, Room 201, Liberty 77575",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Limestone",
+      "fips": "48293",
+      "court_id": "tx_ccc_48293",
+      "office": "County Judge",
+      "judge_name": "Richard Duncan",
+      "address": "P.O. Box 469, Groesbeck 76642",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lipscomb",
+      "fips": "48295",
+      "court_id": "tx_ccc_48295",
+      "office": "County Judge",
+      "judge_name": "Dori Roots",
+      "address": "P.O. Box 69, Lipscomb 79056",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Live Oak",
+      "fips": "48297",
+      "court_id": "tx_ccc_48297",
+      "office": "County Judge",
+      "judge_name": "James L. Liska",
+      "address": "P.O. Box 487, George West 78022",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Llano",
+      "fips": "48299",
+      "court_id": "tx_ccc_48299",
+      "office": "County Judge",
+      "judge_name": "Ron Cunningham",
+      "address": "801 Ford Street, Room 101, Llano 78643",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Loving",
+      "fips": "48301",
+      "court_id": "tx_ccc_48301",
+      "office": "County Judge",
+      "judge_name": "Skeet Jones",
+      "address": "P.O. Box 193, Mentone 79754",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lubbock",
+      "fips": "48303",
+      "court_id": "tx_ccc_48303",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Curtis Parrish P.O. Box 10536, Lubbock 79408",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Lynn",
+      "fips": "48305",
+      "court_id": "tx_ccc_48305",
+      "office": "County Judge",
+      "judge_name": "Mike Braddock",
+      "address": "P.O. Box 1167, Tahoka 79373",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Madison",
+      "fips": "48313",
+      "court_id": "tx_ccc_48313",
+      "office": "County Judge",
+      "judge_name": "Clark Osborne",
+      "address": "103 W. Trinity, Ste. 113, Madisonville 77864",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Marion",
+      "fips": "48315",
+      "court_id": "tx_ccc_48315",
+      "office": "County Judge",
+      "judge_name": "Leward LaFleur",
+      "address": "119 West Lafayette St., Ste. 1, Jefferson 75657",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Martin",
+      "fips": "48317",
+      "court_id": "tx_ccc_48317",
+      "office": "County Judge",
+      "judge_name": "Bryan Cox",
+      "address": "Box 1330, Stanton 79782",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mason",
+      "fips": "48319",
+      "court_id": "tx_ccc_48319",
+      "office": "County Judge",
+      "judge_name": "Sheree Hardin",
+      "address": "P.O. Box 1726, Mason 76856",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Matagorda",
+      "fips": "48321",
+      "court_id": "tx_ccc_48321",
+      "office": "County Judge",
+      "judge_name": "Bobby Seiferman",
+      "address": "1700 Seventh St., Room 301, Bay City 77414",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Maverick",
+      "fips": "48323",
+      "court_id": "tx_ccc_48323",
+      "office": "County Judge",
+      "judge_name": "Ramsey English Cantu",
+      "address": "500 Quarry St., Ste. 3, Eagle Pass 78852",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mcculloch",
+      "fips": "48307",
+      "court_id": "tx_ccc_48307",
+      "office": "County Judge",
+      "judge_name": "Frank Trull",
+      "address": "199 Courthouse Sq., Rm 202, Brady 76825",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mclennan",
+      "fips": "48309",
+      "court_id": "tx_ccc_48309",
+      "office": "County Judge",
+      "judge_name": "Scott Felton",
+      "address": "P.O. Box 1728, Waco 76703-1728",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mcmullen",
+      "fips": "48311",
+      "court_id": "tx_ccc_48311",
+      "office": "County Judge",
+      "judge_name": "James E. Teal",
+      "address": "P.O. Box 237, Tilden 78072",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Medina",
+      "fips": "48325",
+      "court_id": "tx_ccc_48325",
+      "office": "County Judge",
+      "judge_name": "Keith A. Lutz",
+      "address": "1502 Ave K, Hondo 78861",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Menard",
+      "fips": "48327",
+      "court_id": "tx_ccc_48327",
+      "office": "County Judge",
+      "judge_name": "Brandon Corbin",
+      "address": "P.O. Box 1038, Menard 76859",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Midland",
+      "fips": "48329",
+      "court_id": "tx_ccc_48329",
+      "office": "County Judge",
+      "judge_name": "Terry Johnson",
+      "address": "500 N. Loraine St., 11th Floor, Midland 79701",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Milam",
+      "fips": "48331",
+      "court_id": "tx_ccc_48331",
+      "office": "County Judge",
+      "judge_name": "Bill Whitmire",
+      "address": "102 S. Fannin, Ste. 1, Cameron 76520",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mills",
+      "fips": "48333",
+      "court_id": "tx_ccc_48333",
+      "office": "County Judge",
+      "judge_name": "Jett Johnson",
+      "address": "P.O. Box 483, Goldthwaite 76844",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Mitchell",
+      "fips": "48335",
+      "court_id": "tx_ccc_48335",
+      "office": "County Judge",
+      "judge_name": "Mike Redwine",
+      "address": "349 Oak St., Rm. 200, Colorado City 79512",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Montague",
+      "fips": "48337",
+      "court_id": "tx_ccc_48337",
+      "office": "County Judge",
+      "judge_name": "Kevin Benton",
+      "address": "P.O. Box 475, Montague 76251",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Montgomery",
+      "fips": "48339",
+      "court_id": "tx_ccc_48339",
+      "office": "County Judge",
+      "judge_name": "Mark J Keough",
+      "address": "501 N. Thompson, #401, Conroe 77301",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Moore",
+      "fips": "48341",
+      "court_id": "tx_ccc_48341",
+      "office": "County Judge",
+      "judge_name": "Johnnie \"Rowdy\" Rhoades",
+      "address": "715 S. Dumas Ave., Rm. 202, Dumas 79029",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Morris",
+      "fips": "48343",
+      "court_id": "tx_ccc_48343",
+      "office": "County Judge",
+      "judge_name": "Doug Reeder",
+      "address": "500 Broadnax Street, Ste. B, Daingerfield 75638",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Motley",
+      "fips": "48345",
+      "court_id": "tx_ccc_48345",
+      "office": "County Judge",
+      "judge_name": "James B. Meador",
+      "address": "701 Main & Dundee, Matador 79244",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Nacogdoches",
+      "fips": "48347",
+      "court_id": "tx_ccc_48347",
+      "office": "County Judge",
+      "judge_name": "Greg Sowell",
+      "address": "101 W. Main St., Suite 170, Nacogdoches 75961",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Navarro",
+      "fips": "48349",
+      "court_id": "tx_ccc_48349",
+      "office": "County Judge",
+      "judge_name": "H.M. Davenport, Jr.",
+      "address": "800 N. Main, Corsicana 75110",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Newton",
+      "fips": "48351",
+      "court_id": "tx_ccc_48351",
+      "office": "County Judge",
+      "judge_name": "Ronnie Cochran",
+      "address": "P.O. Box J, Newton 75966",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Nolan",
+      "fips": "48353",
+      "court_id": "tx_ccc_48353",
+      "office": "County Judge",
+      "judge_name": "George Whitley May",
+      "address": "100 E. 3rd, Suite 110, Sweetwater 79556",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Nueces",
+      "fips": "48355",
+      "court_id": "tx_ccc_48355",
+      "office": "County Judge",
+      "judge_name": "Connie Scott",
+      "address": "901 Leopard St., Rm 303, Corpus Christi 78401",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Ochiltree",
+      "fips": "48357",
+      "court_id": "tx_ccc_48357",
+      "office": "County Judge",
+      "judge_name": "Charles Kelly",
+      "address": "511 S. Main, Perryton 79070",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Oldham",
+      "fips": "48359",
+      "court_id": "tx_ccc_48359",
+      "office": "County Judge",
+      "judge_name": "Shawn Ballew",
+      "address": "P.O. Box 195, Vega 79092",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Orange",
+      "fips": "48361",
+      "court_id": "tx_ccc_48361",
+      "office": "County Judge",
+      "judge_name": "John H. Gothia",
+      "address": "123 South 6th St., Orange 77630",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Palo Pinto",
+      "fips": "48363",
+      "court_id": "tx_ccc_48363",
+      "office": "County Judge",
+      "judge_name": "Shane Long",
+      "address": "P.O. Box 190, Palo Pinto 76484",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Panola",
+      "fips": "48365",
+      "court_id": "tx_ccc_48365",
+      "office": "County Judge",
+      "judge_name": "Rodger G. McLane",
+      "address": "110 S. Sycamore St., Room 216-A, Carthage 75633",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Parker",
+      "fips": "48367",
+      "court_id": "tx_ccc_48367",
+      "office": "County Judge",
+      "judge_name": "Pat Dean",
+      "address": "1 Courthouse Square, Weatherford 76086",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Parmer",
+      "fips": "48369",
+      "court_id": "tx_ccc_48369",
+      "office": "County Judge",
+      "judge_name": "Isabel Izzy Carrasco",
+      "address": "P.O. Box 506, Farwell 79325",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Pecos",
+      "fips": "48371",
+      "court_id": "tx_ccc_48371",
+      "office": "County Judge",
+      "judge_name": "Joe Shuster",
+      "address": "103 W. Callaghan, Fort Stockton 79735",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Polk",
+      "fips": "48373",
+      "court_id": "tx_ccc_48373",
+      "office": "County Judge",
+      "judge_name": "Syndney Brown Murphy",
+      "address": "101 W. Church St., Ste 300, Livingston 77351",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Potter",
+      "fips": "48375",
+      "court_id": "tx_ccc_48375",
+      "office": "County Judge",
+      "judge_name": "Nancy Tanner",
+      "address": "500 S. Fillmore, Rm. 103, Amarillo 79101",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Presidio",
+      "fips": "48377",
+      "court_id": "tx_ccc_48377",
+      "office": "County Judge",
+      "judge_name": "Jose Portillo Jr.",
+      "address": "P.O. Box 606, Marfa 79843",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Rains",
+      "fips": "48379",
+      "court_id": "tx_ccc_48379",
+      "office": "County Judge",
+      "judge_name": "Linda Wallace",
+      "address": "167 E. Quitman St., Ste. 102, Emory 75440",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Randall",
+      "fips": "48381",
+      "court_id": "tx_ccc_48381",
+      "office": "County Judge",
+      "judge_name": "Christy Dyer",
+      "address": "501 16th St., Ste. 303, Canyon 79015",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Reagan",
+      "fips": "48383",
+      "court_id": "tx_ccc_48383",
+      "office": "County Judge",
+      "judge_name": "James T. O'Bryan",
+      "address": "P.O. Box 100, Big Lake 76932",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Real",
+      "fips": "48385",
+      "court_id": "tx_ccc_48385",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Bella A. Rubio P.O. Box 446, Leakey 78873",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Red River",
+      "fips": "48387",
+      "court_id": "tx_ccc_48387",
+      "office": "County Judge",
+      "judge_name": "Robert Bridges",
+      "address": "400 N. Walnut St., Clarksville 75426",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Reeves",
+      "fips": "48389",
+      "court_id": "tx_ccc_48389",
+      "office": "County Judge",
+      "judge_name": "Leo Hung",
+      "address": "P.O. Box 867, Pecos 79772",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Refugio",
+      "fips": "48391",
+      "court_id": "tx_ccc_48391",
+      "office": "County Judge",
+      "judge_name": "Jhiela (Gigi) Poynter",
+      "address": "808 Commerce, Rm. 104, Refugio 78377",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Roberts",
+      "fips": "48393",
+      "court_id": "tx_ccc_48393",
+      "office": "County Judge",
+      "judge_name": "Mitchell Locke",
+      "address": "P.O. Box 478, Miami 79059",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Robertson",
+      "fips": "48395",
+      "court_id": "tx_ccc_48395",
+      "office": "County Judge",
+      "judge_name": "Joe David Scarpinato",
+      "address": "P.O. Box 427, Franklin 77856",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Rockwall",
+      "fips": "48397",
+      "court_id": "tx_ccc_48397",
+      "office": "County Judge",
+      "judge_name": "Frank New",
+      "address": "101 E. Rusk St., Ste 201, Rockwall 75087",
+      "coa_districts": [
+        5,
+        15
+      ],
+      "coa_local_districts": [
+        5
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Runnels",
+      "fips": "48399",
+      "court_id": "tx_ccc_48399",
+      "office": "County Judge",
+      "judge_name": "Julia Miller",
+      "address": "613 Hutchings Ave., Room 103, Ballinger 76821",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Rusk",
+      "fips": "48401",
+      "court_id": "tx_ccc_48401",
+      "office": "County Judge",
+      "judge_name": "Joel Hale",
+      "address": "115 North Main Street #104, Henderson 75652",
+      "coa_districts": [
+        6,
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        6,
+        12
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Sabine",
+      "fips": "48403",
+      "court_id": "tx_ccc_48403",
+      "office": "County Judge",
+      "judge_name": "Daryl D. Melton",
+      "address": "P.O. Box 716, Hemphill 75948",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "San Augustine",
+      "fips": "48405",
+      "court_id": "tx_ccc_48405",
+      "office": "County Judge",
+      "judge_name": "Jeff Boyd",
+      "address": "106 Courthouse, San Augustine 75972",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "San Jacinto",
+      "fips": "48407",
+      "court_id": "tx_ccc_48407",
+      "office": "County Judge",
+      "judge_name": "Fritz Faulkner",
+      "address": "1 State Hwy 150, Rm. 5, Coldspring 77331",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "San Patricio",
+      "fips": "48409",
+      "court_id": "tx_ccc_48409",
+      "office": "County Judge",
+      "judge_name": "David R. Krebs",
+      "address": "1301 E. Sinton St, Suite C, Sinton, TX 78387",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "San Saba",
+      "fips": "48411",
+      "court_id": "tx_ccc_48411",
+      "office": "County Judge",
+      "judge_name": "Jody A. Fauley",
+      "address": "Courthouse, 500 E. Wallace, San Saba 76877",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Schleicher",
+      "fips": "48413",
+      "court_id": "tx_ccc_48413",
+      "office": "County Judge",
+      "judge_name": "Charlie Bradley",
+      "address": "P.O. Box 536, Eldorado 76936",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Scurry",
+      "fips": "48415",
+      "court_id": "tx_ccc_48415",
+      "office": "County Judge",
+      "judge_name": "Dan Hicks",
+      "address": "1806 25th St., Ste. 200, Snyder 79549",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Shackelford",
+      "fips": "48417",
+      "court_id": "tx_ccc_48417",
+      "office": "County Judge",
+      "judge_name": "John M. Viertel",
+      "address": "P.O. Box 2797, Albany 76430",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Shelby",
+      "fips": "48419",
+      "court_id": "tx_ccc_48419",
+      "office": "County Judge",
+      "judge_name": "Allison Harbison",
+      "address": "200 San Augustine St. #6, Center 75935",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Sherman",
+      "fips": "48421",
+      "court_id": "tx_ccc_48421",
+      "office": "County Judge",
+      "judge_name": "Terri Beth Carter",
+      "address": "P.O. Box 165, Stratford 79084",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Smith",
+      "fips": "48423",
+      "court_id": "tx_ccc_48423",
+      "office": "County Judge",
+      "judge_name": "Neal Franklin",
+      "address": "200 E. Ferguson St., Suite 100, Tyler 75702",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Somervell",
+      "fips": "48425",
+      "court_id": "tx_ccc_48425",
+      "office": "County Judge",
+      "judge_name": "Danny Chambers",
+      "address": "P.O. Box 851, Glen Rose 76043",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Starr",
+      "fips": "48427",
+      "court_id": "tx_ccc_48427",
+      "office": "County Judge",
+      "judge_name": "Eloy Vera",
+      "address": "100 N. FM 3167, Ste 202, Rio Grande City 78582",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Stephens",
+      "fips": "48429",
+      "court_id": "tx_ccc_48429",
+      "office": "County Judge",
+      "judge_name": "Michael Roach",
+      "address": "200 W. Walker, Breckenridge 76424",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Sterling",
+      "fips": "48431",
+      "court_id": "tx_ccc_48431",
+      "office": "County Judge",
+      "judge_name": "Deborah Horwood",
+      "address": "P.O. Box 819, Sterling City 76951",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Stonewall",
+      "fips": "48433",
+      "court_id": "tx_ccc_48433",
+      "office": "County Judge",
+      "judge_name": "Ronnie D. Moorhead",
+      "address": "P.O. Box 366, Aspermont 79502",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Sutton",
+      "fips": "48435",
+      "court_id": "tx_ccc_48435",
+      "office": "County Judge",
+      "judge_name": "Joseph (Jody) Harris",
+      "address": "300 E. Oak, Ste 3, Sonora 76950",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Swisher",
+      "fips": "48437",
+      "court_id": "tx_ccc_48437",
+      "office": "County Judge",
+      "judge_name": "Harold Keeter",
+      "address": "119 S. Maxwell, Tulia 79088",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Tarrant",
+      "fips": "48439",
+      "court_id": "tx_ccc_48439",
+      "office": "County Judge",
+      "judge_name": "Tim O'Hare",
+      "address": "100 E. Weatherford, Ste. 501, Fort Worth 76196",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Taylor",
+      "fips": "48441",
+      "court_id": "tx_ccc_48441",
+      "office": "County Judge",
+      "judge_name": "Phil Crowley",
+      "address": "400 Oak St., Ste. 300, Abilene 79602",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Terrell",
+      "fips": "48443",
+      "court_id": "tx_ccc_48443",
+      "office": "County Judge",
+      "judge_name": "Dale Carruthers",
+      "address": "P.O. Drawer 410, Sanderson 79848",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Terry",
+      "fips": "48445",
+      "court_id": "tx_ccc_48445",
+      "office": "County Judge",
+      "judge_name": "Tony Serbantez",
+      "address": "500 W. Main, Rm. 102, Brownfield 79316",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Throckmorton",
+      "fips": "48447",
+      "court_id": "tx_ccc_48447",
+      "office": "County Judge",
+      "judge_name": "Caleb W. Hodges",
+      "address": "105 N. Minter, Throckmorton 76483",
+      "coa_districts": [
+        11,
+        15
+      ],
+      "coa_local_districts": [
+        11
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Titus",
+      "fips": "48449",
+      "court_id": "tx_ccc_48449",
+      "office": "County Judge",
+      "judge_name": "Kent Cooper",
+      "address": "100 W. 1st, Suite 200, Mt. Pleasant 75455",
+      "coa_districts": [
+        6,
+        15
+      ],
+      "coa_local_districts": [
+        6
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Tom Green",
+      "fips": "48451",
+      "court_id": "tx_ccc_48451",
+      "office": "County Judge",
+      "judge_name": "Lane Carter",
+      "address": "113 W Beauregard, San Angelo 76901",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Travis",
+      "fips": "48453",
+      "court_id": "tx_ccc_48453",
+      "office": "County Judge",
+      "judge_name": "Andy Brown",
+      "address": "700 Lavaca, Ste. 2.300, Austin 78701",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Trinity",
+      "fips": "48455",
+      "court_id": "tx_ccc_48455",
+      "office": "County Judge",
+      "judge_name": "Danny Martin",
+      "address": "P.O. Box 457, Groveton 75845",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Tyler",
+      "fips": "48457",
+      "court_id": "tx_ccc_48457",
+      "office": "County Judge",
+      "judge_name": "Milton Powers",
+      "address": "100 West Bluff, Rm. 101, Woodville 75979",
+      "coa_districts": [
+        9,
+        15
+      ],
+      "coa_local_districts": [
+        9
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Upshur",
+      "fips": "48459",
+      "court_id": "tx_ccc_48459",
+      "office": "County Judge",
+      "judge_name": "Todd Tefteller",
+      "address": "P.O. Box 730, Gilmer 75644",
+      "coa_districts": [
+        6,
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        6,
+        12
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Upton",
+      "fips": "48461",
+      "court_id": "tx_ccc_48461",
+      "office": "County Judge",
+      "judge_name": "Dusty Kilgore",
+      "address": "P.O. Box 482, Rankin 79778",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Uvalde",
+      "fips": "48463",
+      "court_id": "tx_ccc_48463",
+      "office": "County Judge",
+      "judge_name": "William R. Mitchell",
+      "address": "100 N. Getty, Uvalde 78801",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Val Verde",
+      "fips": "48465",
+      "court_id": "tx_ccc_48465",
+      "office": "County Judge",
+      "judge_name": "Lewis G. Owens Jr.",
+      "address": "400 Pecan Street, Del Rio 78840",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Van Zandt",
+      "fips": "48467",
+      "court_id": "tx_ccc_48467",
+      "office": "County Judge",
+      "judge_name": "2/27/26, 1:11 AM County Judges",
+      "address": "Andrew Reese 121 E. Dallas, Rm. 203, Canton 75103",
+      "coa_districts": [
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        12
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Victoria",
+      "fips": "48469",
+      "court_id": "tx_ccc_48469",
+      "office": "County Judge",
+      "judge_name": "Ben Zeller",
+      "address": "101 N. Bridge, Rm. 102, Victoria 77901",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Walker",
+      "fips": "48471",
+      "court_id": "tx_ccc_48471",
+      "office": "County Judge",
+      "judge_name": "Colt M. Christian",
+      "address": "1100 University Ave, #204, Huntsville 77340",
+      "coa_districts": [
+        10,
+        15
+      ],
+      "coa_local_districts": [
+        10
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Waller",
+      "fips": "48473",
+      "court_id": "tx_ccc_48473",
+      "office": "County Judge",
+      "judge_name": "Carbett \u201cTrey\u201d J. Duhon, III",
+      "address": "836 Austin St., Rm 203, Hempstead 77445",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Ward",
+      "fips": "48475",
+      "court_id": "tx_ccc_48475",
+      "office": "County Judge",
+      "judge_name": "Greg M. Holly",
+      "address": "400 South Allen St., Ste. 100, Monahans 79756",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Washington",
+      "fips": "48477",
+      "court_id": "tx_ccc_48477",
+      "office": "County Judge",
+      "judge_name": "John L. Durrenberger",
+      "address": "100 E. Main, Ste. 104, Brenham 77833",
+      "coa_districts": [
+        1,
+        14,
+        15
+      ],
+      "coa_local_districts": [
+        1,
+        14
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Webb",
+      "fips": "48479",
+      "court_id": "tx_ccc_48479",
+      "office": "County Judge",
+      "judge_name": "Tano E. Tijerina",
+      "address": "1000 Houston, 3rd Floor, Laredo 78040",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wharton",
+      "fips": "48481",
+      "court_id": "tx_ccc_48481",
+      "office": "County Judge",
+      "judge_name": "Phillip Spenrath",
+      "address": "309 E. Milam, Ste. 600, Wharton 77488",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wheeler",
+      "fips": "48483",
+      "court_id": "tx_ccc_48483",
+      "office": "County Judge",
+      "judge_name": "Pat McDowell",
+      "address": "Box 486, Wheeler 79096",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wichita",
+      "fips": "48485",
+      "court_id": "tx_ccc_48485",
+      "office": "County Judge",
+      "judge_name": "Jim Johnson",
+      "address": "900 7th St., Rm. 206, Wichita Falls 76301",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wilbarger",
+      "fips": "48487",
+      "court_id": "tx_ccc_48487",
+      "office": "County Judge",
+      "judge_name": "Greg Tyra",
+      "address": "1700 Wilbarger St., Rm. 12, Vernon 76384",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Willacy",
+      "fips": "48489",
+      "court_id": "tx_ccc_48489",
+      "office": "County Judge",
+      "judge_name": "Aurelio \"Keter\" Guerra",
+      "address": "576 W. Main, Raymondville 78580",
+      "coa_districts": [
+        13,
+        15
+      ],
+      "coa_local_districts": [
+        13
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Williamson",
+      "fips": "48491",
+      "court_id": "tx_ccc_48491",
+      "office": "County Judge",
+      "judge_name": "Bill Gravell, Jr.",
+      "address": "710 So. Main, Ste 201, Georgetown 78626",
+      "coa_districts": [
+        3,
+        15
+      ],
+      "coa_local_districts": [
+        3
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wilson",
+      "fips": "48493",
+      "court_id": "tx_ccc_48493",
+      "office": "County Judge",
+      "judge_name": "Henry \"Hank\" Whitman, Jr.",
+      "address": "1103 4th St, Floresville 78114",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Winkler",
+      "fips": "48495",
+      "court_id": "tx_ccc_48495",
+      "office": "County Judge",
+      "judge_name": "Charles M. Wolf",
+      "address": "P. O. Drawer Y, Kermit 79745",
+      "coa_districts": [
+        8,
+        15
+      ],
+      "coa_local_districts": [
+        8
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wise",
+      "fips": "48497",
+      "court_id": "tx_ccc_48497",
+      "office": "County Judge",
+      "judge_name": "J.D. Clark",
+      "address": "P.O. Box 393, Decatur 76234",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Wood",
+      "fips": "48499",
+      "court_id": "tx_ccc_48499",
+      "office": "County Judge",
+      "judge_name": "Kevin White",
+      "address": "P.O. Box 938, Quitman 75783",
+      "coa_districts": [
+        6,
+        12,
+        15
+      ],
+      "coa_local_districts": [
+        6,
+        12
+      ],
+      "coa_has_local_overlap": true,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Yoakum",
+      "fips": "48501",
+      "court_id": "tx_ccc_48501",
+      "office": "County Judge",
+      "judge_name": "Michael C. Ybarra",
+      "address": "P.O. Box 456, Plains 79355",
+      "coa_districts": [
+        7,
+        15
+      ],
+      "coa_local_districts": [
+        7
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Young",
+      "fips": "48503",
+      "court_id": "tx_ccc_48503",
+      "office": "County Judge",
+      "judge_name": "Win Graham",
+      "address": "516 Fourth Street, Room 108, Graham 76450",
+      "coa_districts": [
+        2,
+        15
+      ],
+      "coa_local_districts": [
+        2
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Zapata",
+      "fips": "48505",
+      "court_id": "tx_ccc_48505",
+      "office": "County Judge",
+      "judge_name": "Joe Rathmell",
+      "address": "P.O. Box 99, Zapata 78076",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    },
+    {
+      "county": "Zavala",
+      "fips": "48507",
+      "court_id": "tx_ccc_48507",
+      "office": "County Judge",
+      "judge_name": "Jesus Gonzales",
+      "address": "200 E. Uvalde St., Ste. 9, Crystal City 78839",
+      "coa_districts": [
+        4,
+        15
+      ],
+      "coa_local_districts": [
+        4
+      ],
+      "coa_has_local_overlap": false,
+      "source": "County Judges.pdf"
+    }
+  ],
+  "counts": {
+    "counties_parsed": 254,
+    "expected_counties": 254
+  }
+}

@@ -1,0 +1,456 @@
+county,fips,name,type,phone,title_raw
+Anderson,48001,"Mitchell, Allyson",criminal_district_attorney,(903) 723-7400,Crim Dist Atty
+Andrews,48003,"Galloway, Sean B.",county_attorney,(432) 524-1405,Co Atty
+Andrews,48003,"Galloway, Sean B.",district_attorney,(432) 524-1405,Dist Atty
+Angelina,48005,"Yakovsky, James M.",county_attorney,(936) 639-3929,Co Atty
+Angelina,48005,"Thompson, Layne A.",district_attorney,(936) 632-5090,Dist Atty
+Aransas,48007,"Oster, Amanda B.",county_attorney,(361) 790-0114,Co Atty
+Archer,48009,"Berend, Jordyn A.",county_attorney,(940) 574-4724,Co Atty
+Archer,48009,"Boggeman, Katie",district_attorney,(940) 894-6211,Dist Atty
+Armstrong,48011,"Herring, Jason E.",district_attorney,(806) 379-2325,Dist Atty
+Atascosa,48013,"Solis, Molly G.",county_attorney,(830) 769-3573,Co Atty
+Atascosa,48013,"Louis, Audrey",district_attorney,(830) 393-2200,Dist Atty
+Austin,48015,"Robinson, Brandy N.",criminal_district_attorney,(979) 865-5933,Crim Dist Atty
+Bailey,48017,"Kee, Michaela",county_attorney,(806) 272-4205,Co Atty
+Bailey,48017,"Claborn II, Jackie Riley",district_attorney,(806) 272-4205,Dist Atty
+Bandera,48019,"Lindig, Janna Ivey",county_attorney,(830) 796-4075,Co Atty
+Bandera,48019,"Harpold, Stephen",district_attorney,(830) 315-2460,Dist Atty
+Bastrop,48021,"Goertz, Bryan",criminal_district_attorney,(512) 581-7125,Crim Dist Atty
+Baylor,48023,"Ayres, Cynthia",county_attorney,(940) 889-5140,Co Atty
+Baylor,48023,"Elliott, Susan",county_attorney,(940) 889-5140,Co Atty
+Baylor,48023,"Brooks, Jameson H.",district_attorney,(940) 889-2852,Dist Atty
+Bee,48025,"Knight, Mike",county_attorney,(361) 362-3237,Co Atty
+Bee,48025,"McWilliams, Tiffany",district_attorney,(361) 358-1007,Dist Atty
+Bell,48027,"Nichols, James E.",county_attorney,(254) 933-5135,Co Atty
+Bell,48027,"Newell, Stephanie",district_attorney,(254) 933-5215,Dist Atty
+Bexar,48029,"Gonzales, Joe",criminal_district_attorney,(210) 335-2311,Crim Dist Atty
+Blanco,48031,"Earley, Deborah",county_attorney,(830) 868-4447,Co Atty
+Blanco,48031,"Thomas, Perry",district_attorney,(512) 756-5449,Dist Atty
+Borden,48033,"Holbrooks, Marlo",county_attorney,(806) 756-4351,Co Atty
+Borden,48033,"Smith, Ben",district_attorney,(325) 573-2462,Dist Atty
+Bosque,48035,"Brown, Zach Cobb",county_attorney,(254) 435-2186,Co Atty
+Bosque,48035,"Sibley, Adam",district_attorney,(254) 435-2994,Dist Atty
+Bowie,48037,"Rochelle, Jerry",criminal_district_attorney,(903) 735-4800,Crim Dist Atty
+Brazoria,48039,"Selleck, Tom",criminal_district_attorney,(979) 864-1230,Crim Dist Atty
+Brazos,48041,"Gray, Earl",county_attorney,(979) 361-4300,Co Atty
+Brazos,48041,"Parsons, Jarvis",district_attorney,(979) 361-4320,Dist Atty
+Brewster,48043,"Houston, Steve",county_attorney,(432) 837-6209,Co Atty
+Brewster,48043,"White, Ori",district_attorney,(432) 837-0990,Dist Atty
+Briscoe,48045,"Teegardin, Emily",county_attorney,(806) 823-2132,Co Atty
+Briscoe,48045,"Teegardin, Emily",district_attorney,(806) 983-2197,Dist Atty
+Brooks,48047,"Garcia, David T.",county_attorney,(361) 325-5604,Co Atty
+Brooks,48047,"Garcia, Carlos O.",district_attorney,(361) 664-5716,Dist Atty
+Brown,48049,"Broughton, Jennifer",county_attorney,(325) 646-7431,Co Atty
+Brown,48049,"Murray, Micheal",district_attorney,(325) 646-0444,Dist Atty
+Burleson,48051,"Deski, Susan",county_attorney,(979) 567-2340,Co Atty
+Burleson,48051,"Deski, Susan",district_attorney,(979) 567-2350,Dist Atty
+Burnet,48053,"Arredondo, Eduardo",county_attorney,(512) 756-5476,Co Atty
+Burnet,48053,"Thomas, Perry",district_attorney,(512) 756-5449,Dist Atty
+Caldwell,48055,"Weber, Fred",criminal_district_attorney,(512) 398-1811,Crim Dist Atty
+Calhoun,48057,"Rodriguez, Sara",criminal_district_attorney,(361) 553-4422,Crim Dist Atty
+Callahan,48059,"Deel, Shane",county_attorney,(325) 854-5810,Co Atty
+Callahan,48059,"Deel, Shane",district_attorney,(325) 854-5810,Dist Atty
+Cameron,48061,"Saenz, Luis V.",county_attorney,(956) 544-0849,Co Atty
+Cameron,48061,"Saenz, Luis V.",district_attorney,(956) 544-0849,Dist Atty
+Camp,48063,"Wallace III, James (Jas)",county_attorney,(903) 856-2409,Co Atty
+Camp,48063,"Bailey, Charles C.",district_attorney,(903) 577-6726,Dist Atty
+Carson,48065,"Sherwood, Cho",county_attorney,(806) 537-3220,Co Atty
+Carson,48065,"Inman, Luke McLean",district_attorney,(806) 447-0055,Dist Atty
+Cass,48067,"Shelton, Courtney",criminal_district_attorney,(903) 756-7541,Crim Dist Atty
+Castro,48069,"Hamlin, Shalyn",county_attorney,(806) 647-4445,Co Atty
+Castro,48069,"Hamlin, Shalyn",district_attorney,(806) 647-4445,Dist Atty
+Chambers,48071,"Land, Ashley Cain",county_attorney,(409) 267-2411,Co Atty
+Chambers,48071,"Lieck, Cheryl Swope",district_attorney,(409) 267-2680,Dist Atty
+Cherokee,48073,"Young, Dana",county_attorney,(903) 683-2423,Co Atty
+Cherokee,48073,"Beckworth, Jr., Elmer C.",district_attorney,(903) 683-2573,Dist Atty
+Childress,48075,"Buckley, Greg",county_attorney,(940) 937-6158,Co Atty
+Childress,48075,"Inman, Luke McLean",district_attorney,(806) 447-0055,Dist Atty
+Clay,48077,"Slagle, Seth Clayton",county_attorney,(940) 538-6677,Co Atty
+Clay,48077,"Boggeman, Katie",district_attorney,(940) 894-6211,Dist Atty
+Cochran,48079,"Martin, Amanda",county_attorney,(806) 266-8661,Co Atty
+Cochran,48079,"Yandell, Donnie",district_attorney,(806) 894-3130,Dist Atty
+Coke,48081,"Arrott II, Nicholas",county_attorney,(325) 453-2712,Co Atty
+Coke,48081,"Palmer, Allison",district_attorney,(325) 659-6584,Dist Atty
+Coleman,48083,"Wise, Hayden",county_attorney,(325) 625-3731,Co Atty
+Coleman,48083,"Hemphill, Heath",district_attorney,(325) 625-1316,Dist Atty
+Collin,48085,"Willis, Greg",criminal_district_attorney,(972) 548-4323,Crim Dist Atty
+Collingsworth,48087,"Davis, G. Keith",county_attorney,(806) 447-2518,Co Atty
+Collingsworth,48087,"Inman, Luke McLean",district_attorney,(806) 447-0055,Dist Atty
+Colorado,48089,"Johannes, Jay",county_attorney,(979) 732-8203,Co Atty
+Colorado,48089,"Johannes, Jay",district_attorney,(979) 732-8203,Dist Atty
+Comal,48091,"Owens Tharp, Jennifer Anne",criminal_district_attorney,(830) 221-1300,Crim Dist Atty
+Comanche,48093,"Willingham, Craig",county_attorney,(325) 356-2313,Co Atty
+Comanche,48093,"Sibley, Adam",district_attorney,(254) 435-2994,Dist Atty
+Concho,48095,"Treadwell, Ginger",county_attorney,(325) 732-4315,Co Atty
+Concho,48095,"Best, John",district_attorney,(325) 659-6585,Dist Atty
+Cooke,48097,"Zielinski, Edmund",county_attorney,(940) 668-5459,Co Atty
+Cooke,48097,"Warren, John",district_attorney,(940) 668-5466,Dist Atty
+Coryell,48099,"Belt, Brandon",county_attorney,(254) 248-3180,Co Atty
+Coryell,48099,"Boyd, Dusty",district_attorney,(254) 865-5911,Dist Atty
+Cottle,48101,"Buckley, Greg",county_attorney,(940) 937-6158,Co Atty
+Cottle,48101,"Brooks, Jameson H.",district_attorney,(940) 889-2852,Dist Atty
+Crane,48103,"Rawls, Austin",county_attorney,(432) 272-8954,Co Atty
+Crane,48103,"Navarette, Amanda Ann",district_attorney,(432) 586-3700,Dist Atty
+Crockett,48105,"Upham, Jody",county_attorney,(325) 392-3920,Co Atty
+Crockett,48105,"Dodd, Stephen",district_attorney,(432) 336-6294,Dist Atty
+Crosby,48107,"Sales, Michael",county_attorney,(806) 675-2062,Co Atty
+Crosby,48107,"Sales, Michael",district_attorney,(806) 675-2062,Dist Atty
+Culberson,48109,"Mitchell, Stephen L.",county_attorney,(432) 283-2391,Co Atty
+Culberson,48109,"Hicks, Jr., Bill",district_attorney,(915) 546-2059,Dist Atty
+Dallam,48111,"Hill, Whitney",county_attorney,(806) 244-5711,Co Atty
+Dallas,48113,"Creuzot, John",district_attorney,(214) 653-3600,Dist Atty
+Dawson,48115,"Payson, Steven B.",county_attorney,(806) 329-3308,Co Atty
+Dawson,48115,"Furlow, Philip Mack",district_attorney,(806) 872-2259,Dist Atty
+Deaf Smith,48117,"Strowd, Chris",criminal_district_attorney,(806) 364-3700,Crim Dist Atty
+Delta,48119,"Garrett, Jr., Edgar J.",county_attorney,(903) 395-4400,Co Atty
+Delta,48119,"Ramsay, Will",district_attorney,(903) 885-0641,Dist Atty
+Denton,48121,"Johnson, Paul",criminal_district_attorney,(940) 349-2600,Crim Dist Atty
+Dewitt,48123,"Condie, A. Jay",county_attorney,(361) 275-0812,Co Atty
+Dewitt,48123,"Cromeens, Brian M.",district_attorney,(361) 275-2612,Dist Atty
+Dickens,48125,"Clements, Aaron",county_attorney,(806) 786-4776,Co Atty
+Dickens,48125,"Teegardin, Emily",district_attorney,(806) 983-2197,Dist Atty
+Dimmit,48127,"Gonzalez, Daniel M.",county_attorney,(830) 876-4236,Co Atty
+Dimmit,48127,"Serna, Roberto",district_attorney,(830) 773-9263,Dist Atty
+Donley,48129,"Lambert, Landon P.",county_attorney,(806) 874-0216,Co Atty
+Donley,48129,"Inman, Luke McLean",district_attorney,(806) 447-0055,Dist Atty
+Duval,48131,"Gutierrez, Baldemar",county_attorney,(361) 664-7377,Co Atty
+Duval,48131,"Escobar, Omar",district_attorney,(361) 279-6220,Dist Atty
+Eastland,48133,"Stephenson, Brad",criminal_district_attorney,(254) 629-2659,Crim Dist Atty
+Ector,48135,"Prentice, Julie",county_attorney,(432) 498-4150,Co Atty
+Ector,48135,"Gallivan, Dwight (Dusty)",district_attorney,(432) 498-4230,Dist Atty
+Edwards,48137,"Moody, Allen Ray",county_attorney,(830) 683-6128,Co Atty
+Edwards,48137,"Ahlschwede, Tonya Spaeth",district_attorney,(325) 347-8400,Dist Atty
+El Paso,48141,"Sanchez, Christina",county_attorney,(915) 273-3238,Co Atty
+El Paso,48141,"Hicks, Jr., Bill",district_attorney,(915) 546-2059,Dist Atty
+Ellis,48139,"Beaty, Lindy",county_attorney,(972) 825-5035,Co Atty
+Ellis,48139,"Beaty, Lindy",district_attorney,(972) 825-5035,Dist Atty
+Erath,48143,"Espinoza, Bethany",county_attorney,(254) 965-1453,Co Atty
+Erath,48143,"Nash, Alan",district_attorney,(254) 965-1462,Dist Atty
+Falls,48145,"Gilliam, Kathryn Jody",county_attorney,(254) 883-1416,Co Atty
+Falls,48145,"Gilliam, Kathryn Jody",district_attorney,(254) 883-1416,Dist Atty
+Fannin,48147,"Kotnik, John",county_attorney,(903) 583-7448,Co Atty
+Fannin,48147,"Kotnik, John",district_attorney,(903) 583-7448,Dist Atty
+Fayette,48149,"Herbrich, James S.",county_attorney,(979) 968-8402,Co Atty
+Fayette,48149,"Herbrich, James S.",district_attorney,(979) 968-8402,Dist Atty
+Fisher,48151,"Brooks, Morgan",county_attorney,(325) 776-3251,Co Atty
+Fisher,48151,"Thompson, Richard",district_attorney,(325) 235-8639,Dist Atty
+Floyd,48153,"Herrington, Lex",county_attorney,(806) 983-4924,Co Atty
+Floyd,48153,"Teegardin, Emily",district_attorney,(806) 983-2197,Dist Atty
+Foard,48155,"Baylor, Karen L.",county_attorney,(940) 684-1443,Co Atty
+Foard,48155,"Whitsitt, Jon",district_attorney,(940) 553-3346,Dist Atty
+Fort Bend,48157,"Smith-Lawson, Bridgette",county_attorney,(281) 341-4555,Co Atty
+Fort Bend,48157,"Middleton, Brian M.",district_attorney,(281) 341-4460,Dist Atty
+Franklin,48159,"Ramsey, Landon",county_attorney,(903) 537-2342,Co Atty
+Franklin,48159,"Ramsay, Will",district_attorney,(903) 885-0641,Dist Atty
+Freestone,48161,"Evans, Brian",county_attorney,(903) 389-3977,Co Atty
+Freestone,48161,"Evans, Brian E.",district_attorney,(903) 389-3977,Dist Atty
+Frio,48163,"Sindon, Joseph A.",county_attorney,(830) 334-2162,Co Atty
+Frio,48163,"Louis, Audrey",district_attorney,(830) 393-2200,Dist Atty
+Gaines,48165,"Nagy, Jr., Joe H.",county_attorney,(432) 758-4001,Co Atty
+Gaines,48165,"Furlow, Philip Mack",district_attorney,(806) 872-2259,Dist Atty
+Galveston,48167,"Roady, Jack",criminal_district_attorney,(409) 766-2355,Crim Dist Atty
+Garza,48169,"Velez, Annhya",county_attorney,(806) 495-4440,Co Atty
+Garza,48169,"Furlow, Philip",district_attorney,(806) 872-2259,Dist Atty
+Gillespie,48171,"Neel, Sara",county_attorney,(830) 990-0675,Co Atty
+Glasscock,48173,"Hamby, Joshua",county_attorney,(432) 264-2220,Co Atty
+Glasscock,48173,"Hamby, Joshua",district_attorney,(432) 264-2220,Dist Atty
+Goliad,48175,"Breen, Terry",county_attorney,(361) 645-2184,Co Atty
+Goliad,48175,"Cromeens, Brian M.",district_attorney,(361) 275-2612,Dist Atty
+Gonzales,48177,"Escobar, Eduardo (Eddie) X.",county_attorney,(830) 672-6527,Co Atty
+Gray,48179,"Seabourn, Joshua M.",county_attorney,(806) 669-8003,Co Atty
+Gray,48179,"McDonough, Franklin",district_attorney,(806) 669-8035,Dist Atty
+Grayson,48181,"Hill, John Kermit",criminal_district_attorney,(903) 813-4361,Crim Dist Atty
+Gregg,48183,"Moore, John W.",criminal_district_attorney,(903) 236-8440,Crim Dist Atty
+Grimes,48185,"Fultz, Jon C.",county_attorney,(936) 873-6456,Co Atty
+Grimes,48185,"Bender, Andria",district_attorney,(936) 873-2137,Dist Atty
+Guadalupe,48187,"Willborn, David",county_attorney,(830) 303-6130,Co Atty
+Guadalupe,48187,"Willborn, David",district_attorney,(830) 303-6130,Dist Atty
+Hale,48189,"Tirey, James (Jim) D.",county_attorney,(806) 291-5306,Co Atty
+Hale,48189,"Hatch, Wally",district_attorney,(806) 291-5241,Dist Atty
+Hall,48191,"Caudle, Harley",county_attorney,(806) 447-0055,Co Atty
+Hall,48191,"Inman, Luke McLean",district_attorney,(806) 447-0055,Dist Atty
+Hamilton,48193,"Henkes, Mark C.",county_attorney,(254) 386-3217,Co Atty
+Hamilton,48193,"Sibley, Adam",district_attorney,(254) 435-2994,Dist Atty
+Hansford,48195,"Nelson, Cheryl",county_attorney,(806) 659-4156,Co Atty
+Hansford,48195,"Snider, Mark W.",district_attorney,(806) 878-4036,Dist Atty
+Hardeman,48197,"Watson, Stanley R.",county_attorney,(940) 663-5222,Co Atty
+Hardeman,48197,"Whitsitt, Jon",district_attorney,(940) 553-3346,Dist Atty
+Hardin,48199,"Minick, Matt",county_attorney,(409) 246-5165,Co Atty
+Hardin,48199,"Walton, Rebecca R.",district_attorney,(409) 246-5160,Dist Atty
+Harris,48201,"Menefee, Christian",county_attorney,(713) 755-5101,Co Atty
+Harris,48201,"Ogg, Kim",district_attorney,(713) 274-5800,Dist Atty
+Harrison,48203,"McCain, Reid",criminal_district_attorney,(903) 935-8408,Crim Dist Atty
+Hartley,48205,"Elliott, Robert L.",county_attorney,(806) 235-2603,Co Atty
+Hartley,48205,"Anchondo, Erin Lands",district_attorney,(806) 935-5654,Dist Atty
+Haskell,48207,"Fouts, Kristen L.",county_attorney,(940) 864-2066,Co Atty
+Haskell,48207,"Fouts, Mike",district_attorney,(940) 864-2072,Dist Atty
+Hays,48209,"Higgins, Kelly",criminal_district_attorney,(512) 393-7600,Crim Dist Atty
+Hemphill,48211,"Miller, Kyle",county_attorney,(806) 323-5521,Co Atty
+Hemphill,48211,"McDonough, Franklin",district_attorney,(806) 669-8035,Dist Atty
+Henderson,48213,"Davis, Clint",county_attorney,(903) 675-6112,Co Atty
+Henderson,48213,"Palmer, Jenny",district_attorney,(903) 675-6100,Dist Atty
+Hidalgo,48215,"Rodriguez, Ricardo",criminal_district_attorney,(956) 318-2300,Crim Dist Atty
+Hill,48217,"Holmes, David",county_attorney,(254) 582-4047,Co Atty
+Hill,48217,"Pratt, Mark F.",district_attorney,(254) 582-4070,Dist Atty
+Hockley,48219,"Hord, Anna D.",county_attorney,(806) 894-5455,Co Atty
+Hockley,48219,"Yandell, Donnie",district_attorney,(806) 894-3130,Dist Atty
+Hood,48221,"Mills, Matt",county_attorney,(817) 579-3216,Co Atty
+Hood,48221,"Sinclair, Timothy (Ryan) R.",district_attorney,(817) 579-3245,Dist Atty
+Hopkins,48223,"Rabe, Dusty",county_attorney,(903) 438-4017,Co Atty
+Hopkins,48223,"Ramsay, Will",district_attorney,(903) 885-0641,Dist Atty
+Houston,48225,"Massey, Kristina",county_attorney,(936) 544-3255,Co Atty
+Houston,48225,"Session, Daphne Lynette",district_attorney,(936) 544-3255,Dist Atty
+Howard,48227,"Hamby, Joshua",county_attorney,(432) 264-2205,Co Atty
+Howard,48227,"Hamby, Joshua",district_attorney,(432) 264-2220,Dist Atty
+Hudspeth,48229,"Bramblett, Coll",county_attorney,(915) 877-4173,Co Atty
+Hudspeth,48229,"Hicks, Jr., Bill",district_attorney,(915) 546-2059,Dist Atty
+Hunt,48231,"Cornuaud, Scott A.",county_attorney,(903) 408-4112,Co Atty
+Hunt,48231,"Walker, Noble",district_attorney,(903) 408-4180,Dist Atty
+Hutchinson,48233,"Jones, Craig",county_attorney,(806) 273-0134,Co Atty
+Hutchinson,48233,"Snider, Mark W.",district_attorney,(806) 878-4036,Dist Atty
+Irion,48235,"Ridge, Jr., James F.",county_attorney,(325) 835-7101,Co Atty
+Irion,48235,"Palmer, Allison",district_attorney,(325) 659-6584,Dist Atty
+Jack,48237,"Dixon, Michael Brad",county_attorney,(940) 567-3321,Co Atty
+Jack,48237,"Stainton, James M.",district_attorney,(940) 627-5257,Dist Atty
+Jackson,48239,"Guenther, Pamela (Pam) E.",criminal_district_attorney,(361) 782-7178,Crim Dist Atty
+Jasper,48241,"Pickle, Anne",criminal_district_attorney,(409) 384-4362,Crim Dist Atty
+Jeff Davis,48243,"Eisen, Glen L.",county_attorney,(432) 426-4434,Co Atty
+Jeff Davis,48243,"White, Ori",district_attorney,(432) 837-4420,Dist Atty
+Jefferson,48245,"Kennedy, Kathleen",county_attorney,(409) 835-8550,Co Atty
+Jefferson,48245,"Wortham, Bob",district_attorney,(409) 835-8550,Dist Atty
+Jim Hogg,48247,"Gutierrez, Rodolfo V.",county_attorney,(361) 527-3425,Co Atty
+Jim Hogg,48247,"Ramirez, Gocha",district_attorney,(956) 487-8635,Dist Atty
+Jim Wells,48249,"Guerra, Michael",county_attorney,(361) 668-5700,Co Atty
+Jim Wells,48249,"Garcia, Carlos O.",district_attorney,(361) 668-5716,Dist Atty
+Johnson,48251,"Moore, Bill",county_attorney,(817) 556-6330,Co Atty
+Johnson,48251,"Good, Timothy M.",district_attorney,(817) 556-6802,Dist Atty
+Jones,48253,"Cowan, Chad",county_attorney,(325) 823-3771,Co Atty
+Jones,48253,"Castro, Issac",district_attorney,(325) 823-2742,Dist Atty
+Karnes,48255,"Tapia, Jennifer",county_attorney,(830) 780-3736,Co Atty
+Karnes,48255,"Louis, Audrey",district_attorney,(830) 393-2200,Dist Atty
+Kaufman,48257,"Wiley, Erleigh Norville",criminal_district_attorney,(469) 376-4770,Crim Dist Atty
+Kendall,48259,"Bishop, Nicole",county_attorney,(830) 249-9343,Co Atty
+Kendall,48259,"Bishop, Nicole S.",district_attorney,(830) 249-9343,Dist Atty
+Kenedy,48261,"Strauss, Allison",county_attorney,(361) 294-5292,Co Atty
+Kenedy,48261,"Hubert, John T.",district_attorney,(361) 595-8544,Dist Atty
+Kent,48263,"Ballard, Bill",county_attorney,(806) 237-3975,Co Atty
+Kent,48263,"Fouts, Mike",district_attorney,(940) 864-2072,Dist Atty
+Kerr,48265,"Stebbins, Heather",county_attorney,(830) 792-2220,Co Atty
+Kerr,48265,"Harpold, Stephen",district_attorney,(830) 315-2460,Dist Atty
+Kerr,48265,"Wilke, Lucy",district_attorney,(830) 896-4744,Dist Atty
+Kimble,48267,"Heap, Andrew J.",county_attorney,(325) 446-2378,Co Atty
+Kimble,48267,"Ahlschwede, Tonya Spaeth",district_attorney,(325) 347-8400,Dist Atty
+King,48269,"Poage, Trey",county_attorney,(806) 928-2872,Co Atty
+King,48269,"Brooks, Jameson H.",district_attorney,(940) 889-2852,Dist Atty
+Kinney,48271,"Durden, Todd",county_attorney,(830) 563-2240,Co Atty
+Kinney,48271,"West, Suzanne",district_attorney,(830) 774-7562,Dist Atty
+Kleberg,48273,"Sanchez, Kira Talip",county_attorney,(361) 595-8583,Co Atty
+Kleberg,48273,"Hubert, John T.",district_attorney,(361) 595-8544,Dist Atty
+Knox,48275,"Trevino, Lina",county_attorney,(940) 459-2241,Co Atty
+Knox,48275,"Brooks, Jameson H.",district_attorney,(940) 889-2852,Dist Atty
+La Salle,48283,"Martinez, Elizabeth",county_attorney,(830) 483-5127,Co Atty
+La Salle,48283,"Louis, Audrey",district_attorney,(830) 393-2200,Dist Atty
+Lamb,48279,"Redman, Rickie",county_attorney,(806) 385-4222,Co Atty
+Lamb,48279,"Redman, Rickie",district_attorney,(806) 385-4222,Dist Atty
+Lampasas,48281,"Greenwood, John K.",county_attorney,(512) 556-8282,Co Atty
+Lampasas,48281,"Greenwood, John",district_attorney,(512) 556-8282,Dist Atty
+Lavaca,48285,"Reeves, James",county_attorney,(361) 798-4757,Co Atty
+Lee,48287,"Placke, Martin J.",county_attorney,(979) 542-3233,Co Atty
+Lee,48287,"Placke, Martin J.",district_attorney,(979) 542-3233,Dist Atty
+Leon,48289,"Cook, Keith",county_attorney,(903) 536-2131,Co Atty
+Leon,48289,"Henson, James Caleb",district_attorney,(903) 536-7161,Dist Atty
+Liberty,48291,"Poston, Matthew",county_attorney,(936) 336-4651,Co Atty
+Liberty,48291,"Jennifer, Bergman",district_attorney,(936) 336-4609,Dist Atty
+Limestone,48293,"Janes, Jeff",county_attorney,(254) 729-3814,Co Atty
+Limestone,48293,"Janes, Jeff",district_attorney,(254) 729-3814,Dist Atty
+Lipscomb,48295,"Bartosiewicz, Matthew",county_attorney,(806) 658-4545,Co Atty
+Lipscomb,48295,"McDonough, Franklin",district_attorney,(806) 669-8035,Dist Atty
+Live Oak,48297,"McWilliams, Dwayne",county_attorney,(361) 449-2733,Co Atty
+Live Oak,48297,"McWilliams, Tiffany",district_attorney,(361) 621-1550,Dist Atty
+Llano,48299,"Rogers, Dwain",county_attorney,(325) 247-7733,Co Atty
+Llano,48299,"Thomas, Perry",district_attorney,(325) 247-5755,Dist Atty
+Loving,48301,"Simonsen, Steve",county_attorney,(432) 309-9500,Co Atty
+Loving,48301,"Reynolds, Randall W.",district_attorney,(432) 445-2010,Dist Atty
+Lubbock,48303,"Stanek, K. Sunshine",criminal_district_attorney,(806) 775-1105,Crim Dist Atty
+Lynn,48305,"Filley, Rebekah",county_attorney,(806) 561-5286,Co Atty
+Lynn,48305,"Furlow, Philip Mack",district_attorney,(806) 872-2259,Dist Atty
+Madison,48313,"Cain, Courtney",criminal_district_attorney,(936) 348-7049,Crim Dist Atty
+Marion,48315,"Cariker, Timothy J.",county_attorney,(903) 665-2611,Co Atty
+Marion,48315,"Cariker, Timothy J.",district_attorney,(903) 665-2611,Dist Atty
+Martin,48317,"Napper, James J.",county_attorney,(432) 756-2838,Co Atty
+Martin,48317,"Hamby, Joshua",district_attorney,(432) 264-2220,Dist Atty
+Mason,48319,"Whitworth, Rebekah",county_attorney,(325) 347-5614,Co Atty
+Mason,48319,"Ahlschwede, Tonya Spaeth",district_attorney,(325) 347-8400,Dist Atty
+Matagorda,48321,"Chau, Kim",county_attorney,(979) 244-7645,Co Atty
+Matagorda,48321,"Reis, Steven",district_attorney,(979) 244-7657,Dist Atty
+Maverick,48323,"Iracheta, Jaime",county_attorney,(830) 773-3520,Co Atty
+Maverick,48323,"Serna, Roberto",district_attorney,(830) 773-9268,Dist Atty
+Mcculloch,48307,"Torres, James Gregory",county_attorney,(325) 597-9151,Co Atty
+Mcculloch,48307,"Ahlschwede, Tonya Spaeth",district_attorney,(325) 347-8400,Dist Atty
+Mclennan,48309,"Tetens, Josh",criminal_district_attorney,(254) 757-5084,Crim Dist Atty
+Mcmullen,48311,"Kreider-Dusek, Kimberly",county_attorney,(361) 274-3723,Co Atty
+Mcmullen,48311,"McWilliams, Tiffany",district_attorney,(361) 358-1007,Dist Atty
+Medina,48325,"Haby, Mark P.",criminal_district_attorney,(830) 741-6187,Crim Dist Atty
+Menard,48327,"Davis, Luke",county_attorney,(325) 396-0866,Co Atty
+Menard,48327,"Ahlschwede, Tonya Spaeth",district_attorney,(325) 347-8400,Dist Atty
+Midland,48329,"Malm, Russell",county_attorney,(432) 688-4490,Co Atty
+Midland,48329,"Nodolf, Laura",district_attorney,(432) 688-4411,Dist Atty
+Milam,48331,"Price, Tony Brian",county_attorney,(254) 697-7013,Co Atty
+Milam,48331,"Torrey, W. W.",district_attorney,(254) 697-7013,Dist Atty
+Mills,48333,"Malone, Bill",county_attorney,(325) 648-2921,Co Atty
+Mills,48333,"Murray, Micheal",district_attorney,(325) 646-0444,Dist Atty
+Mitchell,48335,"Burleson, Sterling",county_attorney,(325) 728-3457,Co Atty
+Mitchell,48335,"Thompson, Richard",district_attorney,(325) 235-8639,Dist Atty
+Montague,48337,"Riddle, Clay",county_attorney,(940) 894-2261,Co Atty
+Montague,48337,"Boggeman, Katie",district_attorney,(940) 894-6211,Dist Atty
+Montgomery,48339,"Griffin, B. D.",county_attorney,(936) 539-7828,Co Atty
+Montgomery,48339,"Ligon, Brett",district_attorney,(936) 539-7800,Dist Atty
+Moore,48341,"Higginbotham, Scott",county_attorney,(806) 935-2407,Co Atty
+Moore,48341,"Anchondo, Erin Lands",district_attorney,(806) 935-5654,Dist Atty
+Morris,48343,"Shelton, Ricky",county_attorney,(903) 645-2021,Co Atty
+Morris,48343,"Shelton, Ricky",district_attorney,(903) 645-2021,Dist Atty
+Motley,48345,"Edwards, Tom",county_attorney,(806) 347-2391,Co Atty
+Motley,48345,"Teegardin, Emily",district_attorney,(806) 983-2197,Dist Atty
+Nacogdoches,48347,"Fleming, John",county_attorney,(936) 560-7788,Co Atty
+Nacogdoches,48347,"Jones, Andrew",district_attorney,(936) 560-7766,Dist Atty
+Navarro,48349,"Thompson, William",criminal_district_attorney,(903) 654-3045,Crim Dist Atty
+Newton,48351,"Ponthier, Courtney J.",criminal_district_attorney,(409) 379-8600,Crim Dist Atty
+Nolan,48353,"Brooks, Morgan",county_attorney,(325) 235-5469,Co Atty
+Nolan,48353,"Thompson, Richard",district_attorney,(325) 235-8639,Dist Atty
+Nueces,48355,"Dorsey, Jenny",county_attorney,(361) 888-0391,Co Atty
+Nueces,48355,"Granberry, Jimmy",district_attorney,(361) 888-0286,Dist Atty
+Ochiltree,48357,"Meraz, Jose N.",county_attorney,(806) 435-8035,Co Atty
+Ochiltree,48357,"Meraz, Jose",district_attorney,(806) 435-8035,Dist Atty
+Ochiltree,48357,"Meraz, Jose N.",district_attorney,(806) 435-8035,Dist Atty
+Oldham,48359,"Birdsong, Kent",county_attorney,(806) 639-2130,Co Atty
+Orange,48361,"Winfree, Krispen Walker",county_attorney,(409) 883-6764,Co Atty
+Orange,48361,"Winfree, Krispen Walker",district_attorney,(409) 883-6764,Dist Atty
+Palo Pinto,48363,"Kostiha, Maegan",county_attorney,(940) 659-1278,Co Atty
+Palo Pinto,48363,"Burnett, Kriste",district_attorney,(940) 659-1251,Dist Atty
+Panola,48365,"Fields, Larry W.",criminal_district_attorney,(903) 693-0310,Crim Dist Atty
+Parker,48367,"Forrest, John",county_attorney,(817) 594-8409,Co Atty
+Parker,48367,"Swain, Jeff",district_attorney,(817) 598-6123,Dist Atty
+Parmer,48369,"Actkinson, Jeff",county_attorney,(806) 481-3361,Co Atty
+Parmer,48369,"Claborn II, Jackie Riley",district_attorney,(806) 272-4205,Dist Atty
+Pecos,48371,"Lacy, Frank",county_attorney,(432) 336-3742,Co Atty
+Pecos,48371,"Dodd, Stephen",district_attorney,(432) 336-6294,Dist Atty
+Pecos,48371,"White, Ori",district_attorney,(432) 336-3322,Dist Atty
+Polk,48373,"Sitton, Shelly Bush",criminal_district_attorney,(936) 327-6868,Crim Dist Atty
+Potter,48375,"Brumley, Scott",county_attorney,(806) 379-2255,Co Atty
+Potter,48375,"Herring, Jason E.",district_attorney,(806) 379-2325,Dist Atty
+Presidio,48377,"Park, Blair",county_attorney,(432) 729-4054,Co Atty
+Presidio,48377,"White, Ori",district_attorney,(432) 837-0990,Dist Atty
+Rains,48379,"Vititow, Robert",county_attorney,(903) 473-5000,Co Atty
+Rains,48379,"Vititow, Robert",district_attorney,(903) 473-5000,Dist Atty
+Randall,48381,"Love, Robert",criminal_district_attorney,(806) 468-5570,Crim Dist Atty
+Reagan,48383,"Dodd, Michele",county_attorney,(325) 884-2247,Co Atty
+Reagan,48383,"Dodd, Stephen",district_attorney,(432) 336-6294,Dist Atty
+Real,48385,"Rushing, Bobby Jack",county_attorney,(830) 232-6461,Co Atty
+Real,48385,"Mitchell, Christina Mitchell",district_attorney,(830) 278-2916,Dist Atty
+Red River,48387,"Varley, Val J.",county_attorney,(903) 427-2009,Co Atty
+Red River,48387,"Varley, Val J.",district_attorney,(903) 427-2009,Dist Atty
+Reeves,48389,"Alvarez, Alva",county_attorney,(432) 445-5480,Co Atty
+Reeves,48389,"Reynolds, Randall W.",district_attorney,(432) 445-2010,Dist Atty
+Refugio,48391,"Bauer, Deborah A.",county_attorney,(361) 526-4123,Co Atty
+Refugio,48391,"Cromeens, Brian M.",district_attorney,(361) 275-2612,Dist Atty
+Roberts,48393,"Weiman, William",county_attorney,(806) 868-2019,Co Atty
+Roberts,48393,"McDonough, Franklin",district_attorney,(806) 669-8035,Dist Atty
+Robertson,48395,"Siegert, W. Coty",county_attorney,(979) 828-3205,Co Atty
+Robertson,48395,"Siegert, W. Coty",district_attorney,(979) 828-3205,Dist Atty
+Rockwall,48397,"Culpepper, Kenda",criminal_district_attorney,(972) 204-6800,Crim Dist Atty
+Runnels,48399,"Clayton, Benjamin",county_attorney,(325) 365-2337,Co Atty
+Runnels,48399,"Best, John",district_attorney,(325) 653-1912,Dist Atty
+Rusk,48401,"Jimerson, Micheal",county_attorney,(903) 657-2265,Co Atty
+Rusk,48401,"Jimerson, Micheal",district_attorney,(903) 657-2265,Dist Atty
+Sabine,48403,"Neal, Jr., Robert G.",county_attorney,(409) 787-2988,Co Atty
+Sabine,48403,"Robbins, Paul A.",district_attorney,(936) 275-9903,Dist Atty
+San Augustine,48405,"Bates, Jon",county_attorney,(936) 275-0971,Co Atty
+San Augustine,48405,"Robbins, Paul A.",district_attorney,(936) 275-9903,Dist Atty
+San Jacinto,48407,"Dillon, Todd",criminal_district_attorney,(936) 653-2601,Crim Dist Atty
+San Patricio,48409,"Cochran-May, Tamara",county_attorney,(361) 364-9338,Co Atty
+San Patricio,48409,"Smith, Samuel B.",district_attorney,(361) 364-9390,Dist Atty
+San Saba,48411,"Robinson, Randall",county_attorney,(325) 372-3747,Co Atty
+San Saba,48411,"Thomas, Perry",district_attorney,(325) 247-5755,Dist Atty
+Schleicher,48413,"Griffin, Clint",county_attorney,(325) 853-2594,Co Atty
+Schleicher,48413,"Palmer, Allison",district_attorney,(325) 659-6584,Dist Atty
+Scurry,48415,"Hartman, Michael",county_attorney,(325) 573-7440,Co Atty
+Scurry,48415,"Smith, Ben",district_attorney,(325) 573-2462,Dist Atty
+Shackelford,48417,"Rauschl, Rollin N.",county_attorney,(325) 762-9410,Co Atty
+Shackelford,48417,"Castro, Issac",district_attorney,(325) 823-2742,Dist Atty
+Shelby,48419,"Price, John L.",county_attorney,(936) 598-6100,Co Atty
+Shelby,48419,"Shires, Stephen",district_attorney,(936) 598-2489,Dist Atty
+Sherman,48421,"Anchondo, Erin Lands",district_attorney,(806) 935-5654,Dist Atty
+Smith,48423,"Putman, Jacob",criminal_district_attorney,(903) 590-1720,Crim Dist Atty
+Somervell,48425,"Brown, Trey",county_attorney,(254) 897-2277,Co Atty
+Somervell,48425,"Good, Timothy M.",district_attorney,(817) 556-6802,Dist Atty
+Starr,48427,"Canales, Jr., Victor",county_attorney,(956) 487-4800,Co Atty
+Starr,48427,"Ramirez, Gocha",district_attorney,(956) 716-4800,Dist Atty
+Stephens,48429,"Trammel, Gary",county_attorney,(254) 559-9091,Co Atty
+Stephens,48429,"Peavy, Dee",district_attorney,(940) 549-4132,Dist Atty
+Sterling,48431,"Hensley, Lilli",county_attorney,(325) 378-5621,Co Atty
+Sterling,48431,"Palmer, Allison",district_attorney,(325) 699-6583,Dist Atty
+Stonewall,48433,"Branch, Riley",county_attorney,(940) 989-2608,Co Atty
+Stonewall,48433,"Fouts, Mike",district_attorney,(940) 864-2072,Dist Atty
+Sutton,48435,"Cahill, Dawn",county_attorney,(325) 387-6553,Co Atty
+Sutton,48435,"Dodd, Stephen",district_attorney,(325) 392-2025,Dist Atty
+Swisher,48437,"McAtee, Amy",county_attorney,(806) 995-3505,Co Atty
+Tarrant,48439,"Wilson, Sharen",criminal_district_attorney,(817) 884-1400,Crim Dist Atty
+Taylor,48441,"Hicks III, James (Jim) B.",criminal_district_attorney,(325) 674-1261,Crim Dist Atty
+Terrell,48443,"Bellah, Ken",county_attorney,(432) 345-2863,Co Atty
+Terrell,48443,"West, Suzanne",district_attorney,(830) 775-0505,Dist Atty
+Terry,48445,"Ferguson-Worley, K. Jo'Shae",county_attorney,(806) 637-4984,Co Atty
+Terry,48445,"Ferguson-Worley, K. Jo'Shae",district_attorney,(806) 637-4984,Dist Atty
+Throckmorton,48447,"Mathiews, Jeff",county_attorney,(940) 849-0020,Co Atty
+Throckmorton,48447,"Fouts, Mike",district_attorney,(940) 864-2072,Dist Atty
+Titus,48449,"Cobern, John",county_attorney,(903) 572-0382,Co Atty
+Titus,48449,"Bailey, Charles C.",district_attorney,(903) 577-6726,Dist Atty
+Tom Green,48451,"Taylor, Chris",county_attorney,(325) 659-6564,Co Atty
+Tom Green,48451,"Palmer, Allison",district_attorney,(325) 639-6384,Dist Atty
+Travis,48453,"Garza, Delia",county_attorney,(512) 854-9415,Co Atty
+Travis,48453,"Garza, Jose",district_attorney,(512) 854-9400,Dist Atty
+Trinity,48455,"Bell II, Joe Warner",county_attorney,(936) 642-1725,Co Atty
+Trinity,48455,"Schiro, Bennie L.",district_attorney,(936) 642-2401,Dist Atty
+Tyler,48457,"Babin, Lucas",criminal_district_attorney,(409) 283-8136,Crim Dist Atty
+Upshur,48459,"Byrd, Billy",criminal_district_attorney,(903) 843-5513,Crim Dist Atty
+Upton,48461,"Skehan, Paige",county_attorney,(432) 693-2222,Co Atty
+Upton,48461,"Dodd, Stephen",district_attorney,(432) 336-6294,Dist Atty
+Uvalde,48463,"Dodson, John P.",county_attorney,(830) 278-6510,Co Atty
+Uvalde,48463,"Mitchell, Christina Mitchell",district_attorney,(830) 278-2716,Dist Atty
+Val Verde,48465,"Martinez, David E.",county_attorney,(830) 774-7571,Co Atty
+Val Verde,48465,"West, Suzanne",district_attorney,(830) 775-0505,Dist Atty
+Van Zandt,48467,"Curry, Tonda",criminal_district_attorney,(903) 567-4104,Crim Dist Atty
+Victoria,48469,"Johnson, Constance Filley",criminal_district_attorney,(361) 575-0468,Crim Dist Atty
+Walker,48471,"Durham, Will",criminal_district_attorney,(936) 435-2441,Crim Dist Atty
+Waller,48473,"Whittmore, Sean G.",criminal_district_attorney,(979) 826-7718,Crim Dist Atty
+Ward,48475,"Upchurch, Hal",county_attorney,(432) 943-4590,Co Atty
+Ward,48475,"Reynolds, Randall W.",district_attorney,(432) 445-2010,Dist Atty
+Washington,48477,"Mueller, Renee",county_attorney,(979) 277-6200,Co Atty
+Washington,48477,"Renken, Julie",district_attorney,(979) 277-6247,Dist Atty
+Webb,48479,"Montemayor, Marco",county_attorney,(956) 523-4044,Co Atty
+Webb,48479,"Alaniz, Isidro (Chilo) R.",district_attorney,(956) 523-4900,Dist Atty
+Wharton,48481,"Maffett III, G. A.",county_attorney,(979) 532-2591,Co Atty
+Wharton,48481,"Allison, Dawn Elizabeth",district_attorney,(979) 532-8051,Dist Atty
+Wharton,48481,"Racer, Mark",district_attorney,(979) 532-8051,Dist Atty
+Wheeler,48483,"Standerfer, Leslie",county_attorney,(806) 826-2042,Co Atty
+Wheeler,48483,"McDonough, Franklin",district_attorney,(806) 669-8035,Dist Atty
+Wichita,48485,"Gillespie, John",criminal_district_attorney,(940) 766-8113,Crim Dist Atty
+Wilbarger,48487,"Heatly, John S.",county_attorney,(940) 553-3521,Co Atty
+Wilbarger,48487,"Whitsitt, Jon",district_attorney,(940) 553-3346,Dist Atty
+Willacy,48489,"Hinojosa, Annette",county_attorney,(956) 689-2164,Co Atty
+Willacy,48489,"Hinojosa, Annette",district_attorney,(956) 689-2164,Dist Atty
+Williamson,48491,"Hobbs, Dee",county_attorney,(512) 943-1111,Co Atty
+Williamson,48491,"Dick, Shawn",district_attorney,(512) 943-1234,Dist Atty
+Wilson,48493,"Nettles, Theresa D.",county_attorney,(830) 393-7305,Co Atty
+Wilson,48493,"Louis, Audrey",district_attorney,(830) 393-2200,Dist Atty
+Winkler,48495,"Duckworth, Jr., Thomas",county_attorney,(432) 586-2596,Co Atty
+Winkler,48495,"Navarette, Amanda Ann",district_attorney,(432) 586-3700,Dist Atty
+Wise,48497,"Rotramble, Che",county_attorney,(940) 627-3321,Co Atty
+Wise,48497,"Stainton, James M.",district_attorney,(940) 627-5257,Dist Atty
+Wood,48499,"Albers, Angela L.",criminal_district_attorney,(903) 763-4515,Crim Dist Atty
+Yoakum,48501,"Mansur, Paul E.",criminal_district_attorney,(806) 456-7491,Crim Dist Atty
+Young,48503,"Baran, Christopher",county_attorney,(940) 549-8486,Co Atty
+Young,48503,"Peavy, Dee",district_attorney,(940) 549-4132,Dist Atty
+Zapata,48505,"Figueroa, S. Alfonso",county_attorney,(956) 765-9905,Co Atty
+Zapata,48505,"Alaniz, Isidro (Chilo) R.",district_attorney,(956) 523-4900,Dist Atty
+Zavala,48507,"Serna, Eduardo",county_attorney,(830) 374-3734,Co Atty
+Zavala,48507,"Serna, Roberto",district_attorney,(830) 773-9268,Dist Atty

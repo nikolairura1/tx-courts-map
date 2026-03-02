@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-02-27T08:11:23.246345Z",
+  "source": "district-court-map-sept-2018.pdf",
+  "as_of": "2018-09",
+  "counties_total": 254,
+  "counties_parsed": 254,
+  "counties_missing": [],
+  "districts_total": 449,
+  "districts_with_geometry": 449,
+  "note": "District geometries are unions of county polygons based on county->district list; asterisk indicates a multicounty district per source. Falls County patched from 'ALLS (17,866) *082'."
+}

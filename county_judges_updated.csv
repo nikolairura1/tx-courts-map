@@ -1,0 +1,255 @@
+county,fips,court_id,judge_name,address,coa_districts,coa_local_districts,coa_has_local_overlap
+Anderson,48001,tx_ccc_48001,Carey G. McKinney,"703 N. Mallard, Ste 101, Palestine 75801","[12, 15]",[12],False
+Andrews,48003,tx_ccc_48003,Charlie Falcon,"201 N. Main, Andrews 79714","[8, 15]",[8],False
+Angelina,48005,tx_ccc_48005,Keith Wright,"P.O. Box 908, Lufkin 75902","[12, 15]",[12],False
+Aransas,48007,tx_ccc_48007,,"Ray Garza 301 N. Live Oak Street, Rockport 78382","[13, 15]",[13],False
+Archer,48009,tx_ccc_48009,Randall C. Jackson,"P.O. Box 458, Archer City 76351","[2, 15]",[2],False
+Armstrong,48011,tx_ccc_48011,Adam Ensey,"P.O. Box 189, Claude 79019","[7, 15]",[7],False
+Atascosa,48013,tx_ccc_48013,Weldon P. Cude,"#1 Courthouse Circle, Ste. 101, Jourdanton 78026","[4, 15]",[4],False
+Austin,48015,tx_ccc_48015,Timothy Lapham,"One East Main, Bellville 77418","[1, 14, 15]","[1, 14]",True
+Bailey,48017,tx_ccc_48017,Basil Nash,"300 South First St., Ste. 100, Muleshoe 79347","[7, 15]",[7],False
+Bandera,48019,tx_ccc_48019,Richard A. Evans,"P.O. Box 877, Bandera 78003","[4, 15]",[4],False
+Bastrop,48021,tx_ccc_48021,Gregory Klaus,"804 Pecan, Bastrop 78602","[3, 15]",[3],False
+Baylor,48023,tx_ccc_48023,Rusty Stafford,"119 E. McLain, Seymour 76380","[11, 15]",[11],False
+Bee,48025,tx_ccc_48025,George Morrill,"105 W. Corpus Christi St., Rm. #109, Beeville 78102","[13, 15]",[13],False
+Bell,48027,tx_ccc_48027,David Blackburn,"P.O. Box 768, Belton 76513","[3, 15]",[3],False
+Bexar,48029,tx_ccc_48029,Peter Sakai,"101 W Nueva St, 10th Fl, San Antonio 78205","[4, 15]",[4],False
+Blanco,48031,tx_ccc_48031,Brett Bray,"P.O. Box 471, Johnson City 78636","[3, 15]",[3],False
+Borden,48033,tx_ccc_48033,Shane Walker,"P.O. Box 156, Gail 79738","[11, 15]",[11],False
+Bosque,48035,tx_ccc_48035,Cindy Vanlandingham,"P.O. Box 647, Meridian 76665","[10, 15]",[10],False
+Bowie,48037,tx_ccc_48037,Bobby Howell,"710 James Bowie Drive, New Boston 75570","[6, 15]",[6],False
+Brazoria,48039,tx_ccc_48039,Matt Sebesta,"111 E. Locust, Ste 102A, Angleton 77515","[1, 14, 15]","[1, 14]",True
+Brazos,48041,tx_ccc_48041,Duane Peters,"200 South Texas Ave., Suite 332, Bryan 77803","[10, 15]",[10],False
+Brewster,48043,tx_ccc_48043,Greg Henington,"P.O. Box 1630, Alpine 79831","[8, 15]",[8],False
+Briscoe,48045,tx_ccc_48045,Rank Cogdell,"P.O. Box 153, Silverton 79257","[7, 15]",[7],False
+Brooks,48047,tx_ccc_48047,Eric Ramos,"100 E. Miller St., Falfurrias 78355","[4, 15]",[4],False
+Brown,48049,tx_ccc_48049,Shane Britton,"200 South Broadway, Brownwood 76801","[11, 15]",[11],False
+Burleson,48051,tx_ccc_48051,Keith Schroeder,"100 West Buck Street, Suite 306, Caldwell 77836","[10, 15]",[10],False
+Burnet,48053,tx_ccc_48053,Bryan Wilson,"220 South Pierce St., Burnet 78611","[3, 15]",[3],False
+Caldwell,48055,tx_ccc_48055,Hoppy Haden,"110 S. Main, Rm. 201, Lockhart 78644","[3, 15]",[3],False
+Calhoun,48057,tx_ccc_48057,"2/27/26, 1:11 AM County Judges","Richard Meyer 211 S. Ann St., Rm 301, Port Lavaca 77979","[13, 15]",[13],False
+Callahan,48059,tx_ccc_48059,Nicki Harle,"100 W. 4th St., Suite 200, Baird 79504","[11, 15]",[11],False
+Cameron,48061,tx_ccc_48061,"Eddie Trevino, Jr.","1100 East Monroe, Brownsville 78520","[13, 15]",[13],False
+Camp,48063,tx_ccc_48063,James (AJ) Mason,"126 Church Street, Pittsburg 75686","[6, 15]",[6],False
+Carson,48065,tx_ccc_48065,Daniel Looten,"P.O. Box 369, Panhandle 79068","[7, 15]",[7],False
+Cass,48067,tx_ccc_48067,Travis Ransom,"P.O. Box 825, Linden 75563","[6, 15]",[6],False
+Castro,48069,tx_ccc_48069,Mandy Gfeller,"100 East Bedford, Room 111, Dimmitt 79027","[7, 15]",[7],False
+Chambers,48071,tx_ccc_48071,Jimmy Sylvia,"P.O. Box 939, Anahuac 77514","[1, 14, 15]","[1, 14]",True
+Cherokee,48073,tx_ccc_48073,Chris Davis,"135 South Main St., Rusk 75785","[12, 15]",[12],False
+Childress,48075,tx_ccc_48075,Kimberly R. Jones,"Courthouse, Box 1, Childress 79201","[7, 15]",[7],False
+Clay,48077,tx_ccc_48077,Mike Campbell,"214 N. Main, Henrietta 76365","[2, 15]",[2],False
+Cochran,48079,tx_ccc_48079,Pat Sabala Henry,"100 N. Main, Room 105, Morton 79346","[7, 15]",[7],False
+Coke,48081,tx_ccc_48081,Hal Spain,"13 E. 7th Street, Robert Lee 76945","[3, 15]",[3],False
+Coleman,48083,tx_ccc_48083,Bill Bledsoe,"100 West Live Oak St., Ste 102, Coleman 76834","[11, 15]",[11],False
+Collin,48085,tx_ccc_48085,Chris Hill,"2300 Bloomdale Rd., #4192, McKinney 75071","[5, 15]",[5],False
+Collingsworth,48087,tx_ccc_48087,Scot Martindale,"800 W. Ave., Box 13, Wellington 79095","[7, 15]",[7],False
+Colorado,48089,tx_ccc_48089,Daniel Tyran Prause,"400 Spring Street, Room 113, Columbus 78934","[1, 14, 15]","[1, 14]",True
+Comal,48091,tx_ccc_48091,Sherman Krause,"100 Main Plaza, New Braunfels 78130","[3, 15]",[3],False
+Comanche,48093,tx_ccc_48093,Stephanie L. Davis,"101 West Central, Comanche 76442","[11, 15]",[11],False
+Concho,48095,tx_ccc_48095,David Dillard,"P.O. Box 158, Paint Rock 76866","[3, 15]",[3],False
+Cooke,48097,tx_ccc_48097,John O. Roane,"101 S. Dixon, Gainesville 76240","[2, 15]",[2],False
+Coryell,48099,tx_ccc_48099,Roger Miller,"800 East Main St., Ste. A, Gatesville 76528","[10, 15]",[10],False
+Cottle,48101,tx_ccc_48101,Karl Holloway,"P.O. Box 729, Paducah 79248","[7, 15]",[7],False
+Crane,48103,tx_ccc_48103,Roy Hodges,"201 W. 6th St., Rm. 100, Crane 79731","[8, 15]",[8],False
+Crockett,48105,tx_ccc_48105,Frank Tambunga,"P.O. Box 1857, Ozona 76943","[8, 15]",[8],False
+Crosby,48107,tx_ccc_48107,Rusty Forbes,"201 West Aspen, Suite #208, Crosbyton 79322","[7, 15]",[7],False
+Culberson,48109,tx_ccc_48109,Carlos G. Urias,"Box 927, Van Horn 79855","[8, 15]",[8],False
+Dallam,48111,tx_ccc_48111,Wesley Ritchey,"414 Denver, Suite 301, Dalhart 79022","[7, 15]",[7],False
+Dallas,48113,tx_ccc_48113,Clay Jenkins,"411 Elm St., 2nd Floor, Dallas 75202","[5, 15]",[5],False
+Dawson,48115,tx_ccc_48115,Foy O’Brien,"P.O. Box 1268, Lamesa 79331","[11, 15]",[11],False
+Deaf Smith,48117,tx_ccc_48117,"David Lynn Wagner, Jr.","235 E. 3rd, Rm. 204, Hereford 79045-5542","[7, 15]",[7],False
+Delta,48119,tx_ccc_48119,Tanner Crutcher,"200 W. Dallas Avenue, Cooper 75432","[6, 15]",[6],False
+Denton,48121,tx_ccc_48121,Andy Eads,"110 West Hickory St., Denton 76201","[2, 15]",[2],False
+Dewitt,48123,tx_ccc_48123,Daryl L. Fowler,"307 N. Gonzales St., Cuero 77954","[13, 15]",[13],False
+Dickens,48125,tx_ccc_48125,Kevin L. Brendle,"P.O. Box 179, Dickens 79229","[7, 15]",[7],False
+Dimmit,48127,tx_ccc_48127,Martha Alicia Gomez Ponce,"Courthouse, 103 N. 5th St., Carrizo Springs 78834","[4, 15]",[4],False
+Donley,48129,tx_ccc_48129,John Cooper Howard,"P.O. Box 909, Clarendon 79226","[7, 15]",[7],False
+Duval,48131,tx_ccc_48131,"Arnoldo ""Guero"" Cantu","P.O. Box 189, San Diego 78384","[4, 15]",[4],False
+Eastland,48133,tx_ccc_48133,David Hullum,"100 W. Main, #203, Eastland 76448","[11, 15]",[11],False
+Ector,48135,tx_ccc_48135,Dustin Fawcett,"300 N. Grant, Rm. 227, Odessa 79761","[11, 15]",[11],False
+Edwards,48137,tx_ccc_48137,Souli Asa Shanklin,"P.O. Box 348, Rocksprings 78880","[4, 15]",[4],False
+El Paso,48141,tx_ccc_48141,"2/27/26, 1:11 AM County Judges","Ricardo Samaniego 500 E. San Antonio, Rm 301, El Paso 79901","[8, 15]",[8],False
+Ellis,48139,tx_ccc_48139,John Wray,"101 W. Main, Waxahachie 75165","[10, 15]",[10],False
+Erath,48143,tx_ccc_48143,Brandon J. Huckabee,"100 W. Washington, Stephenville 76401","[11, 15]",[11],False
+Falls,48145,tx_ccc_48145,Jay Elliott,"P.O. Box 458, Marlin 76661","[10, 15]",[10],False
+Fannin,48147,tx_ccc_48147,Newt Cunningham,"101 E. Sam Rayburn, #101, Bonham 75418","[6, 15]",[6],False
+Fayette,48149,tx_ccc_48149,Dan Mueller,"151 N. Washington St., La Grange 78945","[3, 15]",[3],False
+Fisher,48151,tx_ccc_48151,Ken Holt,"P.O. Box 306, Roby 79543","[11, 15]",[11],False
+Floyd,48153,tx_ccc_48153,Marty Lucke,"100 Main, Room 105, Floydada 79235","[7, 15]",[7],False
+Foard,48155,tx_ccc_48155,Mark Christopher,"P.O. Box 660, Crowell 79227","[7, 15]",[7],False
+Fort Bend,48157,tx_ccc_48157,KP George,"401 Jackson St., Richmond 77469","[1, 14, 15]","[1, 14]",True
+Franklin,48159,tx_ccc_48159,Scott Lee,"200 Kaufman St. N., Mt. Vernon 75457","[6, 15]",[6],False
+Freestone,48161,tx_ccc_48161,Linda K. Grant,"Courthouse, 118 E. Commerce, Rm 205, Fairfield 75840","[10, 15]",[10],False
+Frio,48163,tx_ccc_48163,Rochelle Lozano Camacho,"500 E. San Antonio St., #7, Pearsall 78061","[4, 15]",[4],False
+Gaines,48165,tx_ccc_48165,Cindy Therwhanger,"P.O. Box 847, Seminole 79360","[11, 15]",[11],False
+Galveston,48167,tx_ccc_48167,Mark Henry,"722 Moody, Ste. 200, Galveston 77550","[1, 14, 15]","[1, 14]",True
+Garza,48169,tx_ccc_48169,Lee Norman,"300 West Main Street, Post 79356","[7, 15]",[7],False
+Gillespie,48171,tx_ccc_48171,Daniel Jones,"101 W. Main, #9, Fredericksburg 78624","[4, 15]",[4],False
+Glasscock,48173,tx_ccc_48173,Billy Reynolds,"P.O. Box 67, Garden City 79739","[11, 15]",[11],False
+Goliad,48175,tx_ccc_48175,Mike Bennett,"P.O. Box 677, Goliad 77963","[13, 15]",[13],False
+Gonzales,48177,tx_ccc_48177,Patrick Davis,"414 St. Joseph St., Suite 200, Gonzales 78629","[13, 15]",[13],False
+Gray,48179,tx_ccc_48179,Chris Porter,"205 N. Russell St., Rm. 205, Pampa 79065","[7, 15]",[7],False
+Grayson,48181,tx_ccc_48181,Bruce Dawsey,"100 W. Houston, Suite 15, Sherman 75090","[5, 15]",[5],False
+Gregg,48183,tx_ccc_48183,Bill Stoudt,"101 E. Methvin, Ste. 300, Longview 75601","[6, 12, 15]","[6, 12]",True
+Grimes,48185,tx_ccc_48185,Joe Fauth III,"P.O. Box 160, Anderson 77830","[1, 14, 15]","[1, 14]",True
+Guadalupe,48187,tx_ccc_48187,Kyle Kutscher,"211 West Court Street, Seguin 78155","[4, 15]",[4],False
+Hale,48189,tx_ccc_48189,David B. Mull,"500 Broadway #240, Plainview 79072","[7, 15]",[7],False
+Hall,48191,tx_ccc_48191,Ray Powell,"512 Main Street, Ste. 4, Memphis 79245","[7, 15]",[7],False
+Hamilton,48193,tx_ccc_48193,James Yates,"102 North Rice, Hamilton 76531","[10, 15]",[10],False
+Hansford,48195,tx_ccc_48195,Tim Glass,"16 N.W. Court St., Spearman 79081","[7, 15]",[7],False
+Hardeman,48197,tx_ccc_48197,Ronald Ingram,"P.O. Box 30, Quanah 79252","[7, 15]",[7],False
+Hardin,48199,tx_ccc_48199,Wayne McDaniel,"300 Monroe St., Kountze 77625","[9, 15]",[9],False
+Harris,48201,tx_ccc_48201,Lina Hidalgo,"1001 Preston, Ste. 911, Houston 77002","[1, 14, 15]","[1, 14]",True
+Harrison,48203,tx_ccc_48203,Chad Sims,"1 Peter Whetstone Square, Marshall 75670","[6, 15]",[6],False
+Hartley,48205,tx_ccc_48205,Ronnie Gordon,"P.O. Box G, Channing 79018","[7, 15]",[7],False
+Haskell,48207,tx_ccc_48207,Kenny Thompson,"1 Ave D, Haskell 79521","[11, 15]",[11],False
+Hays,48209,tx_ccc_48209,Ruben Becerra,"111 E. San Antonio, Ste. 300, San Marcos 78666","[3, 15]",[3],False
+Hemphill,48211,tx_ccc_48211,Lisa Johnson,"400 Main Street, Rm. 200, Canadian 79014","[7, 15]",[7],False
+Henderson,48213,tx_ccc_48213,Wade McKinney,"125 N. Prairieville St. Ste. 100, Courthouse, Athens 75751","[12, 15]",[12],False
+Hidalgo,48215,tx_ccc_48215,Richard Cortez,"302 W. University Dr., Edinburg 78539","[13, 15]",[13],False
+Hill,48217,tx_ccc_48217,Justin W. Lewis,"P.O. Box 457, Hillsboro 76645","[10, 15]",[10],False
+Hockley,48219,tx_ccc_48219,Sharla Baldridge,"802 Houston, Ste. 101, Levelland 79336","[7, 15]",[7],False
+Hood,48221,tx_ccc_48221,"2/27/26, 1:11 AM County Judges","Ron Massingill 100 E. Pearl, Granbury 76048","[2, 15]",[2],False
+Hopkins,48223,tx_ccc_48223,Robert Newsom,"118 Church St., Sulphur Springs 75482","[6, 15]",[6],False
+Houston,48225,tx_ccc_48225,Jim L. Lovell,"401 East Goliad Ave, Crockett 75835","[12, 15]",[12],False
+Howard,48227,tx_ccc_48227,Randy S. Johnson,"300 Main St., Rm. 207, Big Spring 79720","[11, 15]",[11],False
+Hudspeth,48229,tx_ccc_48229,"Joanna ""JoJo"" Mackenzie","P.O. Box 68, Sierra Blanca 79851","[8, 15]",[8],False
+Hunt,48231,tx_ccc_48231,Bobby W. Stovall,"2507 Lee St, 2nd Floor Greenville 75401","[5, 6, 15]","[5, 6]",True
+Hutchinson,48233,tx_ccc_48233,Cindy Irwin,"P.O. Box 790, Stinnett 79083","[7, 15]",[7],False
+Irion,48235,tx_ccc_48235,Molly Criner,"P.O. Box 770, Mertzon 76941","[3, 15]",[3],False
+Jack,48237,tx_ccc_48237,Keith Umphress,"100 Main, Ste 206, Jacksboro 76458","[2, 15]",[2],False
+Jackson,48239,tx_ccc_48239,Jill S. Sklar,"115 W. Main, Room 207, Edna 77957","[13, 15]",[13],False
+Jasper,48241,tx_ccc_48241,Mark Allen,"121 N. Austin, Room 106, Jasper 75951","[9, 15]",[9],False
+Jeff Davis,48243,tx_ccc_48243,Curtis Evans,"P.O. Box 836, Fort Davis 79734","[8, 15]",[8],False
+Jefferson,48245,tx_ccc_48245,Jeff Branick,"1149 Pearl, Beaumont 77701","[9, 15]",[9],False
+Jim Hogg,48247,tx_ccc_48247,Juan Carlos Guerra,"P.O. Box 729, Hebbronville 78361","[4, 15]",[4],False
+Jim Wells,48249,tx_ccc_48249,"Pedro ""Pete"" Trevino, Jr.","200 N. Almond, Alice 78332","[4, 15]",[4],False
+Johnson,48251,tx_ccc_48251,Christopher Boedeker,"2 N. Main St., #120, Cleburne 76033","[10, 15]",[10],False
+Jones,48253,tx_ccc_48253,Dale Spurgin,"P.O. Box 148, Anson 79501","[11, 15]",[11],False
+Karnes,48255,tx_ccc_48255,Wade Hedtke,"210 W. Calvert, Karnes City 78118","[4, 15]",[4],False
+Kaufman,48257,tx_ccc_48257,Jakie Allen,"100 W. Mulberry St., Kaufman 75142","[5, 15]",[5],False
+Kendall,48259,tx_ccc_48259,Shane Stolarczyk,"201 E. San Antonio St., Ste. 122, Boerne 78006","[4, 15]",[4],False
+Kenedy,48261,tx_ccc_48261,Charles Burns,"P.O. Box 37, Sarita 78385","[13, 15]",[13],False
+Kent,48263,tx_ccc_48263,Layne Coulter,"P.O. Box 6, Jayton 79528","[7, 15]",[7],False
+Kerr,48265,tx_ccc_48265,Rob Kelly,"700 Main St., Suite 101, Kerrville 78028","[4, 15]",[4],False
+Kimble,48267,tx_ccc_48267,Hal A. Rose,"501 Main St., Junction 76849","[4, 15]",[4],False
+King,48269,tx_ccc_48269,Duane Daniel,"P.O. Box 127, Guthrie 79236","[7, 15]",[7],False
+Kinney,48271,tx_ccc_48271,John Paul Schuster,"P.O. Box 348, Brackettville 78832","[4, 15]",[4],False
+Kleberg,48273,tx_ccc_48273,Randy Madrid,"P.O. Box 752, Kingsville 78364","[13, 15]",[13],False
+Knox,48275,tx_ccc_48275,Stan Wojcik,"P.O. Box 77, Benjamin 79505","[11, 15]",[11],False
+La Salle,48283,tx_ccc_48283,"Leodoro Martinez, III","101 Courthouse Sq., Suite #315, Cotulla, TX 78014","[4, 15]",[4],False
+Lamar,48277,tx_ccc_48277,Brandon Young Bell,"119 N. Main, Paris 75460","[6, 15]",[6],False
+Lamb,48279,tx_ccc_48279,James Michael DeLoach,"100 6th Drive, Room 212, Littlefield 79339","[7, 15]",[7],False
+Lampasas,48281,tx_ccc_48281,Randall J. Hoyer,"P.O. Box 231, Lampasas 76550","[3, 15]",[3],False
+Lavaca,48285,tx_ccc_48285,Keith Mudd,"P.O. Box 243, Hallettsville 77964","[13, 15]",[13],False
+Lee,48287,tx_ccc_48287,Frank J. Malinak,"200 S. Main, Room 107, Giddings 78942","[3, 15]",[3],False
+Leon,48289,tx_ccc_48289,Byron Ryder,"P.O. Box 429, Centerville 75833","[10, 15]",[10],False
+Liberty,48291,tx_ccc_48291,Jay Knight,"1923 Sam Houston, Room 201, Liberty 77575","[9, 15]",[9],False
+Limestone,48293,tx_ccc_48293,Richard Duncan,"P.O. Box 469, Groesbeck 76642","[10, 15]",[10],False
+Lipscomb,48295,tx_ccc_48295,Dori Roots,"P.O. Box 69, Lipscomb 79056","[7, 15]",[7],False
+Live Oak,48297,tx_ccc_48297,James L. Liska,"P.O. Box 487, George West 78022","[13, 15]",[13],False
+Llano,48299,tx_ccc_48299,Ron Cunningham,"801 Ford Street, Room 101, Llano 78643","[3, 15]",[3],False
+Loving,48301,tx_ccc_48301,Skeet Jones,"P.O. Box 193, Mentone 79754","[8, 15]",[8],False
+Lubbock,48303,tx_ccc_48303,"2/27/26, 1:11 AM County Judges","Curtis Parrish P.O. Box 10536, Lubbock 79408","[7, 15]",[7],False
+Lynn,48305,tx_ccc_48305,Mike Braddock,"P.O. Box 1167, Tahoka 79373","[7, 15]",[7],False
+Madison,48313,tx_ccc_48313,Clark Osborne,"103 W. Trinity, Ste. 113, Madisonville 77864","[10, 15]",[10],False
+Marion,48315,tx_ccc_48315,Leward LaFleur,"119 West Lafayette St., Ste. 1, Jefferson 75657","[6, 15]",[6],False
+Martin,48317,tx_ccc_48317,Bryan Cox,"Box 1330, Stanton 79782","[11, 15]",[11],False
+Mason,48319,tx_ccc_48319,Sheree Hardin,"P.O. Box 1726, Mason 76856","[4, 15]",[4],False
+Matagorda,48321,tx_ccc_48321,Bobby Seiferman,"1700 Seventh St., Room 301, Bay City 77414","[13, 15]",[13],False
+Maverick,48323,tx_ccc_48323,Ramsey English Cantu,"500 Quarry St., Ste. 3, Eagle Pass 78852","[4, 15]",[4],False
+Mcculloch,48307,tx_ccc_48307,Frank Trull,"199 Courthouse Sq., Rm 202, Brady 76825","[3, 15]",[3],False
+Mclennan,48309,tx_ccc_48309,Scott Felton,"P.O. Box 1728, Waco 76703-1728","[10, 15]",[10],False
+Mcmullen,48311,tx_ccc_48311,James E. Teal,"P.O. Box 237, Tilden 78072","[4, 15]",[4],False
+Medina,48325,tx_ccc_48325,Keith A. Lutz,"1502 Ave K, Hondo 78861","[4, 15]",[4],False
+Menard,48327,tx_ccc_48327,Brandon Corbin,"P.O. Box 1038, Menard 76859","[4, 15]",[4],False
+Midland,48329,tx_ccc_48329,Terry Johnson,"500 N. Loraine St., 11th Floor, Midland 79701","[11, 15]",[11],False
+Milam,48331,tx_ccc_48331,Bill Whitmire,"102 S. Fannin, Ste. 1, Cameron 76520","[3, 15]",[3],False
+Mills,48333,tx_ccc_48333,Jett Johnson,"P.O. Box 483, Goldthwaite 76844","[3, 15]",[3],False
+Mitchell,48335,tx_ccc_48335,Mike Redwine,"349 Oak St., Rm. 200, Colorado City 79512","[11, 15]",[11],False
+Montague,48337,tx_ccc_48337,Kevin Benton,"P.O. Box 475, Montague 76251","[2, 15]",[2],False
+Montgomery,48339,tx_ccc_48339,Mark J Keough,"501 N. Thompson, #401, Conroe 77301","[9, 15]",[9],False
+Moore,48341,tx_ccc_48341,"Johnnie ""Rowdy"" Rhoades","715 S. Dumas Ave., Rm. 202, Dumas 79029","[7, 15]",[7],False
+Morris,48343,tx_ccc_48343,Doug Reeder,"500 Broadnax Street, Ste. B, Daingerfield 75638","[6, 15]",[6],False
+Motley,48345,tx_ccc_48345,James B. Meador,"701 Main & Dundee, Matador 79244","[7, 15]",[7],False
+Nacogdoches,48347,tx_ccc_48347,Greg Sowell,"101 W. Main St., Suite 170, Nacogdoches 75961","[12, 15]",[12],False
+Navarro,48349,tx_ccc_48349,"H.M. Davenport, Jr.","800 N. Main, Corsicana 75110","[10, 15]",[10],False
+Newton,48351,tx_ccc_48351,Ronnie Cochran,"P.O. Box J, Newton 75966","[9, 15]",[9],False
+Nolan,48353,tx_ccc_48353,George Whitley May,"100 E. 3rd, Suite 110, Sweetwater 79556","[11, 15]",[11],False
+Nueces,48355,tx_ccc_48355,Connie Scott,"901 Leopard St., Rm 303, Corpus Christi 78401","[13, 15]",[13],False
+Ochiltree,48357,tx_ccc_48357,Charles Kelly,"511 S. Main, Perryton 79070","[7, 15]",[7],False
+Oldham,48359,tx_ccc_48359,Shawn Ballew,"P.O. Box 195, Vega 79092","[7, 15]",[7],False
+Orange,48361,tx_ccc_48361,John H. Gothia,"123 South 6th St., Orange 77630","[9, 15]",[9],False
+Palo Pinto,48363,tx_ccc_48363,Shane Long,"P.O. Box 190, Palo Pinto 76484","[11, 15]",[11],False
+Panola,48365,tx_ccc_48365,Rodger G. McLane,"110 S. Sycamore St., Room 216-A, Carthage 75633","[6, 15]",[6],False
+Parker,48367,tx_ccc_48367,Pat Dean,"1 Courthouse Square, Weatherford 76086","[2, 15]",[2],False
+Parmer,48369,tx_ccc_48369,Isabel Izzy Carrasco,"P.O. Box 506, Farwell 79325","[7, 15]",[7],False
+Pecos,48371,tx_ccc_48371,Joe Shuster,"103 W. Callaghan, Fort Stockton 79735","[8, 15]",[8],False
+Polk,48373,tx_ccc_48373,Syndney Brown Murphy,"101 W. Church St., Ste 300, Livingston 77351","[9, 15]",[9],False
+Potter,48375,tx_ccc_48375,Nancy Tanner,"500 S. Fillmore, Rm. 103, Amarillo 79101","[7, 15]",[7],False
+Presidio,48377,tx_ccc_48377,Jose Portillo Jr.,"P.O. Box 606, Marfa 79843","[8, 15]",[8],False
+Rains,48379,tx_ccc_48379,Linda Wallace,"167 E. Quitman St., Ste. 102, Emory 75440","[12, 15]",[12],False
+Randall,48381,tx_ccc_48381,Christy Dyer,"501 16th St., Ste. 303, Canyon 79015","[7, 15]",[7],False
+Reagan,48383,tx_ccc_48383,James T. O'Bryan,"P.O. Box 100, Big Lake 76932","[8, 15]",[8],False
+Real,48385,tx_ccc_48385,"2/27/26, 1:11 AM County Judges","Bella A. Rubio P.O. Box 446, Leakey 78873","[4, 15]",[4],False
+Red River,48387,tx_ccc_48387,Robert Bridges,"400 N. Walnut St., Clarksville 75426","[6, 15]",[6],False
+Reeves,48389,tx_ccc_48389,Leo Hung,"P.O. Box 867, Pecos 79772","[8, 15]",[8],False
+Refugio,48391,tx_ccc_48391,Jhiela (Gigi) Poynter,"808 Commerce, Rm. 104, Refugio 78377","[13, 15]",[13],False
+Roberts,48393,tx_ccc_48393,Mitchell Locke,"P.O. Box 478, Miami 79059","[7, 15]",[7],False
+Robertson,48395,tx_ccc_48395,Joe David Scarpinato,"P.O. Box 427, Franklin 77856","[10, 15]",[10],False
+Rockwall,48397,tx_ccc_48397,Frank New,"101 E. Rusk St., Ste 201, Rockwall 75087","[5, 15]",[5],False
+Runnels,48399,tx_ccc_48399,Julia Miller,"613 Hutchings Ave., Room 103, Ballinger 76821","[3, 15]",[3],False
+Rusk,48401,tx_ccc_48401,Joel Hale,"115 North Main Street #104, Henderson 75652","[6, 12, 15]","[6, 12]",True
+Sabine,48403,tx_ccc_48403,Daryl D. Melton,"P.O. Box 716, Hemphill 75948","[12, 15]",[12],False
+San Augustine,48405,tx_ccc_48405,Jeff Boyd,"106 Courthouse, San Augustine 75972","[12, 15]",[12],False
+San Jacinto,48407,tx_ccc_48407,Fritz Faulkner,"1 State Hwy 150, Rm. 5, Coldspring 77331","[9, 15]",[9],False
+San Patricio,48409,tx_ccc_48409,David R. Krebs,"1301 E. Sinton St, Suite C, Sinton, TX 78387","[13, 15]",[13],False
+San Saba,48411,tx_ccc_48411,Jody A. Fauley,"Courthouse, 500 E. Wallace, San Saba 76877","[3, 15]",[3],False
+Schleicher,48413,tx_ccc_48413,Charlie Bradley,"P.O. Box 536, Eldorado 76936","[3, 15]",[3],False
+Scurry,48415,tx_ccc_48415,Dan Hicks,"1806 25th St., Ste. 200, Snyder 79549","[11, 15]",[11],False
+Shackelford,48417,tx_ccc_48417,John M. Viertel,"P.O. Box 2797, Albany 76430","[11, 15]",[11],False
+Shelby,48419,tx_ccc_48419,Allison Harbison,"200 San Augustine St. #6, Center 75935","[12, 15]",[12],False
+Sherman,48421,tx_ccc_48421,Terri Beth Carter,"P.O. Box 165, Stratford 79084","[7, 15]",[7],False
+Smith,48423,tx_ccc_48423,Neal Franklin,"200 E. Ferguson St., Suite 100, Tyler 75702","[12, 15]",[12],False
+Somervell,48425,tx_ccc_48425,Danny Chambers,"P.O. Box 851, Glen Rose 76043","[10, 15]",[10],False
+Starr,48427,tx_ccc_48427,Eloy Vera,"100 N. FM 3167, Ste 202, Rio Grande City 78582","[4, 15]",[4],False
+Stephens,48429,tx_ccc_48429,Michael Roach,"200 W. Walker, Breckenridge 76424","[11, 15]",[11],False
+Sterling,48431,tx_ccc_48431,Deborah Horwood,"P.O. Box 819, Sterling City 76951","[3, 15]",[3],False
+Stonewall,48433,tx_ccc_48433,Ronnie D. Moorhead,"P.O. Box 366, Aspermont 79502","[11, 15]",[11],False
+Sutton,48435,tx_ccc_48435,Joseph (Jody) Harris,"300 E. Oak, Ste 3, Sonora 76950","[4, 15]",[4],False
+Swisher,48437,tx_ccc_48437,Harold Keeter,"119 S. Maxwell, Tulia 79088","[7, 15]",[7],False
+Tarrant,48439,tx_ccc_48439,Tim O'Hare,"100 E. Weatherford, Ste. 501, Fort Worth 76196","[2, 15]",[2],False
+Taylor,48441,tx_ccc_48441,Phil Crowley,"400 Oak St., Ste. 300, Abilene 79602","[11, 15]",[11],False
+Terrell,48443,tx_ccc_48443,Dale Carruthers,"P.O. Drawer 410, Sanderson 79848","[8, 15]",[8],False
+Terry,48445,tx_ccc_48445,Tony Serbantez,"500 W. Main, Rm. 102, Brownfield 79316","[7, 15]",[7],False
+Throckmorton,48447,tx_ccc_48447,Caleb W. Hodges,"105 N. Minter, Throckmorton 76483","[11, 15]",[11],False
+Titus,48449,tx_ccc_48449,Kent Cooper,"100 W. 1st, Suite 200, Mt. Pleasant 75455","[6, 15]",[6],False
+Tom Green,48451,tx_ccc_48451,Lane Carter,"113 W Beauregard, San Angelo 76901","[3, 15]",[3],False
+Travis,48453,tx_ccc_48453,Andy Brown,"700 Lavaca, Ste. 2.300, Austin 78701","[3, 15]",[3],False
+Trinity,48455,tx_ccc_48455,Danny Martin,"P.O. Box 457, Groveton 75845","[12, 15]",[12],False
+Tyler,48457,tx_ccc_48457,Milton Powers,"100 West Bluff, Rm. 101, Woodville 75979","[9, 15]",[9],False
+Upshur,48459,tx_ccc_48459,Todd Tefteller,"P.O. Box 730, Gilmer 75644","[6, 12, 15]","[6, 12]",True
+Upton,48461,tx_ccc_48461,Dusty Kilgore,"P.O. Box 482, Rankin 79778","[8, 15]",[8],False
+Uvalde,48463,tx_ccc_48463,William R. Mitchell,"100 N. Getty, Uvalde 78801","[4, 15]",[4],False
+Val Verde,48465,tx_ccc_48465,Lewis G. Owens Jr.,"400 Pecan Street, Del Rio 78840","[4, 15]",[4],False
+Van Zandt,48467,tx_ccc_48467,"2/27/26, 1:11 AM County Judges","Andrew Reese 121 E. Dallas, Rm. 203, Canton 75103","[12, 15]",[12],False
+Victoria,48469,tx_ccc_48469,Ben Zeller,"101 N. Bridge, Rm. 102, Victoria 77901","[13, 15]",[13],False
+Walker,48471,tx_ccc_48471,Colt M. Christian,"1100 University Ave, #204, Huntsville 77340","[10, 15]",[10],False
+Waller,48473,tx_ccc_48473,"Carbett “Trey” J. Duhon, III","836 Austin St., Rm 203, Hempstead 77445","[1, 14, 15]","[1, 14]",True
+Ward,48475,tx_ccc_48475,Greg M. Holly,"400 South Allen St., Ste. 100, Monahans 79756","[8, 15]",[8],False
+Washington,48477,tx_ccc_48477,John L. Durrenberger,"100 E. Main, Ste. 104, Brenham 77833","[1, 14, 15]","[1, 14]",True
+Webb,48479,tx_ccc_48479,Tano E. Tijerina,"1000 Houston, 3rd Floor, Laredo 78040","[4, 15]",[4],False
+Wharton,48481,tx_ccc_48481,Phillip Spenrath,"309 E. Milam, Ste. 600, Wharton 77488","[13, 15]",[13],False
+Wheeler,48483,tx_ccc_48483,Pat McDowell,"Box 486, Wheeler 79096","[7, 15]",[7],False
+Wichita,48485,tx_ccc_48485,Jim Johnson,"900 7th St., Rm. 206, Wichita Falls 76301","[2, 15]",[2],False
+Wilbarger,48487,tx_ccc_48487,Greg Tyra,"1700 Wilbarger St., Rm. 12, Vernon 76384","[7, 15]",[7],False
+Willacy,48489,tx_ccc_48489,"Aurelio ""Keter"" Guerra","576 W. Main, Raymondville 78580","[13, 15]",[13],False
+Williamson,48491,tx_ccc_48491,"Bill Gravell, Jr.","710 So. Main, Ste 201, Georgetown 78626","[3, 15]",[3],False
+Wilson,48493,tx_ccc_48493,"Henry ""Hank"" Whitman, Jr.","1103 4th St, Floresville 78114","[4, 15]",[4],False
+Winkler,48495,tx_ccc_48495,Charles M. Wolf,"P. O. Drawer Y, Kermit 79745","[8, 15]",[8],False
+Wise,48497,tx_ccc_48497,J.D. Clark,"P.O. Box 393, Decatur 76234","[2, 15]",[2],False
+Wood,48499,tx_ccc_48499,Kevin White,"P.O. Box 938, Quitman 75783","[6, 12, 15]","[6, 12]",True
+Yoakum,48501,tx_ccc_48501,Michael C. Ybarra,"P.O. Box 456, Plains 79355","[7, 15]",[7],False
+Young,48503,tx_ccc_48503,Win Graham,"516 Fourth Street, Room 108, Graham 76450","[2, 15]",[2],False
+Zapata,48505,tx_ccc_48505,Joe Rathmell,"P.O. Box 99, Zapata 78076","[4, 15]",[4],False
+Zavala,48507,tx_ccc_48507,Jesus Gonzales,"200 E. Uvalde St., Ste. 9, Crystal City 78839","[4, 15]",[4],False
