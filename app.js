@@ -156,7 +156,7 @@ function initializeMaps() {
     // Single Court Map
     courtMap = L.map('court-map', {maxZoom: 15}).setView([31.9686, -99.9018], 6);
     console.log('Map created:', !!courtMap);
-    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(courtMap);
     console.log('Map tiles added');
