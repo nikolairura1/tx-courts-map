@@ -762,6 +762,17 @@ function loadDistrictCourts() {
     return fetch('district_courts_sept2018.geojson')
         .then(response => response.json())
         .then(data => {
+            // Compute county to districts map for overlaps
+            let countyToDistricts = {};
+            data.features.forEach(feature => {
+                const counties = feature.properties.counties || [];
+                const districtNum = feature.properties.district_id;
+                counties.forEach(county => {
+                    if (!countyToDistricts[county]) countyToDistricts[county] = [];
+                    countyToDistricts[county].push(districtNum);
+                });
+            });
+
             districtCourtsLayer = L.geoJSON(data, {
                 style: function(feature) {
                     const districtNum = parseInt(feature.properties.district_id) || 1;
@@ -805,6 +816,18 @@ function loadDistrictCourts() {
                         popupContent += '</tbody></table></div>';
                     } else {
                         popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
+                    }
+
+                    // Add overlap information
+                    let overlappingCounties = [];
+                    counties.forEach(county => {
+                        if (countyToDistricts[county] && countyToDistricts[county].length > 1) {
+                            overlappingCounties.push(county);
+                        }
+                    });
+                    if (overlappingCounties.length > 0) {
+                        const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToDistricts[county]).filter(d => d !== districtId))];
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
                     }
 
                     popupContent += '</div>';
