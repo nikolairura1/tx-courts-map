@@ -827,6 +827,7 @@ function loadDistrictCourts() {
                     });
                     if (overlappingCounties.length > 0) {
                         const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToDistricts[county]).filter(d => d !== districtId))];
+                        console.log('Adding overlap info for district', districtId, overlappingCounties, overlappingDistricts);
                         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
                     }
 
