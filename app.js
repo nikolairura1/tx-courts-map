@@ -408,6 +408,15 @@ function switchToCourtType(courtType) {
         case 'district':
             if (districtCourtsLayer) {
                 courtMap.addLayer(districtCourtsLayer);
+                districtCourtsLayer.bringToFront();
+                courtMap.invalidateSize();
+                // Fit map to layer bounds
+                if (districtCourtsLayer.getBounds().isValid()) {
+                    courtMap.fitBounds(districtCourtsLayer.getBounds());
+                }
+                console.log('District courts layer added to map');
+            } else {
+                console.log('District courts layer not available');
             }
             break;
         case 'coa':
@@ -441,9 +450,11 @@ function switchToCourtType(courtType) {
 
 function loadAllData() {
     // Load statewide boundaries first for fast CCA/SCOTX loading
+    const countyJudgesPromise = loadCountyJudges();
+    const districtJudgesPromise = loadDistrictJudges();
     const promises = [
-        loadCountyJudges(),
-        loadDistrictJudges(),
+        countyJudgesPromise.then(() => loadCountyCourtsAtLaw()),
+        districtJudgesPromise.then(() => loadDistrictCourts()),
         // Load COA judges data for popups
         loadCoaJudges(),
         // Load COA mapping data for popups
@@ -451,11 +462,7 @@ function loadAllData() {
         // Load COA districts for instant loading
         loadCoaData(),
         // Load county courts for instant loading
-        loadCountyCourts(),
-        // Load county courts at law for instant loading
-        loadCountyCourtsAtLaw(),
-        // Load district courts for instant loading
-        loadDistrictCourts()
+        loadCountyCourts()
     ];
 
     // Load municipal data (judges first, then courts)
@@ -674,10 +681,10 @@ function loadCountyCourtsAtLaw() {
                 style: function(feature) {
                     return {
                         color: '#ff6600', // Orange color for county courts at law
-                        weight: 2,
+                        weight: 3,
                         opacity: 0.8,
                         fillColor: '#ff6600',
-                        fillOpacity: 0.6
+                        fillOpacity: 0.8
                     };
                 },
                 onEachFeature: function (feature, layer) {
@@ -764,6 +771,7 @@ function loadDistrictCourts() {
         .then(data => {
             // Filter out invalid districts (those with '-' in district_id)
             data.features = data.features.filter(feature => !feature.properties.district_id.includes('-'));
+            console.log('District courts features after filtering:', data.features.length);
 
             // Compute county to districts map for overlaps
             let countyToDistricts = {};
@@ -782,14 +790,15 @@ function loadDistrictCourts() {
                     const districtColor = colorPalette[districtNum % colorPalette.length];
                     return {
                         color: districtColor,
-                        weight: 2,
+                        weight: 4,
                         opacity: 0.8,
                         fillColor: districtColor,
-                        fillOpacity: 0.6
+                        fillOpacity: 1.0
                     };
                 },
                 onEachFeature: function (feature, layer) {
                     const districtId = feature.properties.district_id;
+                    const districtNum = parseInt(districtId) || 1;
                     const counties = feature.properties.counties || [];
                     const countyCount = feature.properties.county_count || counties.length;
 
@@ -860,7 +869,7 @@ function loadDistrictCourts() {
                             weight: 2,
                             opacity: 0.8,
                             fillColor: districtColor,
-                            fillOpacity: 0.6
+                            fillOpacity: 0.8
                         });
                     });
                 }
@@ -869,6 +878,7 @@ function loadDistrictCourts() {
             // Add to map and legend if this is the active court type
             if (activeCourtType === 'district') {
                 districtCourtsLayer.addTo(courtMap);
+                console.log('District courts layer added to map, layer has', Object.keys(districtCourtsLayer._layers).length, 'features');
             }
 
             allDistrictCourts = data.features;
