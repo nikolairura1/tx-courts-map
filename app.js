@@ -889,6 +889,17 @@ function loadCoaData() {
     return fetch('courts_of_appeals_districts.geojson')
         .then(response => response.json())
         .then(data => {
+            // Compute county to COA districts map for overlaps
+            let countyToCoa = {};
+            data.features.forEach(feature => {
+                const counties = feature.properties.counties || [];
+                const districtNum = feature.properties.district_number;
+                counties.forEach(county => {
+                    if (!countyToCoa[county]) countyToCoa[county] = [];
+                    countyToCoa[county].push(districtNum);
+                });
+            });
+
             // Separate 15th Court from other COA districts
             const coaFeatures = data.features.filter(feature => feature.properties.district_number !== 15);
             const coa15Features = data.features.filter(feature => feature.properties.district_number == 15);
@@ -929,6 +940,19 @@ function loadCoaData() {
                         popupContent += '</tbody></table></div>';
                     } else {
                         popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
+                    }
+
+                    // Add overlap information
+                    let overlappingCounties = [];
+                    const districtId = feature.properties.district_number;
+                    for (const [county, districts] of Object.entries(countyToCoa)) {
+                        if (districts.includes(districtId) && districts.length > 1) {
+                            overlappingCounties.push(county);
+                        }
+                    }
+                    if (overlappingCounties.length > 0) {
+                        const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToCoa[county]).filter(d => d !== districtId))];
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
                     }
 
                     popupContent += '</div>';
