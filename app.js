@@ -765,6 +765,17 @@ function loadDistrictCourts() {
             // Filter out invalid districts (those with '-' in district_id)
             data.features = data.features.filter(feature => !feature.properties.district_id.includes('-'));
 
+            // Compute county to districts map for overlaps
+            let countyToDistricts = {};
+            data.features.forEach(feature => {
+                const counties = feature.properties.counties || [];
+                const districtNum = feature.properties.district_id;
+                counties.forEach(county => {
+                    if (!countyToDistricts[county]) countyToDistricts[county] = [];
+                    countyToDistricts[county].push(districtNum);
+                });
+            });
+
             districtCourtsLayer = L.geoJSON(data, {
                 style: function(feature) {
                     const districtNum = parseInt(feature.properties.district_id) || 1;
@@ -808,6 +819,18 @@ function loadDistrictCourts() {
                         popupContent += '</tbody></table></div>';
                     } else {
                         popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
+                    }
+
+                    // Add overlap information
+                    let overlappingCounties = [];
+                    counties.forEach(county => {
+                        if (countyToDistricts[county] && countyToDistricts[county].length > 1) {
+                            overlappingCounties.push(county);
+                        }
+                    });
+                    if (overlappingCounties.length > 0) {
+                        const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToDistricts[county]).filter(d => d !== districtId))];
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
                     }
 
                     popupContent += '</div>';
@@ -870,17 +893,6 @@ function loadCoaData() {
             const coaFeatures = data.features.filter(feature => feature.properties.district_number !== 15);
             const coa15Features = data.features.filter(feature => feature.properties.district_number == 15);
             
-            // Compute county to COA districts map for overlaps
-            let countyToCoa = {};
-            coaFeatures.forEach(feature => {
-                const counties = feature.properties.counties || [];
-                const districtNum = feature.properties.district_number;
-                counties.forEach(county => {
-                    if (!countyToCoa[county]) countyToCoa[county] = [];
-                    countyToCoa[county].push(districtNum);
-                });
-            });
-            
             // Store statewide boundaries for all statewide courts
             statewideBoundaries = coa15Features;
 
@@ -899,14 +911,11 @@ function loadCoaData() {
                 onEachFeature: function (feature, layer) {
                     const courtId = feature.properties.court_id;
                     const judgeData = coaJudgesData[courtId];
-                    const districtNum = feature.properties.district_number;
-                    const coaLocations = {1: 'Houston', 2: 'Fort Worth', 3: 'Austin', 4: 'San Antonio', 5: 'Dallas', 6: 'Texarkana', 7: 'Amarillo', 8: 'El Paso', 9: 'Beaumont', 10: 'Waco', 11: 'Eastland', 12: 'Tyler', 13: 'Corpus Christi', 14: 'Houston', 15: 'Dallas'};
 
                     // Create popup content
                     let popupContent = `
                         <div class="court-info">
                             <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">${feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`}</h6>
-                            <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Location:</strong> ${coaLocations[districtNum] || 'N/A'}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> ${feature.properties.district_number}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Counties:</strong> ${feature.properties.counties ? feature.properties.counties.join(', ') : 'N/A'}</p>
                     `;
@@ -921,21 +930,6 @@ function loadCoaData() {
                     } else {
                         popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
                     }
-
-                    // Add overlap information
-                    let overlappingCounties = [];
-                    counties.forEach(county => {
-                        if (countyToCoa[county] && countyToCoa[county].length > 1) {
-                            overlappingCounties.push(county);
-                        }
-                    });
-                    if (overlappingCounties.length > 0) {
-                        const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToCoa[county]).filter(d => d !== districtNum))];
-                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
-                    }
-
-                    // Add concurrent jurisdiction with 15th
-                    popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Concurrent:</strong> Concurrent jurisdiction with 15th Court of Appeals for business cases.</p>`;
 
                     popupContent += '</div>';
                     
@@ -986,7 +980,6 @@ function loadCoaData() {
             let popupContent = `
                 <div class="court-info">
                     <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">15th Court of Appeals (Business Court)</h6>
-                    <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Location:</strong> Dallas</p>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> 15 - Statewide</p>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Jurisdiction:</strong> Business and commercial cases statewide</p>
             `;
@@ -1001,9 +994,6 @@ function loadCoaData() {
             } else {
                 popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
             }
-
-            // Add overlap information
-            popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Concurrent jurisdiction with all Courts of Appeals districts for business cases.</p>`;
 
             popupContent += '</div>';
 
