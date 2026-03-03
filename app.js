@@ -762,6 +762,9 @@ function loadDistrictCourts() {
     return fetch('district_courts_sept2018.geojson')
         .then(response => response.json())
         .then(data => {
+            // Filter out invalid districts (those with '-' in district_id)
+            data.features = data.features.filter(feature => !feature.properties.district_id.includes('-'));
+
             districtCourtsLayer = L.geoJSON(data, {
                 style: function(feature) {
                     const districtNum = parseInt(feature.properties.district_id) || 1;
