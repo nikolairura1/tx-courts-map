@@ -885,11 +885,14 @@ function loadCoaData() {
                 onEachFeature: function (feature, layer) {
                     const courtId = feature.properties.court_id;
                     const judgeData = coaJudgesData[courtId];
+                    const districtNum = feature.properties.district_number;
+                    const coaLocations = {1: 'Houston', 2: 'Fort Worth', 3: 'Austin', 4: 'San Antonio', 5: 'Dallas', 6: 'Texarkana', 7: 'Amarillo', 8: 'El Paso', 9: 'Beaumont', 10: 'Waco', 11: 'Eastland', 12: 'Tyler', 13: 'Corpus Christi', 14: 'Houston', 15: 'Dallas'};
 
                     // Create popup content
                     let popupContent = `
                         <div class="court-info">
                             <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">${feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`}</h6>
+                            <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Location:</strong> ${coaLocations[districtNum] || 'N/A'}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> ${feature.properties.district_number}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Counties:</strong> ${feature.properties.counties ? feature.properties.counties.join(', ') : 'N/A'}</p>
                     `;
@@ -957,6 +960,7 @@ function loadCoaData() {
             let popupContent = `
                 <div class="court-info">
                     <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">15th Court of Appeals (Business Court)</h6>
+                    <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Location:</strong> Dallas</p>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> 15 - Statewide</p>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Jurisdiction:</strong> Business and commercial cases statewide</p>
             `;
