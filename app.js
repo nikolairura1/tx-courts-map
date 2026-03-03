@@ -867,6 +867,17 @@ function loadCoaData() {
             const coaFeatures = data.features.filter(feature => feature.properties.district_number !== 15);
             const coa15Features = data.features.filter(feature => feature.properties.district_number == 15);
             
+            // Compute county to COA districts map for overlaps
+            let countyToCoa = {};
+            coaFeatures.forEach(feature => {
+                const counties = feature.properties.counties || [];
+                const districtNum = feature.properties.district_number;
+                counties.forEach(county => {
+                    if (!countyToCoa[county]) countyToCoa[county] = [];
+                    countyToCoa[county].push(districtNum);
+                });
+            });
+            
             // Store statewide boundaries for all statewide courts
             statewideBoundaries = coa15Features;
 
@@ -909,7 +920,19 @@ function loadCoaData() {
                     }
 
                     // Add overlap information
-                    popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Concurrent jurisdiction with 15th Court of Appeals for business cases.</p>`;
+                    let overlappingCounties = [];
+                    counties.forEach(county => {
+                        if (countyToCoa[county] && countyToCoa[county].length > 1) {
+                            overlappingCounties.push(county);
+                        }
+                    });
+                    if (overlappingCounties.length > 0) {
+                        const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToCoa[county]).filter(d => d !== districtNum))];
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
+                    }
+
+                    // Add concurrent jurisdiction with 15th
+                    popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Concurrent:</strong> Concurrent jurisdiction with 15th Court of Appeals for business cases.</p>`;
 
                     popupContent += '</div>';
                     
