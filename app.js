@@ -367,6 +367,12 @@ function setupTabListeners() {
             }
         });
     });
+
+    // Add search functionality
+    const searchBox = document.getElementById('searchBox');
+    searchBox.addEventListener('input', function() {
+        performSearch(searchBox.value);
+    });
 }
 
 function switchToCourtType(courtType) {
@@ -840,6 +846,7 @@ function loadDistrictCourts() {
                     if (overlappingCounties.length > 0) {
                         const overlappingDistricts = [...new Set(overlappingCounties.flatMap(county => countyToDistricts[county]).filter(d => d !== districtId))];
                         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Overlaps:</strong> Shares jurisdiction with District${overlappingDistricts.length > 1 ? 's' : ''} ${overlappingDistricts.join(', ')} in ${overlappingCounties.join(', ')}.</p>`;
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Note:</strong> District-court boundaries are county-based. Overlaps are expected where multiple district courts serve the same county (concurrent jurisdiction), e.g., District 446 in Ector County.</p>`;
                     }
 
                     popupContent += '</div>';
@@ -940,6 +947,16 @@ function loadCoaData() {
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> ${feature.properties.district_number}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Counties:</strong> ${feature.properties.counties ? feature.properties.counties.join(', ') : 'N/A'}</p>
                     `;
+
+                    // Add explicit note for concurrent First/Fourteenth COA jurisdiction
+                    if (feature.properties.district_number === 1 || feature.properties.district_number === 14) {
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Description:</strong> Districts 1 and 14 have concurrent jurisdiction over the same counties and share the same geographic boundary.</p>`;
+                    }
+
+                    // Add source overlap notes when available
+                    if (feature.properties.overlap_notes) {
+                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Notes:</strong> ${feature.properties.overlap_notes}</p>`;
+                    }
 
                     if (judgeData && judgeData.judges) {
                         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;

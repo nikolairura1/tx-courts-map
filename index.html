@@ -17,6 +17,7 @@
             background-size: 100px 100px;
             margin: 0;
             padding: 0;
+            min-height: 100vh;
         }
         .court-map {
             height: 600px;
@@ -95,6 +96,13 @@
                         <button type="button" class="btn btn-outline-primary w-100" id="btn-municipal">Municipal Courts</button>
                     </div>
                 </div>
+                <!-- Federal Courts Link -->
+                <a href="https://nikolairura1.github.io/fed-courts-map/" target="_blank" style="text-decoration: none;">
+                    <div id="federalLink" class="form-control mt-3" style="background: rgba(244,228,188,0.9); border: 1px solid gold; text-align: center; cursor: pointer;">
+                        <img src="eagle.png" alt="Eagle" style="width: 96px; height: 96px; display: block; margin: 0 auto 10px auto;">
+                        <span style="color: black;">Like this tool? Check out my<br><a href="https://nikolairura1.github.io/fed-courts-map/" target="_blank" style="color: black;">interactive map</a> of the Federal Court system!</span>
+                    </div>
+                </a>
             </div>
         </div>
 
@@ -115,14 +123,34 @@
         <div id="court-map" class="court-map" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
 
         <!-- Court Information to the right of map -->
-        <div style="position: absolute; top: 100px; bottom: 100px; left: calc(50% + 320px); width: 350px; z-index: 10;" class="d-flex align-items-start">
-            <div class="court-info-sidebar rounded p-3" style="width: 350px; border: 1px solid gold; background-image: url('woodgrain.avif'); background-size: cover; height: 100%; overflow-y: auto; z-index: 10; padding-bottom: 20px;">
+        <div style="float: right; width: 350px; margin-top: 100px; margin-bottom: 100px; margin-left: 20px;" class="d-flex align-items-start">
+            <div class="court-info-sidebar rounded p-3" style="width: 350px; border: 1px solid gold; background-image: url('woodgrain.avif'); background-size: cover; height: auto; overflow-y: auto; z-index: 10; padding-bottom: 20px;">
                 <h5 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">Court Information</h5>
                 <div id="courtInfoContent" style="height: auto;">
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;">Click on a jurisdiction to learn more about that court.</p>
                 </div>
             </div>
         </div>
+
+        <div style="clear: both;"></div>
+
+    </div>
+
+    </div>
+
+    <!-- Tile 2 Image at the bottom -->
+    <div style="display: flex; margin-top: 750px;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+        <img src="Tile 2.png" alt="Tile 2" style="width: 10%; height: auto;">
+    </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
