@@ -5,47 +5,99 @@
     {
       "court_id": "tx_coa_01",
       "type": "court_of_appeals",
-      "district_name": "First Court of Appeals",
-      "judges": [
+      "district_name": "1st/14th Court of Appeals",
+      "judges_1": [
         {
           "name": "Terry Adams",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1456711/tadamspic.jpg"
         },
         {
           "name": "Veronica Rivas-Molloy",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459880/rivas-molloy_veronica_img_3067.jpg"
         },
         {
-          "name": "Amparo",
-          "role": "Justice"
+          "name": "Amparo \"Amy\" Guerra",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456714/aguerrapic.jpg"
         },
         {
           "name": "David M. Gunn",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459300/dgunn.jpg"
         },
         {
           "name": "Jennifer Caughey",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460076/caughey_jennifer_img_3056.jpg"
         },
         {
           "name": "Kristin Guiney",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460075/guiney_kristin_img_2990.jpg"
         },
         {
           "name": "Clint Morgan",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460078/morgan_clint_img_3030.jpg"
         },
         {
           "name": "Andrew Johnson",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460074/johnson_andrew_img_3004.jpg"
         },
         {
           "name": "Susanna Dokupil",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460077/dokupil_susanna_img_3041.jpg"
+        }
+      ],
+      "judges_14": [
+        {
+          "name": "Tracy Christopher",
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1443267/justice-tracy-christopher.png"
         },
         {
-          "name": "Sarah Beth Landau",
-          "role": "Justice"
+          "name": "Ken Wise",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1443272/justice-ken-wise.png"
+        },
+        {
+          "name": "Kevin Jewell",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455560/jewell_6731-01062023.jpg"
+        },
+        {
+          "name": "Randy Wilson",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1450216/rw.png"
+        },
+        {
+          "name": "Brad Hart",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459862/bradhart.jpg"
+        },
+        {
+          "name": "Tonya McLaughlin",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459919/tm.png"
+        },
+        {
+          "name": "Chad Bridges",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459860/justicebridges.jpg"
+        },
+        {
+          "name": "Katy Boatman",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459861/katyboatman.jpg"
+        },
+        {
+          "name": "Maritza M. Antu",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459925/justice-antu.jpg"
         }
       ]
     },
@@ -56,31 +108,38 @@
       "judges": [
         {
           "name": "Bonnie Sudderth",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1452052/chief-sudderth-2021.jpg"
         },
         {
           "name": "Elizabeth S. Kerr",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455080/judge-kerr-cropped-v2.jpg"
         },
         {
           "name": "J. Wade Birdwell",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452050/judge-birdwell-2021.jpg"
         },
         {
           "name": "Dabney D. Bassel",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1442744/bassel-picture.jpg"
         },
         {
           "name": "Dana M. Womack",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1443374/judge_womack_2.png"
         },
         {
           "name": "David (Mike) Wallach",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452030/judge-wallach-2021.jpg"
         },
         {
           "name": "Brian K. Walker",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452051/judge-brian-walker.jpg"
         }
       ]
     },
@@ -91,31 +150,33 @@
       "judges": [
         {
           "name": "Darlene Byrne",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1460167/byrne1.jpg"
         },
         {
           "name": "Gisela D. Triana",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460157/gt.jpg"
         },
         {
           "name": "Chari L. Kelly",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1445093/kelly-1.jpg"
         },
         {
           "name": "Rosa Lopez Theofanis",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456647/theofanis.jpg"
         },
         {
           "name": "Karin Crump",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460046/crump1.jpg"
         },
         {
           "name": "Maggie Ellis",
-          "role": "Justice"
-        },
-        {
-          "name": "Cadena-Reeves Justice Center",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460168/ellis1.jpg"
         }
       ]
     },
@@ -126,31 +187,38 @@
       "judges": [
         {
           "name": "Rebeca C. Martinez",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1462093/chief-justice-martinez-2-9-26.jpg"
         },
         {
           "name": "Irene Rios",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459845/justice-irene-rios.png"
         },
         {
           "name": "Lori I. Valenzuela",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459846/justice-lori-i-valenzuela.png"
         },
         {
           "name": "Lori Massey Brissette",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459841/justice-lori-massey-brissette.png"
         },
         {
           "name": "Adrian Anthony Spears II",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459908/justice-adrian-spears-photo-2.jpeg"
         },
         {
           "name": "Hubert (Todd) McCray",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459900/justice-todd-mccray.jpg"
         },
         {
           "name": "Velia J. Meza",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460520/justice-velia-meza-photo-5-14-25.jpeg"
         }
       ]
     },
@@ -161,55 +229,68 @@
       "judges": [
         {
           "name": "Justin (JJ) Jay Koch",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1460150/chief-justice-jj-koch.jpg"
         },
         {
           "name": "Bonnie Lee Goldstein",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452277/blg_portrait.jpg"
         },
         {
           "name": "Craig Smith",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452278/scs_portrait.jpg"
         },
         {
           "name": "Dennise Garcia",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452279/kdg_portrait.jpg"
         },
         {
           "name": "Emily Miskel",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456051/justice-emily-miskel.jpg"
         },
         {
           "name": "Maricela Breedlove",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456760/justice-maricela-moore-breedlove.jpg"
         },
         {
           "name": "Nancy Kennedy",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456308/justice-nancy-kennedy.jpg"
         },
         {
           "name": "Tina Clinton",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460148/justice-tina-clinton.jpg"
         },
         {
           "name": "Jessica Leigh Voyce Lewis",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460173/justice-jessica-lewis.jpg"
         },
         {
           "name": "Gino Rossini",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460507/justice-gino-j-rossini.jpg"
         },
         {
           "name": "Cynthia Barbare",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460358/cmb-portrait.jpg"
         },
         {
           "name": "Earl Jackson",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460316/justice-earl-jackson.jpg"
         },
         {
           "name": "Michael (Mike) Glynn Lee",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460167/justice-mike-lee.jpg"
         }
       ]
     },
@@ -220,15 +301,18 @@
       "judges": [
         {
           "name": "Scott English Stevens",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1455553/judge-scott-stevens-edit.jpg"
         },
         {
           "name": "Louis Charles van Cleef",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455042/cvc-website-picture.jpg"
         },
         {
           "name": "Daymon (Jeff) Jeffrey Rambin",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455554/edit-judgejefframbin-003-edit.jpg"
         }
       ]
     },
@@ -238,20 +322,19 @@
       "district_name": "Seventh Court of Appeals",
       "judges": [
         {
-          "name": "Brian Quinn",
-          "role": "Chief Justice"
-        },
-        {
           "name": "Judy C. Parker",
-          "role": "Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1455119/justice-judy-c-parker.png"
         },
         {
           "name": "Lawrence M. Doss",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455120/justice-lawrence-m-doss.png"
         },
         {
           "name": "Alex L. Yarbrough",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1455118/justice-alex-l-yarbrough.png"
         }
       ]
     },
@@ -262,15 +345,18 @@
       "judges": [
         {
           "name": "Maria A. Salas-Mendoza",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1459835/chief-justice-salas-mendoza.png"
         },
         {
           "name": "Gina M. Palafox",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459836/justice-gina-m-palafox.png"
         },
         {
           "name": "Lisa J. Soto",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459837/justice-lisa-soto.png"
         }
       ]
     },
@@ -304,15 +390,18 @@
       "judges": [
         {
           "name": "Matt Johnson",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1451996/justice-matt-johnson-closeup.png"
         },
         {
           "name": "Steven Lee Smith",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1453079/justice-steven-lee-smith.png"
         },
         {
           "name": "Lee Harris",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460069/justice-lee-harris.png"
         }
       ]
     },
@@ -323,15 +412,18 @@
       "judges": [
         {
           "name": "John M. Bailey",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1452682/john-bailey-bw.jpg"
         },
         {
           "name": "W. Stacy Trotter",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452680/stacy-trotter.jpg"
         },
         {
           "name": "W. Bruce Williams",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1452681/bruce-williams.jpg"
         }
       ]
     },
@@ -342,15 +434,18 @@
       "judges": [
         {
           "name": "James T. Worthen",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1444174/chief-justice-james-t-worthen.png"
         },
         {
           "name": "Brian Hoyle",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1444175/justice-brian-hoyle.png"
         },
         {
-          "name": "Greg Neeley",
-          "role": "Justice"
+          "name": "C. Michael Davis",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1461666/justice-c-michael-davis.jpg"
         }
       ]
     },
@@ -361,94 +456,33 @@
       "judges": [
         {
           "name": "Jaime E. Tijerina",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1456429/chief-justice-tijerina.png"
         },
         {
           "name": "Clarissa Silva",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456428/justice-silva.png"
         },
         {
-          "name": "Lionel Aron Pena",
-          "role": "Justice"
+          "name": "Lionel Aron Peña Jr.",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1456427/justice-pe%C3%B1a.png"
+        },
+        {
+          "name": "Jon West",
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460063/justice-west.png"
         },
         {
           "name": "Jenny Cron",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1460060/justice-cron.png"
         },
         {
           "name": "Ysmael D. Fonseca",
-          "role": "Justice"
-        },
-        {
-          "name": "Jon William West",
-          "role": "Justice"
-        },
-        {
-          "name": "Tracy Christopher",
-          "role": "Chief Justice"
-        },
-        {
-          "name": "Ken Wise",
-          "role": "Justice"
-        },
-        {
-          "name": "Kevin Jewell",
-          "role": "Justice"
-        },
-        {
-          "name": "Randy Wilson",
-          "role": "Justice"
-        },
-        {
-          "name": "Bradley (Brad) S. Hart",
-          "role": "Justice"
-        },
-        {
-          "name": "Tonya McLaughlin",
-          "role": "Justice"
-        },
-        {
-          "name": "Chad Bridges",
-          "role": "Justice"
-        },
-        {
-          "name": "Katy Boatman",
-          "role": "Justice"
-        },
-        {
-          "name": "Maritza M. Antu",
-          "role": "Justice"
-        }
-      ]
-    },
-    {
-      "court_id": "tx_coa_14",
-      "type": "court_of_appeals",
-      "district_name": "Fourteenth Court of Appeals",
-      "judges": [
-        {
-          "name": "Jerry Zimmerer",
-          "role": "Chief Justice"
-        },
-        {
-          "name": "Meagan Hassan",
-          "role": "Justice"
-        },
-        {
-          "name": "Ken Wise",
-          "role": "Justice"
-        },
-        {
-          "name": "Randy Wilson",
-          "role": "Justice"
-        },
-        {
-          "name": "Frances Bourliot",
-          "role": "Justice"
-        },
-        {
-          "name": "Debra Lehrmann",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459907/justice-fonseca.png"
         }
       ]
     },
@@ -459,15 +493,18 @@
       "judges": [
         {
           "name": "Scott Brister",
-          "role": "Chief Justice"
+          "role": "Chief Justice",
+          "portrait": "https://www.txcourts.gov/media/1459002/chief-justice-scott-brister-bio-photo.jpg"
         },
         {
           "name": "Scott Field",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1459003/justice-scott-field-bio-photo.jpg"
         },
         {
           "name": "April Farris",
-          "role": "Justice"
+          "role": "Justice",
+          "portrait": "https://www.txcourts.gov/media/1461250/af-web-page-091025.jpg"
         }
       ]
     },
@@ -477,40 +514,40 @@
       "district_name": "Court of Criminal Appeals",
       "judges": [
         {
-          "name": "Sharon Keller",
-          "role": "Chief Justice"
+          "name": "David J. Schenck",
+          "role": "Presiding Judge"
         },
         {
-          "name": "Barbara Hervey",
-          "role": "Justice"
-        },
-        {
-          "name": "Michael Keasler",
-          "role": "Justice"
-        },
-        {
-          "name": "Gideon Strauss",
-          "role": "Justice"
-        },
-        {
-          "name": "Scott Walker",
-          "role": "Justice"
-        },
-        {
-          "name": "Michelle Slaughter",
-          "role": "Justice"
-        },
-        {
-          "name": "Ramona Franklin",
-          "role": "Justice"
+          "name": "Bert Richardson",
+          "role": "Judge"
         },
         {
           "name": "Kevin Yeary",
-          "role": "Justice"
+          "role": "Judge"
         },
         {
           "name": "David Newell",
-          "role": "Justice"
+          "role": "Judge"
+        },
+        {
+          "name": "Mary Lou Keel",
+          "role": "Judge"
+        },
+        {
+          "name": "Scott Walker",
+          "role": "Judge"
+        },
+        {
+          "name": "Jesse F. McClure, III",
+          "role": "Judge"
+        },
+        {
+          "name": "Lee Finley",
+          "role": "Judge"
+        },
+        {
+          "name": "Gina G. Parker",
+          "role": "Judge"
         }
       ]
     },

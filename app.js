@@ -942,9 +942,23 @@ function loadCoaData() {
 
                     // Create popup content
                     let popupContent = `
-                        <div class="court-info">
-                            <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">${feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`}</h6>
-                            <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> ${feature.properties.district_number}</p>
+                        <div class="court-info">`;
+
+                    if (courtId === 'tx_coa_01') {
+                        popupContent += `<h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;"><a href="https://www.txcourts.gov/1stcoa/" target="_blank">1st</a>/<a href="https://www.txcourts.gov/14thcoa/" target="_blank">14th</a> Court of Appeals</h6>`;
+                    } else {
+                        const num = feature.properties.district_number;
+                        let suffix = 'th';
+                        if (num === 1) suffix = 'st';
+                        else if (num === 2) suffix = 'nd';
+                        else if (num === 3) suffix = 'rd';
+                        const url = `https://www.txcourts.gov/${num}${suffix}coa/`;
+                        const title = feature.properties.district_name || `Court of Appeals District ${feature.properties.district_number}`;
+                        popupContent += `<h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;"><a href="${url}" target="_blank">${title}</a></h6>`;
+                    }
+
+                    popupContent += `
+                            <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> ${feature.properties.district_number === 1 ? '1 & 14' : feature.properties.district_number}</p>
                             <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Counties:</strong> ${feature.properties.counties ? feature.properties.counties.join(', ') : 'N/A'}</p>
                     `;
 
@@ -958,13 +972,33 @@ function loadCoaData() {
                         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Notes:</strong> ${feature.properties.overlap_notes}</p>`;
                     }
 
-                    if (judgeData && judgeData.judges) {
-                        popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
-                        popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
-                        judgeData.judges.forEach(judge => {
-                            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
-                        });
-                        popupContent += '</tbody></table></div>';
+                    if (judgeData && (judgeData.judges || judgeData.judges_1)) {
+                        if (courtId === 'tx_coa_01' && judgeData.judges_1 && judgeData.judges_14) {
+                            // Special display for merged 1st/14th
+                            popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>1st Court Judges:</strong></p>`;
+                            popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
+                            judgeData.judges_1.forEach(judge => {
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                            });
+                            popupContent += '</tbody></table></div>';
+                            popupContent += '<br>';
+                            popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>14th Court Judges:</strong></p>`;
+                            popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
+                            judgeData.judges_14.forEach(judge => {
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                            });
+                            popupContent += '</tbody></table></div>';
+                        } else if (judgeData.judges) {
+                            popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
+                            popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
+                            judgeData.judges.forEach(judge => {
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                            });
+                            popupContent += '</tbody></table></div>';
+                        }
                     } else {
                         popupContent += '<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><em>Judge information not available</em></p>';
                     }
@@ -1030,7 +1064,7 @@ function loadCoaData() {
             // Pre-generate popup content to avoid doing it in onEachFeature
             let popupContent = `
                 <div class="court-info">
-                    <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;">15th Court of Appeals (Business Court)</h6>
+                    <h6 style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black; display: inline-block;"><a href="https://www.txcourts.gov/15thcoa/" target="_blank">15th Court of Appeals (Business Court)</a></h6>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>District:</strong> 15 - Statewide</p>
                     <p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Jurisdiction:</strong> Business and commercial cases statewide</p>
             `;
@@ -1039,7 +1073,8 @@ function loadCoaData() {
                 popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
                 popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
                 judgeData.judges.forEach(judge => {
-                    popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+                    const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                    popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
                 });
                 popupContent += '</tbody></table></div>';
             } else {
@@ -1282,7 +1317,8 @@ function createCcaLayer() {
         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
         popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
         judgeData.judges.forEach(judge => {
-            popupContent += `<tr><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
+            const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+            popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
         });
         popupContent += '</tbody></table></div>';
     } else {
