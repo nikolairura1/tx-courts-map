@@ -978,7 +978,7 @@ function loadCoaData() {
                             popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>1st Court Judges:</strong></p>`;
                             popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
                             judgeData.judges_1.forEach(judge => {
-                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
                                 popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
                             });
                             popupContent += '</tbody></table></div>';
@@ -986,7 +986,7 @@ function loadCoaData() {
                             popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>14th Court Judges:</strong></p>`;
                             popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
                             judgeData.judges_14.forEach(judge => {
-                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
                                 popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
                             });
                             popupContent += '</tbody></table></div>';
@@ -994,7 +994,7 @@ function loadCoaData() {
                             popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
                             popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
                             judgeData.judges.forEach(judge => {
-                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                                const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
                                 popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
                             });
                             popupContent += '</tbody></table></div>';
@@ -1073,7 +1073,7 @@ function loadCoaData() {
                 popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
                 popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
                 judgeData.judges.forEach(judge => {
-                    const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+                    const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
                     popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
                 });
                 popupContent += '</tbody></table></div>';
@@ -1317,7 +1317,7 @@ function createCcaLayer() {
         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
         popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
         judgeData.judges.forEach(judge => {
-            const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+            const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
             popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
         });
         popupContent += '</tbody></table></div>';
@@ -1405,7 +1405,7 @@ function createScotxLayer() {
         popupContent += `<p style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><strong>Judges (${judgeData.judges.length}):</strong></p>`;
         popupContent += '<div style="max-height: 200px; overflow-y: auto;"><table class="table table-sm table-borderless small mb-0" style="background: rgba(244,228,188,0.9); padding: 5px; border-radius: 3px; color: black;"><tbody>';
         judgeData.judges.forEach(judge => {
-            const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
+            const portrait = judge.portrait ? `<img src="${judge.portrait}" alt="${judge.name}" onerror="this.style.display='none'" style="width: 50px; height: 60px; object-fit: cover; border-radius: 3px;">` : '';
             popupContent += `<tr><td>${portrait}</td><td><strong>${judge.name}</strong></td><td>${judge.role}</td></tr>`;
         });
         popupContent += '</tbody></table></div>';

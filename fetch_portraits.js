@@ -18,7 +18,7 @@ async function main() {
     console.log(`Fetching ${baseUrl}`);
     const html = await get(baseUrl);
     // extract justice links
-    const linkRegex = new RegExp(`<a href="/${num}${suffix}coa/about-the-court/justices/([^"]*)/">([^<]*)</a>`, 'g');
+    const linkRegex = new RegExp(`<a[^>]+href="/${num}${suffix}coa/about-the-court/justices/([^"/]+)/"[^>]*>([^<]*)</a>`, 'gi');
     let match;
     const justices = [];
     while ((match = linkRegex.exec(html)) !== null) {
@@ -32,7 +32,7 @@ async function main() {
       console.log(`Fetching ${justiceUrl}`);
       const jHtml = await get(justiceUrl);
       // extract img src
-      const imgRegex = /<img src="(\/media\/[^"]*\.png)" alt="[^"]*"[^>]*>/;
+      const imgRegex = /<img[^>]+(?:src|data-src)="(\/media\/[^"?]+\.(?:png|jpe?g|webp)(?:\?[^\"]*)?)"[^>]*>/i;
       const imgMatch = jHtml.match(imgRegex);
       if (imgMatch) {
         results[num][justice.name] = `https://www.txcourts.gov${imgMatch[1]}`;
